@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/mood_icon"
+        android:src="@drawable/ic_mood"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/default_iv_description"
+	    android:layout_width="@dimen/mood_icon_width" 
+	    android:layout_height="@dimen/mood_icon_height" />
+	
+    <TextView
+        android:id="@+id/mood_level"
+        style="@style/MoodLevelText"
+        android:background="@drawable/mood_lvl_bg"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/mood_lvl_marginTop"
+        android:layout_marginRight="@dimen/mood_lvl_marginRight"
+	    android:layout_width="@dimen/mood_lvl_width" 
+	    android:layout_height="@dimen/mood_lvl_height" />
+	
+    <TextView
+	    android:id="@+id/mood_label" 
+        style="@style/DefaultGridItemText"
+        android:text="@string/error_unknow"
+        android:layout_below="@id/mood_icon"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+</RelativeLayout>    

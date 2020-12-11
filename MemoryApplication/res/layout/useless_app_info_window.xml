@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+    <RelativeLayout 
+		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+
+	    <ImageView 
+	    	android:id="@+id/info_btn_uninstall"
+	    	android:src="@drawable/ic_app_info_uninstall"
+	    	android:scaleType="centerInside"
+		   	android:contentDescription="@string/default_iv_description"
+		   	android:layout_centerVertical="true"
+		   	android:layout_alignParentRight="true"
+	    	android:layout_width="wrap_content" 
+	  		android:layout_height="wrap_content" />
+	    	    
+		<ImageView 
+	    	android:id="@+id/info_btn_run"
+	    	android:src="@drawable/ic_app_info_run"
+	    	android:scaleType="centerInside"
+		   	android:contentDescription="@string/default_iv_description"
+		   	android:layout_centerVertical="true"
+		   	android:layout_toLeftOf="@id/info_btn_uninstall"
+		   	android:layout_alignWithParentIfMissing="true"
+	    	android:layout_width="wrap_content" 
+	  		android:layout_height="wrap_content" />
+	    	    
+	    <TextView 
+	    	android:id="@+id/info_label_package"
+	    	style="@style/AppInfoLabel"
+	    	android:text="@string/app_info_label_package"
+		   	android:layout_centerVertical="true"
+		   	android:layout_toLeftOf="@id/info_btn_run"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	</RelativeLayout>
+    
+    <TextView 
+    	android:id="@+id/info_package"
+    	style="@style/AppInfoPackageText"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+    
+    <TextView 
+    	android:id="@+id/info_label_recent_used"
+    	style="@style/AppInfoLabel"
+    	android:text="@string/useless_app_info_label_recent_used"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+    
+    <TextView 
+    	android:id="@+id/info_recent_used"
+    	style="@style/AppInfoText"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+    
+    <TextView 
+    	android:id="@+id/info_label_recent_updated"
+    	style="@style/AppInfoLabel"
+    	android:text="@string/useless_app_info_label_recent_updated"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+    
+    <TextView 
+    	android:id="@+id/info_recent_updated"
+    	style="@style/AppInfoText"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+    
+    	
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+	<dimen name="boot_item_padding">2dp</dimen>
+	
+	<dimen name="boot_label_width">120dp</dimen>
+	<dimen name="boot_expand_separator_size">4dp</dimen>
+	
+	<dimen name="actbar_count_text_size">24dp</dimen>
+	
+	<dimen name="boot_chart_margin_top">40dp</dimen>
+	<dimen name="screen_on_distrib_chart_margin_top">40dp</dimen>
+			
+	<dimen name="month_item_height">60dp</dimen>
+
+</resources>

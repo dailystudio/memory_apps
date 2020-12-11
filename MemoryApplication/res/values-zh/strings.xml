@@ -1,0 +1,122 @@
+<resources>
+    
+    <string name="app_name">应用程序</string>
+    
+ 	<string name="plugin_label_app">碎片插件-应用程序</string>
+	
+	<string name="category_app_label">应用程序</string>
+	<string name="task_label_activity_usage">应用程序使用任务</string>
+	<string name="task_label_app_inst_history_check">应用安装检查任务</string>
+	<string name="task_label_useless_apps_check">无用应用检查任务</string>
+	<string name="task_label_favorite_apps_check">最喜欢应用检查任务</string>
+	
+	<string name="activity_apps_list">应用管理</string>
+	<string name="activity_act_usage_list">界面统计</string>
+	<string name="activity_app_usage_list">程序统计</string>
+	<string name="activity_appinst_history">安装历史</string>
+	<string name="activity_useless_app">程序冷宫</string>
+	<string name="activity_daily_app_usage_list">每日使用统计</string>
+	<string name="activity_weekly_app_usage_list">每周使用统计</string>
+	<string name="activity_monthly_app_usage_list">每月使用统计</string>
+	<string name="activity_app_usage_info">应用使用详情</string>
+    <string name="activity_weekdays_list">本周里的一天</string>
+    <string name="activity_weeks_list">选择一周</string>
+    <string name="activity_months_list">选择一个月份</string>
+    <string name="activity_favorite_apps">最喜欢的应用</string>
+    <string name="activity_favorite_apps_pager">受宠应用</string>
+    						
+	<string name="menu_filter_apps">过滤程序</string>
+	<string name="menu_sort_apps">程序排序</string>
+	<string name="menu_manage_apps">管理程序</string>
+	<string name="menu_list_apps">程序列表</string>
+	<string name="menu_filter_sys_apps">过滤系统应用</string>
+	<string name="menu_filter_non_apps">显示所有应用</string>
+	<string name="menu_usage_history">Usage History</string>
+	<string name="menu_list_weekdays">各天使用情况</string>
+	<string name="menu_list_weeks">各周使用情况</string>
+	<string name="menu_list_months">各月使用情况</string>
+								
+	<string name="alert_dialog_uninst_app_title">卸载</string>
+	<string name="alert_dialog_uninst_system_app_message_templ">&lt;font color=\"#30B3E4\">&lt;b>%s&lt;/b>&lt;/font>是&lt;font color=\"#C00000\">&lt;b>系统程序&lt;/b>&lt;/font>，无法卸载。</string>
+	
+	<string name="flag_debuggable">可调式</string>
+	<string name="flag_sd">安装在SD卡</string>
+	<string name="flag_sys">系统应用</string>
+	<string name="flag_persist">常驻应用</string>
+	<string name="flag_user">用户应用</string>
+	<string name="flag_text_debuggable">可调式</string>
+	<string name="flag_text_sd">装在SD卡</string>
+	<string name="flag_text_sys">系统程序</string>
+	<string name="flag_text_persist">常驻内存</string>
+	<string name="flag_text_user">用户程序</string>
+	
+	<string name="app_filter_window_title">过滤程序</string>
+	
+	<string name="app_info_window_title">应用程序</string>
+	<string name="app_info_label_package">包名</string>
+	<string name="app_info_label_version">当前版本</string>
+	<string name="app_info_label_last_update">最后更新于</string>
+	<string name="app_info_label_first_install">最早安装于</string>
+	<string name="app_info_label_path">程序包路径</string>
+		
+	<string name="app_sort_window_title">应用排序</string>
+	<string name="app_sort_type_name">按应用名称排序</string>
+	<string name="app_sort_type_install_time">按安装时间排序</string>
+	<string name="app_sort_type_update_time">按更新时间排序</string>
+	
+	<string name="app_usage_info_window_title">使用统计</string>
+	<string name="app_usage_label_day_use_freq">使用频率</string>
+	<string name="app_usage_label_day_use_avg">每天平均使用</string>
+	<plurals name="app_usage_day_use_freq_templ">
+        <item quantity="one">每天使用一次</item>
+        <item quantity="other">每%d天使用一次</item>
+	</plurals>
+						
+	<string name="useless_app_info_label_recent_used">最近一次使用在</string>
+	<string name="useless_app_info_label_recent_updated">最近一次更新用在</string>
+	<string name="useless_app_info_never_used">从未使用过</string>
+	<string name="useless_app_info_never_updated">从未更新过</string>
+	<plurals name="useless_app_info_recent_val_day_templ">
+        <item quantity="one">大约在%d天之前</item>
+        <item quantity="other">大约在%d天之前</item>
+	</plurals>
+	<plurals name="useless_app_info_recent_val_month_templ">
+        <item quantity="one">大约在%d个月之前</item>
+        <item quantity="other">大约在%d个月之前</item>
+	</plurals>
+			
+	<string name="app_usage_label_week_templ">第%d周</string>			
+	<string name="app_usage_label_app_usage_history">使用记录</string>			
+	<string name="app_usage_load_prompt">正在加载统计结果，请耐心等待……</string>			
+					
+	<string name="series_title_usage_duration">使用时间</string>	
+	
+	<string name="search_usage_duration_min_templ">使用了%1$d分钟的[%2$s]</string>	
+	<string name="search_usage_duration_hour_templ">使用了%1$d小时的[%2$s]</string>	
+
+	<string name="no_favorite_apps">还不知道您的喜好呐~\n明天再来看看吧(*^__^*)</string>	
+	<string name="favorite_apps_week_user">近一周的应用（只有用户程序）</string>	
+	<string name="favorite_apps_week_all">近一周的应用（包含系统程序）</string>	
+	<string name="favorite_apps_month_user">近一个月的应用（只有用户程序）</string>	
+	<string name="favorite_apps_month_all">近一个月的应用（包含系统程序）</string>	
+	<string name="disp_label_favorite_apps_week">本周最喜欢的应用</string>	
+	<string name="disp_label_favorite_apps_month">本月最喜欢的应用</string>	
+	<string name="favorite_class_week">最近一周</string>	
+	<string name="favorite_class_month">最近一个月</string>	
+	<string name="favorite_class_day_0_8">凌晨</string>	
+	<string name="favorite_class_day_9_12">上午</string>	
+	<string name="favorite_class_day_13_18">下午</string>	
+	<string name="favorite_class_day_19_23">晚上</string>	
+			
+	<string name="widget_favorite_apps">本周最喜欢的应用</string>	
+	<string name="widget_hourly_favorite_apps">每天此时段使用的应用</string>	
+
+	<string name="key_note_app_inst_brief">%2$s了&lt;keynote_main>%1$s&lt;/keynote_main>应用。</string>	
+	<string name="key_note_apps_inst_brief">包括&lt;keynote_main>%1$s&lt;/keynote_main>在内的&lt;keynote_sub>%2$d&lt;/keynote_sub>个应用发生了变化。</string>	
+	<string name="key_note_apps_usage_brief">沉迷于&lt;keynote_main>%1$s&lt;/keynote_main>半个多小时。</string>	
+	
+	<string name="app_inst_action_install">安装</string>	
+	<string name="app_inst_action_update">更新</string>	
+	<string name="app_inst_action_remove">卸载</string>	
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_flags_root"
+	android:visibility="invisible"
+	android:background="#A0000000"
+	android:orientation="vertical"
+	android:padding="@dimen/app_flags_padding"
+	android:layout_gravity="bottom"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+    <LinearLayout 
+  		android:layout_weight="1"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="0dp">
+
+		<TextView 
+	    	android:text="@string/flag_text_user"
+	    	style="@style/AppFlagText"
+	    	android:drawableLeft="@drawable/ic_app_flag_user"
+	    	android:layout_weight="1"
+	    	android:layout_width="0dp" 
+	  		android:layout_height="fill_parent" />
+
+		<TextView 
+	    	android:text="@string/flag_text_sys"
+	    	style="@style/AppFlagText"
+	    	android:drawableLeft="@drawable/ic_app_flag_sys"
+	    	android:layout_weight="1"
+	    	android:layout_width="0dp" 
+	  		android:layout_height="fill_parent" />
+		
+		<TextView 
+	    	android:text="@string/flag_text_sd"
+	    	style="@style/AppFlagText"
+	    	android:drawableLeft="@drawable/ic_app_flag_sd"
+	    	android:layout_weight="1"
+	    	android:layout_width="0dp" 
+	  		android:layout_height="fill_parent" />
+        		
+	</LinearLayout>
+	
+    <LinearLayout 
+   		android:layout_weight="1"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="0dp">
+
+		<TextView 
+	    	android:text="@string/flag_text_debuggable"
+	    	style="@style/AppFlagText"
+	    	android:drawableLeft="@drawable/ic_app_flag_debuggable"
+	    	android:layout_weight="1"
+	    	android:layout_width="0dp" 
+	  		android:layout_height="fill_parent" />
+
+		<TextView 
+	    	android:text="@string/flag_text_persist"
+	    	style="@style/AppFlagText"
+	    	android:drawableLeft="@drawable/ic_app_flag_persist"
+	    	android:layout_weight="1"
+	    	android:layout_width="0dp" 
+	  		android:layout_height="fill_parent" />
+        		
+		<TextView 
+	    	style="@style/AppFlagText"
+	    	android:layout_weight="1"
+	    	android:layout_width="0dp" 
+	  		android:layout_height="fill_parent" />
+        		
+	</LinearLayout>
+    
+</LinearLayout>

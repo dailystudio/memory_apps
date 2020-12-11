@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/default_content_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<fragment 
+	    android:name="com.dailystudio.memory.boot.fragment.BootListFragment"
+        android:id="@+id/boot_list_fragment"
+ 		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+	
+</RelativeLayout>

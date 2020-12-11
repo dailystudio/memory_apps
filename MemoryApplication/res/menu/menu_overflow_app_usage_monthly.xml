@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_no_sys_apps"
+        android:title="@string/menu_filter_non_apps"
+        android:icon="@drawable/ic_menu_filter_non_apps"/>
+
+    <item
+        android:id="@+id/menu_list_months"
+        android:title="@string/menu_list_months"
+        android:icon="@drawable/ic_menu_calendar"/>
+<!--  
+    <item
+        android:id="@+id/menu_usage_history"
+        android:title="@string/menu_usage_history"
+        android:icon="@drawable/ic_menu_history"/>
+  -->    
+</menu>

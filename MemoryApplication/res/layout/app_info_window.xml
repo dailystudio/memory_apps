@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbarThumbVertical="@drawable/scrollbar_handle"
+	android:scrollbarThumbHorizontal="@drawable/scrollbar_handle"
+	android:scrollbarStyle="insideOverlay"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+		
+	    <RelativeLayout 
+			android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content">
+	
+		    <ImageView 
+		    	android:id="@+id/info_btn_uninstall"
+		    	android:src="@drawable/ic_app_info_uninstall"
+		    	android:scaleType="centerInside"
+			   	android:contentDescription="@string/default_iv_description"
+			   	android:layout_centerVertical="true"
+			   	android:layout_alignParentRight="true"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="wrap_content" />
+		    	    
+			<ImageView 
+		    	android:id="@+id/info_btn_run"
+		    	android:src="@drawable/ic_app_info_run"
+		    	android:scaleType="centerInside"
+			   	android:contentDescription="@string/default_iv_description"
+			   	android:layout_centerVertical="true"
+			   	android:layout_toLeftOf="@id/info_btn_uninstall"
+			   	android:layout_alignWithParentIfMissing="true"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="wrap_content" />
+		    	    
+			<ImageView 
+		    	android:id="@+id/info_btn_manage"
+		    	android:src="@drawable/ic_app_info_manage"
+		    	android:scaleType="centerInside"
+			   	android:contentDescription="@string/default_iv_description"
+			   	android:layout_centerVertical="true"
+			   	android:layout_toLeftOf="@id/info_btn_run"
+			   	android:layout_alignWithParentIfMissing="true"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="wrap_content" />
+		    	    
+			<TextView 
+		    	android:id="@+id/info_label_package"
+		    	style="@style/AppInfoLabel"
+		    	android:text="@string/app_info_label_package"
+			   	android:layout_centerVertical="true"
+			   	android:layout_toLeftOf="@id/info_btn_run"
+		    	android:layout_width="fill_parent" 
+		  		android:layout_height="wrap_content" />
+		    
+		</RelativeLayout>
+	    
+	    <TextView 
+	    	android:id="@+id/info_package"
+	    	style="@style/AppInfoPackageText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	   <TextView 
+	    	android:id="@+id/info_label_version"
+	    	style="@style/AppInfoLabel"
+	    	android:text="@string/app_info_label_version"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_version"
+	    	style="@style/AppInfoText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_label_path"
+	    	style="@style/AppInfoLabel"
+	    	android:text="@string/app_info_label_path"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_path"
+	    	style="@style/AppInfoPathText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_label_last_update"
+	    	style="@style/AppInfoLabel"
+	    	android:text="@string/app_info_label_last_update"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_last_update"
+	    	style="@style/AppInfoText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_label_first_install"
+	    	style="@style/AppInfoLabel"
+	    	android:text="@string/app_info_label_first_install"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/info_first_install"
+	    	style="@style/AppInfoText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    	
+	</LinearLayout>
+
+</ScrollView>

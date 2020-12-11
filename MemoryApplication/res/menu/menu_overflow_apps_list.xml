@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_manage_apps"
+        android:title="@string/menu_manage_apps"
+        android:icon="@drawable/ic_menu_manage_apps"/>
+    
+    <item
+        android:id="@+id/menu_sort_apps"
+        android:title="@string/menu_sort_apps"
+        android:icon="@drawable/ic_menu_sort_apps"/>
+    
+    <item
+        android:id="@+id/menu_filter_apps"
+        android:title="@string/menu_filter_apps"
+        android:icon="@drawable/ic_menu_filter_apps"/>
+    
+</menu>

@@ -1,0 +1,82 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="LocationGeoInfoText" parent="DefaultListItemText">
+		<item name="android:textColor">@color/orange</item>
+    </style>
+    
+    <style name="GeoValueText" parent="DefaultLabel">
+		<item name="android:textSize">@dimen/geo_address_text_size</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:gravity">right|center_vertical</item>
+		<item name="android:padding">0dp</item>
+		<item name="android:paddingLeft">@dimen/default_label_padding</item>
+		<item name="android:paddingRight">@dimen/default_label_padding</item>
+	</style>
+    
+    <style name="CalculatorResultText" parent="DefaultLabel">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">@dimen/calculator_text_size</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:gravity">right|center_vertical</item>
+    </style>
+    
+    <style name="HotspotHourDistrib">
+		<item name="textSize">@dimen/hour_distrib_text_size</item>
+	    <item name="textStyle">bold</item>
+		<item name="distribBarHeight">@dimen/hour_distrib_bar_height</item>
+		<item name="distribBarColor">@color/gold_yellow</item>
+	</style>
+	
+    <style name="IdspotSimilarity" parent="DefaultListItemText">
+        <item name="android:textColor">@color/royal_blue</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+    
+    <style name="IdspotStatLabel" parent="DefaultLabel">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/actbar_button</item>
+    </style>
+    
+    <style name="IdspotHistoryTimeLabel" parent="DefaultLabel">
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+    
+    <style name="WeatherPriText" parent="DefaultLabel">
+		<item name="android:textSize">@dimen/weather_pri_text_size</item>
+		<item name="android:padding">@dimen/weather_pri_text_padding</item>
+        <item name="android:gravity">center</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="WeatherSecText" parent="DefaultLabel">
+		<item name="android:textSize">@dimen/weather_sec_text_size</item>
+		<item name="android:padding">@dimen/weather_sec_text_padding</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:singleLine">true</item>
+	</style>
+    
+    <style name="WeatherLoadingText" parent="DefaultLabel">
+        <item name="android:gravity">center</item>
+    </style>
+    
+</resources>

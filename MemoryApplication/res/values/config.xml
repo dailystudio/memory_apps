@@ -1,0 +1,9 @@
+<resources>
+
+    <integer name="config_appsNotifyBatchSize">8</integer>
+    
+    <integer name="config_activity_usage_task_peroid">300000</integer>
+    
+    <integer name="config_app_widget_favorties_count">8</integer>
+    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns:android="http://schemas.android.com/apk/res/android"
+	label="@string/plugin_label_boot"
+	icon="@drawable/ic_boot"
+	privacy="@xml/boot_privacy_policy"
+	searchableAuthority="com.dailystudio.memory.boot.searchable">
+	
+	<task name="com.dailystudio.memory.boot.ScreenOnOffTask"
+		label="@string/task_label_screen_on_off"
+    	type="conditional"/>
+    
+	<task name="com.dailystudio.memory.boot.BootALiveTask"
+		label="@string/task_label_boot_alive"
+    	executePeroidMillis="300000"/>
+    	
+</plugin>    	

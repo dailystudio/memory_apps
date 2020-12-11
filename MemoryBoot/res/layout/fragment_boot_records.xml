@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:orientation="vertical"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+	    <TableLayout 
+	    	android:stretchColumns="1, 2"
+	        android:shrinkColumns="1, 2"
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	        
+	    	<TextView
+	    	    style="@style/BootRecordTitle"
+	    	    android:text="@string/label_boot_uptime"
+				android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"/>
+			
+		    <View
+		        android:background="@color/boot_expand_separator_color"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="@dimen/boot_expand_separator_size"/>
+	        	    	    
+	        <TableRow 
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+		    	
+				<TextView
+		    	    style="@style/DefaultLabel"
+		    	    android:text="@string/label_fastest"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+				
+				<TextView
+				    android:id="@+id/record_fastest_uptime"
+				    android:text="@string/error_unknow"
+		    	    style="@style/BootRecordText"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+					    		    	    
+			</TableRow>
+								
+			<TextView
+			    android:id="@+id/record_fastest_uptime_delta"
+			    android:text="@string/error_unknow"
+	    	    style="@style/BootRecordDeltaText"
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent"/>
+	        	    			
+	        <TableRow 
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+		    	
+				<TextView
+		    	    style="@style/DefaultLabel"
+		    	    android:text="@string/label_slowest"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+				
+				<TextView
+				    android:id="@+id/record_slowest_uptime"
+				    android:text="@string/error_unknow"
+		    	    style="@style/BootRecordText"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+					    		    	    
+			</TableRow>
+			
+			<TextView
+			    android:id="@+id/record_slowest_uptime_delta"
+			    android:text="@string/error_unknow"
+	    	    style="@style/BootRecordDeltaText"
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent"/>
+					    		    	    
+   	    </TableLayout>
+        
+		<View
+			android:background="@drawable/list_divider"
+			android:layout_width="fill_parent"
+			android:layout_height="2px"/>
+	
+		<TableLayout 
+	    	android:stretchColumns="1"
+	        android:shrinkColumns="1"
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			
+	    	<TextView
+	    	    style="@style/BootRecordTitle"
+	    	    android:text="@string/label_boot_lifetime"
+				android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"/>
+			    		    	    
+		    <View
+		        android:background="@color/boot_expand_separator_color"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="@dimen/boot_expand_separator_size"/>
+    	
+			<TableRow 
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+				    
+				<TextView
+		    	    style="@style/DefaultLabel"
+		    	    android:text="@string/label_shortest"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+				
+				<TextView
+				    android:id="@+id/record_shortest_liftime"
+				    android:text="@string/error_unknow"
+		    	    style="@style/BootRecordText"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+				
+			</TableRow>
+							
+			<TextView
+			    android:id="@+id/record_shortest_liftime_delta"
+			    android:text="@string/error_unknow"
+	    	    style="@style/BootRecordDeltaText"
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent"/>
+	        	    			
+	        <TableRow 
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+		    	
+				<TextView
+		    	    style="@style/DefaultLabel"
+		    	    android:text="@string/label_longest"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+				
+				<TextView
+				    android:id="@+id/record_longest_liftime"
+				    android:text="@string/error_unknow"
+		    	    style="@style/BootRecordText"
+					android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"/>
+					    		    	    
+			</TableRow>
+
+			<TextView
+			    android:id="@+id/record_longest_liftime_delta"
+			    android:text="@string/error_unknow"
+	    	    style="@style/BootRecordDeltaText"
+				android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent"/>
+	        			
+	    </TableLayout>
+	    
+		<View
+			android:background="@drawable/list_divider"
+			android:layout_width="fill_parent"
+			android:layout_height="2px"/>
+
+	</LinearLayout>
+    
+</ScrollView>

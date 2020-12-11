@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+	android:paddingLeft="@dimen/default_content_hpadding"
+	android:paddingRight="@dimen/default_content_hpadding"
+	android:paddingTop="@dimen/default_content_vpadding"
+	android:paddingBottom="@dimen/default_content_vpadding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+    <GridView
+        android:id="@android:id/list"
+		style="@style/DefaultGridView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+    
+    <TextView
+        android:id="@android:id/empty"
+		style="@style/DefaultEmptyText"
+		android:text="@string/default_nodata_prompt"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+        
+</RelativeLayout>

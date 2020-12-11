@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:padding="@dimen/map_frame_padding"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+	<fragment 
+		android:id="@+id/fragment_google_map"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/map_height"
+		android:name="com.google.android.gms.maps.SupportMapFragment"/>
+	
+	<LinearLayout         
+	    android:layout_below="@id/fragment_google_map"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:text="@string/label_address"
+            style="@style/DefaultLabel"
+	    	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content" />
+        <TextView 
+            android:id="@+id/geo_address"
+            android:text="@string/geo_address_resolve"
+            style="@style/GeoValueText"
+	    	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content" />
+	</LinearLayout>
+        
+</RelativeLayout>

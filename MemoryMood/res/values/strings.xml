@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MemoryMood</string>
+    
+    <string name="plugin_label_mood">Personal Mood</string>
+    <string name="task_label_ask_mood">Periodical Mood</string>
+    <string name="task_label_aw_data_update_checker">Mood Data Update Checker</string>
+    
+    <string name="activity_wiym">What is your mood?</string>
+    <string name="activity_mood_by_day_chart">Mood Chart - Daily</string>
+	<string name="activity_mood_by_day_list">Mood List - Daily</string>
+    <string name="activity_mood_by_week_chart">Mood Chart - Weekly</string>
+    <string name="activity_weekdays_list">Weekdays</string>
+    <string name="activity_weeks_list">Weeks</string>
+    		
+	<string name="category_mood_label">Mood</string>
+	
+    <string name="widget_mood_chart">Today\'s Mood</string>
+	
+    <string name="mood_01_label">Laugh</string>
+	<string name="mood_02_label">Sweating</string>
+	<string name="mood_03_label">Tears</string>
+	<string name="mood_04_label">Shy</string>
+	<string name="mood_05_label">Angry</string>
+	<string name="mood_06_label">Holding</string>
+	<string name="mood_07_label">Struggle</string>
+	<string name="mood_08_label">Eager</string>
+	<string name="mood_09_label">Wronged</string>
+	<string name="mood_10_label">Delicious</string>
+	<string name="mood_11_label">Attractive</string>
+	<string name="mood_12_label">Sleepy</string>
+		
+    <string name="mood_01_digest">You laughed.</string>
+	<string name="mood_02_digest">You sweated.</string>
+	<string name="mood_03_digest">You cried.</string>
+	<string name="mood_04_digest">You felt embarrassed.</string>
+	<string name="mood_05_digest">You were angry.</string>
+	<string name="mood_06_digest">You put up with sth.</string>
+	<string name="mood_07_digest">You were struggling.</string>
+	<string name="mood_08_digest">You expect sth.</string>
+	<string name="mood_09_digest">You were wronged.</string>
+	<string name="mood_10_digest">You see sth. delicous.</string>
+	<string name="mood_11_digest">You were attracted by sth.</string>
+	<string name="mood_12_digest">You were sleppy.</string>
+		
+	<string name="alert_dialog_add_mood_title">Any comment?</string>
+	
+	<string name="menu_add_mood">Add a Mood</string>
+	<string name="menu_list_mood">List moods</string>
+	<string name="menu_list_weekdays">Weekdays</string>
+	<string name="menu_list_weeks">Weeks</string>
+	<string name="menu_share">Share</string>
+	<string name="menu_mood_by_week">This Week</string>
+						
+	<string name="chart_label_hours">Hour</string>
+	<string name="chart_label_levels">Mood Lvl.</string>
+	<string name="chart_label_weekdays">Weekdays</string>
+	
+	<string name="share_moods_title">Share moods to…</string>
+	<string name="share_subject_day_moods">Moods for day</string>
+	<string name="share_subject_week_moods">Moods for week</string>
+	<string name="share_content_name">Mood Chart</string>
+		
+	<string name="ask_mood_hint_01">Feel better?</string>
+	<string name="ask_mood_hint_02">How are you feeling?</string>
+	<string name="ask_mood_hint_03">Hey, what is your mood?</string>
+	<string name="ask_mood_hint_04">Morning, sleep well?</string>
+	<string name="ask_mood_hint_05">Have a nice lunch?</string>
+	<string name="ask_mood_hint_06">It is time to sleep, X_X</string>
+	
+	<string name="series_title_mood">Mood</string>
+	<string name="series_title_avg_mood">Previously Avg. Mood</string>
+
+	<string name="app_widget_mood_chart">Today\'s Moods</string>
+	
+</resources>

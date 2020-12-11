@@ -1,0 +1,33 @@
+
+live_grass.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+grass_layer1
+  rotate: false
+  xy: 1, 99
+  size: 450, 96
+  orig: 450, 96
+  offset: 0, 0
+  index: -1
+grass_layer2
+  rotate: false
+  xy: 1, 1
+  size: 450, 96
+  orig: 450, 96
+  offset: 0, 0
+  index: -1
+grass_layer3
+  rotate: false
+  xy: 453, 99
+  size: 450, 96
+  orig: 450, 96
+  offset: 0, 0
+  index: -1
+flower_big
+  rotate: false
+  xy: 453, 1
+  size: 47, 96
+  orig: 47, 96
+  offset: 0, 0
+  index: -1

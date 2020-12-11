@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+	<dimen name="default_loc_icon_size">48dp</dimen>
+	
+	<dimen name="geo_address_text_size">17dp</dimen>
+		
+	<dimen name="calculator_text_size">45dp</dimen>
+	<dimen name="calculator_frame_padding">10dp</dimen>
+	
+	<dimen name="map_height">260dp</dimen>
+	<dimen name="map_frame_padding">5dp</dimen>
+	
+	<dimen name="hour_distrib_padding">5dp</dimen>
+	<dimen name="hour_distrib_text_size">18dp</dimen>
+	<dimen name="hour_distrib_bar_height">45dp</dimen>
+	
+	<dimen name="idspot_day_stat_chart_padding">20dp</dimen>
+	<dimen name="idspot_pie_chart_center_size">75dp</dimen>
+	<dimen name="idspot_pie_chart_center_bottom_margin">12dp</dimen>
+			
+	<dimen name="nw_idspots_frame_padding">5dp</dimen>
+	<dimen name="nw_idspots_list_width">150dp</dimen>
+	<dimen name="nw_idspots_list_height">124dp</dimen>
+	<dimen name="nw_idspot_icon_size">24dp</dimen>
+	
+	<dimen name="weather_panel_width">150dp</dimen>
+	<dimen name="weather_panel_height">80dp</dimen>
+	<dimen name="weather_panel_margin">10dp</dimen>
+	<dimen name="weather_panel_hpadding">10dp</dimen>
+	<dimen name="weather_panel_vpadding">5dp</dimen>
+	<dimen name="weather_icon_size">48dp</dimen>
+	<dimen name="weather_pri_text_size">28dp</dimen>
+	<dimen name="weather_pri_text_padding">3dp</dimen>
+	<dimen name="weather_sec_text_size">12dp</dimen>
+	<dimen name="weather_sec_text_padding">3dp</dimen>
+
+	<dimen name="ds_card_my_places_chart_width">70dp</dimen>
+	<dimen name="ds_card_my_places_chart_height">70dp</dimen>
+																			
+</resources>

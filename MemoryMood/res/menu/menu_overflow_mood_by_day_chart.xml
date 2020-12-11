@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_add_mood"
+        android:title="@string/menu_add_mood"
+        android:icon="@drawable/ic_menu_add"/>
+    
+    <item
+        android:id="@+id/menu_list_mood"
+        android:title="@string/menu_list_mood"
+        android:icon="@drawable/ic_menu_list"/>
+  
+    <item
+        android:id="@+id/menu_mood_by_week"
+        android:title="@string/menu_mood_by_week"
+        android:icon="@drawable/ic_menu_today"/>
+    
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/menu_share"
+        android:icon="@drawable/ic_menu_share"/>
+    
+</menu>

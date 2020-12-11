@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">设备启动</string>
+    
+    <string name="activity_boot_list">设备启动列表</string>
+    <string name="activity_boot_records">设备启动纪录</string>
+    <string name="activity_uptime_trends_chart">启动时间曲线</string>
+    <string name="activity_uptime_trends_month_chart">当月启动时间曲线</string>
+    <string name="activity_months_list">月份列表</string>
+    <string name="activity_screen_on_list">设备使用列表</string>
+    <string name="activity_screen_on_distrib_chart">设备使用分布</string>
+    <string name="activity_screen_on_distrib_today">设备使用分布 - 今天</string>
+    <string name="activity_screen_on_distrib_weekdays">设备使用分布 - 工作日</string>
+    <string name="activity_screen_on_distrib_weekends">设备使用分布 - 周末</string>
+    
+	<string name="plugin_label_boot">碎片插件-设备启动</string>
+	<string name="task_label_boot_alive">设备在线监控</string>
+	<string name="task_label_screen_on_off">屏幕点亮监控</string>
+	<string name="category_boot_label">设备启动</string>
+	
+	<string name="menu_list_months">月份列表</string>	
+	<string name="menu_screen_on_list">使用列表</string>	
+	<string name="menu_screen_on_today">今天</string>	
+	<string name="menu_screen_on_weekdays">工作日</string>	
+	<string name="menu_screen_on_weekends">周末</string>	
+			
+	<string name="flag_estimated">估计值</string>
+	
+	<string name="label_boot_shutdown">关机</string>
+	<string name="label_boot_uptime">启动时间</string>
+	<string name="label_boot_lifetime">持续开机时间</string>
+	<string name="label_fastest">最快的</string>
+	<string name="label_slowest">最慢的</string>
+	<string name="label_shortest">最短的</string>
+	<string name="label_longest">最长的</string>
+	<string name="label_screen_on_time">设备使用时间</string>
+	<string name="label_screen_on_duration">持续时间</string>
+	<string name="label_screen_on_boot_seq">启动序号</string>
+				
+	<string name="chart_label_seconds">秒</string>
+	<string name="chart_label_minutes">分钟</string>
+	<string name="chart_label_hour">时段</string>
+
+	<string name="notify_title_new_bootup_records">新的开机纪录</string>
+	<string name="notify_contnet_new_fastest_bootup">您打破了最快的启动纪录</string>
+	<string name="notify_contnet_new_slowest_bootup">您打破了最慢的启动纪录</string>
+		
+	<string name="notify_title_new_liftime_records">新的待机纪录</string>
+	<string name="notify_contnet_new_shortest_liftime">您打破了最长的持续开机纪录</string>
+	<string name="notify_contnet_new_longest_liftime">您打破了最短的持续开机纪录</string>
+	
+	<string name="series_title_uptime">启动时间</string>	
+	<string name="series_title_uptime_avg">平均启动时间</string>	
+	<string name="series_title_screen_on_duration">平均使用时间</string>	
+	
+	<string name="screen_chart_load_prompt">正在加载图表数据……</string>	
+
+	<string name="key_note_getup">一天最痛苦的时刻，&lt;keynote_main>起床&lt;/keynote_main>！</string>	
+	<string name="key_note_reboot_device">手机被第&lt;keynote_sub>%1$d&lt;/keynote_sub>次&lt;keynote_main>重启&lt;/keynote_main>……</string>	
+	<string name="key_note_sleep">洗洗，&lt;keynote_main>睡吧&lt;/keynote_main>……zZ</string>	
+
+</resources>

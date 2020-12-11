@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+	<ImageView
+    	android:id="@+id/memory_icon"
+    	android:src="@drawable/ic_boot"
+    	android:scaleType="centerInside"
+		android:contentDescription="@string/default_iv_description"
+		android:layout_centerVertical="true"
+    	android:layout_width="@dimen/memory_ic_witdh" 
+  		android:layout_height="wrap_content"/>
+  		    
+    <TableLayout
+    	android:id="@+id/screen_on_info"
+		android:layout_toRightOf="@id/memory_icon"
+		android:stretchColumns="1"
+		android:shrinkColumns="1"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	    
+		<TextView 
+			style="@style/DefaultListItemText" 
+	    	android:id="@+id/screen_on_time"
+	    	android:layout_weight="1"
+	    	android:layout_width="wrap_content" 
+	  		android:layout_height="fill_parent"/>
+		
+       <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+	        <TextView 
+				style="@style/DefaultLabel" 
+		    	android:id="@+id/screen_on_label_duration"
+		    	android:text="@string/label_screen_on_duration"
+		    	android:layout_weight="1"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="fill_parent"/>
+            <TextView 
+				style="@style/ScreenOnInfoText" 
+		    	android:id="@+id/screen_on_duration"
+		    	android:layout_weight="1"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="fill_parent"/>
+		</TableRow>
+		
+        <TableRow 
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+	    	<TextView 
+				style="@style/DefaultLabel" 
+		    	android:id="@+id/screen_on_label_seq"
+		    	android:text="@string/label_screen_on_boot_seq"
+		    	android:layout_weight="1"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="fill_parent"/>
+			<TextView 
+				style="@style/ScreenOnInfoText" 
+		    	android:id="@+id/screen_on_boot_seq"
+		    	android:layout_weight="1"
+		    	android:layout_width="wrap_content" 
+		  		android:layout_height="fill_parent"/>
+        </TableRow>
+
+	</TableLayout>
+		
+</RelativeLayout>

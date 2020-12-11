@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mood_actbar_custom_view"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/act_bar_mood_display_mode"
+        android:src="@drawable/ic_actbar_mood_lvl_show"
+		android:contentDescription="@string/default_iv_description"
+ 		android:paddingRight="@dimen/actbar_custom_view_right_padding"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MemoryBoot</string>
+    
+    <string name="activity_boot_list">Boot List</string>
+    <string name="activity_boot_records">Boot Records</string>
+    <string name="activity_uptime_trends_chart">Uptime Trends</string>
+    <string name="activity_uptime_trends_month_chart">Uptime Trends - Monthly</string>
+    <string name="activity_months_list">Months</string>
+    <string name="activity_screen_on_list">Device Use List</string>
+    <string name="activity_screen_on_distrib_chart">Device Use Chart</string>
+    <string name="activity_screen_on_distrib_today">Device Use Chart - Today</string>
+    <string name="activity_screen_on_distrib_weekdays">Device Use Chart - Weekdays</string>
+    <string name="activity_screen_on_distrib_weekends">Device Use Chart - Weekends</string>
+    
+	<string name="plugin_label_boot">Device Boot(s)</string>
+	<string name="task_label_boot_alive">Boot Keep Alive</string>
+	<string name="task_label_screen_on_off">Screen On/Off</string>
+	<string name="category_boot_label">Boot</string>
+	
+	<string name="menu_list_months">Months</string>	
+	<string name="menu_screen_on_list">Use List</string>	
+	<string name="menu_screen_on_today">Today</string>	
+	<string name="menu_screen_on_weekdays">Weekdays</string>	
+	<string name="menu_screen_on_weekends">Weekends</string>	
+					
+	<string name="flag_estimated">Estimated</string>
+	
+	<string name="label_boot_shutdown">Shutdown</string>
+	<string name="label_boot_uptime">Uptime</string>
+	<string name="label_boot_lifetime">Lifetime</string>
+	<string name="label_fastest">Fastest</string>
+	<string name="label_slowest">Slowest</string>
+	<string name="label_shortest">Shortest</string>
+	<string name="label_longest">Longest</string>
+	<string name="label_screen_on_time">Screen On</string>
+	<string name="label_screen_on_duration">Duration</string>
+	<string name="label_screen_on_boot_seq">Boot Seq.</string>
+					
+	<string name="chart_label_seconds">Second(s)</string>
+	<string name="chart_label_minutes">Minutes(s)</string>
+	<string name="chart_label_hour">Hour</string>
+	
+	<string name="notify_title_new_bootup_records">New Bootup Record</string>
+	<string name="notify_contnet_new_fastest_bootup">You got a new fastest boot-up</string>
+	<string name="notify_contnet_new_slowest_bootup">You got a new slowest boot-up</string>
+		
+	<string name="notify_title_new_liftime_records">New Lifetime Record</string>
+	<string name="notify_contnet_new_shortest_liftime">You got a new shortest boot lifetime</string>
+	<string name="notify_contnet_new_longest_liftime">You got a new longest boot lifetime</string>
+	
+	<string name="series_title_uptime">Uptime</string>	
+	<string name="series_title_uptime_avg">Average Uptime</string>	
+	<string name="series_title_screen_on_duration">Average Use Duration</string>	
+	
+	<string name="screen_chart_load_prompt">Loading chart data &#8230;</string>	
+	
+	<string name="key_note_getup">You &lt;keynote_main>got up&lt;/keynote_main>.</string>	
+	<string name="key_note_reboot_device">You &lt;keynote_main>reboot&lt;/keynote_main> the device for &lt;keynote_sub>%1$d&lt;/keynote_sub> time(s).</string>	
+	<string name="key_note_sleep">You &lt;keynote_main>slept&lt;/keynote_main>.</string>	
+										
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+	android:padding="@dimen/lv_item_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	
+ 	<TextView
+        android:id="@+id/stats_lifetime_value"
+        style="@style/SliderDay"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+     
+</RelativeLayout>

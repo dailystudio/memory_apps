@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dailystudio.memory"
+    android:versionCode="14122817"
+    android:versionName="1.0.8.14122817" >
+
+    <uses-sdk 
+        android:minSdkVersion="9"
+        android:targetSdkVersion="14"/>
+	
+    <permission 
+		android:name="memory.permission.READ_MEMORY_DATABASE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_read_memory_database"
+        android:description="@string/permdesc_read_memory_database"
+        android:protectionLevel="signature" />
+    
+    <permission 
+		android:name="memory.permission.WRITE_MEMORY_DATABASE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_write_memory_database"
+        android:description="@string/permdesc_write_memory_database"
+        android:protectionLevel="signature" />
+    
+    <permission 
+		android:name="memory.permission.REQUEST_MEMORY_SERVICE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_request_memory_service"
+        android:description="@string/permlab_request_memory_service"
+        android:protectionLevel="signature" />
+    
+    <permission 
+		android:name="memory.permission.QUERY_MEMORY_PIECE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_query_memory_piece"
+        android:description="@string/permdesc_query_memory_piece"
+        android:protectionLevel="signature" />
+    
+    <permission 
+		android:name="memory.permission.UPDATE_MEMORY_ACHIEVEMENTS_AND_LEADERBOARDS"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_update_memory_achievements_and_leaderboards"
+        android:description="@string/permdesc_update_memory_achievements_and_leaderboards"
+        android:protectionLevel="signature" />
+    
+    <permission 
+		android:name="memory.permission.READ_MEMORY_PERSON_FEATURE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_read_memory_person_feature"
+        android:description="@string/permdesc_read_memory_person_feature"
+        android:protectionLevel="signature" />
+    
+    <permission 
+		android:name="memory.permission.WRITE_MEMORY_PERSON_FEATURE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/permlab_write_memory_person_feature"
+        android:description="@string/permdesc_write_memory_person_feature"
+        android:protectionLevel="signature" />
+    
+	<uses-permission android:name="memory.permission.READ_MEMORY_DATABASE" />
+	<uses-permission android:name="memory.permission.WRITE_MEMORY_DATABASE" />
+	<uses-permission android:name="memory.permission.UPDATE_MEMORY_ACHIEVEMENTS_AND_LEADERBOARDS" />
+	<uses-permission android:name="memory.permission.REQUEST_MEMORY_SERVICE" />
+	<uses-permission android:name="memory.permission.QUERY_MEMORY_PIECE" />
+	<uses-permission android:name="memory.permission.READ_MEMORY_PERSON_FEATURE"/>
+	<uses-permission android:name="memory.permission.WRITE_MEMORY_PERSON_FEATURE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+			
+	<application
+        android:name=".MainApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        
+	    <meta-data android:name="com.google.android.gms.version"
+	           android:value="@integer/google_play_services_version" />
+
+	    <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+			<meta-data android:name="android.app.default_searchable"
+        		android:value=".activity.MemorySearchActivity" />
+			
+        </activity>
+        
+<!-- 
+        <activity
+            android:name=".activity.ShowcaseActivity"
+            android:label="@string/activity_showcase"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ -->               
+        <activity
+            android:name=".activity.MemoryActivityListActivity"
+            android:label="@string/activity_activity_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_LIST_PLUGIN_ACTIVITIES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                
+        <activity
+            android:name=".activity.StatisticsActivity"
+            android:label="@string/activity_statistics"
+            android:theme="@style/Theme.DefaultActivity.Light">
+        </activity>
+                 
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/activity_about"
+            android:theme="@style/Theme.DefaultActivity.Light">
+        </activity>
+        
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:label="@string/activity_privacy_policy"
+            android:theme="@style/Theme.DefaultActivity.Light">
+        </activity>
+                
+        <activity
+            android:name="com.dailystudio.memory.ask.MemoryAskQuestionActivity"
+            android:label="@string/activity_ask_question"
+            android:theme="@style/Theme.Transparent">
+        </activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.notify.MemoryNotificationActivity"
+            android:label="@string/activity_notification"
+            android:theme="@style/Theme.Transparent">
+        </activity>
+        
+		<activity 
+		    android:name=".activity.CreateCategoryShortcutActivity" 
+		    android:label="@string/activity_memory_shortcut_category"
+		    android:icon="@drawable/ic_shortcut"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		<service 
+			android:name=".MemoryService"
+			android:exported="false">
+			<intent-filter>
+				<action android:name="com.dailystudio.dailylife.SERVICE" />
+			</intent-filter>
+		</service>
+
+		<service
+            android:name=".MemoryKeynoteCacheService"
+            android:authorities="com.dailystudio.memory.cache.keynotes"/>
+				
+		<receiver
+ 			android:name="com.dailystudio.memory.ask.MemoryAskCommandReceiver"
+            android:icon="@drawable/ic_launcher"
+			android:enabled="true">
+			
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_ASK_QUESTION" />
+                <action android:name="memory.intent.ACTION_ANSWER_QUESTION" />
+                
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+            
+		</receiver>
+        
+		<receiver
+ 			android:name="com.dailystudio.memory.notify.MemoryNotifyCommandReceiver"
+            android:icon="@drawable/ic_launcher"
+			android:enabled="true">
+			
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_SHOW_NOTIFY" />
+                <action android:name="memory.intent.ACTION_CANCEL_NOTIFY" />
+                
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+            
+		</receiver>
+        
+		<provider
+            android:name=".MemoryDatabaseConnectivityProvider"
+            android:authorities="com.dailystudio.memory" 
+            android:writePermission="memory.permission.WRITE_MEMORY_DATABASE"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+
+	<!--  Plug-ins : Lifestyle (START)-->
+		<activity
+            android:name=".activity.LifeActivitiesListActivity"
+            android:icon="@drawable/ic_experimental"
+            android:label="@string/activity_life_activities"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.lifestyle.affinity"
+            android:process=":PluginLifeStyle">
+            
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+            
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_exp" />
+            
+        </activity>
+
+		<receiver
+			android:name="com.dailystudio.memory.lifestyle.PluginLifestyle"
+		    android:process=":PluginLifeStyle"
+			android:enabled="true">
+
+            <intent-filter>
+                <action android:name="dailylife.intent.ACTION_REGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_UNREGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_CREATE_TASK" />
+                <action android:name="dailylife.intent.ACTION_DESTROY_TASK" />
+                <action android:name="dailylife.intent.ACTION_EXECUTE_TASK" />
+                <category android:name="dailylife.intent.category.MAIN" />
+            </intent-filter>
+
+			<meta-data 
+				android:name="memory.plugin.meta"
+				android:resource="@xml/plugin_lifestyle" />
+            
+		</receiver>
+	<!--  Plug-ins : Lifestyle (END)-->
+				
+						
+	<!--  Plug-ins : Boot (START)-->
+		<receiver
+            android:icon="@drawable/ic_boot"
+			android:name="com.dailystudio.memory.boot.PluginBoot"
+		    android:process=":PluginBoot"
+			android:enabled="true">
+
+            <intent-filter>
+                <action android:name="dailylife.intent.ACTION_REGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_UNREGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_CREATE_TASK" />
+                <action android:name="dailylife.intent.ACTION_DESTROY_TASK" />
+                <action android:name="dailylife.intent.ACTION_EXECUTE_TASK" />
+                <category android:name="dailylife.intent.category.MAIN" />
+            </intent-filter>
+
+			<meta-data 
+				android:name="memory.plugin.meta"
+				android:resource="@xml/plugin_boot" />
+            
+		</receiver>
+		
+		<receiver
+            android:icon="@drawable/ic_boot"
+			android:name="com.dailystudio.memory.boot.MemoryBootPieceQueryReceiver"
+			android:permission="memory.permission.QUERY_MEMORY_PIECE"
+		    android:process=":PluginBoot"
+			android:enabled="true">
+			
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+            
+		</receiver>
+		
+		<service 
+		    android:name="com.dailystudio.memory.boot.MemoryBootPieceQueryService"
+		    android:permission="memory.permission.REQUEST_MEMORY_SERVICE">
+        
+		    <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+
+		</service>
+				
+		<service
+            android:name="com.dailystudio.memory.boot.BootTasksKeepAliveSerive"
+            android:authorities="com.dailystudio.memory.boot" 
+            android:process=":PluginBoot"/>
+					
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.BootListActivity"
+            android:icon="@drawable/ic_memory_list"
+            android:label="@string/activity_boot_list"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_boot" />
+
+       	</activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.UptimeTrendsChartActivity"
+            android:icon="@drawable/ic_memory_chart"
+            android:label="@string/activity_uptime_trends_chart"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+            
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_boot" />
+
+		</activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.UptimeTrendsMonthChartActivity"
+            android:icon="@drawable/ic_memory_chart"
+            android:label="@string/activity_uptime_trends_month_chart"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+<!--             
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+            
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_boot" />
+ -->
+		</activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.MonthsListActivity"
+            android:icon="@drawable/ic_boot"
+            android:label="@string/activity_months_list"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot"/>
+		
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.BootRecordsActivity"
+            android:icon="@drawable/ic_memory_record"
+            android:label="@string/activity_boot_records"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+<!--  -->            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_boot" />
+
+		</activity>
+		
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.ScreenOnListActivity"
+            android:icon="@drawable/ic_screen_on"
+            android:label="@string/activity_screen_on_list"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+       	</activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.ScreenOnDistribChartActivity"
+            android:icon="@drawable/ic_screen_on"
+            android:label="@string/activity_screen_on_distrib_chart"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_boot" />
+
+       	</activity>
+       	
+        <activity
+            android:name="com.dailystudio.memory.boot.activity.BaseScreenOnDistribChartActivity"
+            android:icon="@drawable/ic_screen_on"
+            android:label="@string/activity_screen_on_distrib_chart"
+            android:theme="@style/Theme.DefaultActivity.Light"
+            android:taskAffinity="memory.boot.affinity"
+            android:process=":PluginBoot">
+       	</activity>
+        
+        <receiver
+            android:name="com.dailystudio.memory.boot.OnBootCompleteReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.dailystudio.memory.boot.OnShutdownReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+        
+		<provider
+            android:name="com.dailystudio.memory.boot.MemoryBootSearchableContentProvider"
+            android:authorities="com.dailystudio.memory.boot.searchable"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" 
+            android:process=":PluginBoot" />
+        
+	<!--  Plug-ins : Boot (END)-->
+	
+						
+	<!--  Admob (START) -->
+		<activity 
+		    android:name="com.google.android.gms.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>		
+		
+		<meta-data android:value="@string/admob_publisher_id" android:name="ADMOB_PUBLISHER_ID" />
+	<!--  Admob (END) -->
+	        
+	<!--  Search (START)-->
+		<activity 
+		    android:name=".activity.MemorySearchActivity"
+			android:configChanges="orientation|keyboardHidden" 
+			android:label="@string/activity_memory_search"
+	   		android:launchMode="singleTop"
+	   		android:theme="@style/Theme.DefaultActivity.Light">
+	           
+		    <intent-filter>
+		        <action android:name="android.intent.action.SEARCH" />
+		        <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+		    
+		    <meta-data android:name="android.app.searchable"
+		        android:resource="@xml/searchable" />
+		    
+		</activity>
+		
+		<provider android:name=".search.MemorySearchSuggestionsProvider"
+			android:authorities="com.dailystudio.memory.search"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE"/> 
+		
+		<meta-data android:name="android.app.default_searchable"
+		    android:value=".activity.MemorySearchActivity" />
+	<!--  Search (END)-->
+				
+	<!-- Google Game Service -->
+		<meta-data android:name="com.google.android.gms.games.APP_ID"
+			android:value="@string/memory_game_app_id" />
+		
+		<service
+            android:name="com.dailystudio.memory.game.MemoryGameService"
+            android:authorities="com.dailystudio.memory.game" 
+            android:permission="memory.permission.UPDATE_MEMORY_ACHIEVEMENTS_AND_LEADERBOARDS" >
+		    
+			<intent-filter>
+				<action android:name="memory.intent.ACTION_UNLOCK_ACHIVEMENT" />
+				<action android:name="memory.intent.ACTION_INCREMENT_ACHIVEMENT" />
+				<action android:name="memory.intent.ACTION_SUBMIT_LEADERBOARD_SCORE" />
+			</intent-filter>
+			
+		</service>
+		
+	<!-- Person Features -->
+		<service
+            android:name="com.dailystudio.memory.person.PersonFeatureUpdateService"
+            android:authorities="com.dailystudio.memory.person" 
+            android:permission="memory.permission.WRITE_MEMORY_PERSON_FEATURE" >
+		    
+			<intent-filter>
+				<action android:name="memory.intent.ACTION_MEMORY_PERSON_SET_FEATURE" />
+				<action android:name="memory.intent.ACTION_MEMORY_PERSON_SET_FEATURES" />
+			</intent-filter>
+			
+		</service>
+		
+		<receiver
+            android:name="com.dailystudio.memory.person.PersonFeatureQueryReceiver"
+            android:permission="memory.permission.READ_MEMORY_PERSON_FEATURE" >
+		    
+			<intent-filter>
+				<action android:name="memory.intent.ACTION_MEMORY_PERSON_GET_FEATURE" />
+			</intent-filter>
+			
+		</receiver>
+	
+	<!-- Cards -->
+		<provider
+            android:name=".DefaultCardsFileAccessContentProvider"
+            android:authorities="com.dailystudio.memory.cards"/> 
+						
+	</application>
+
+</manifest>

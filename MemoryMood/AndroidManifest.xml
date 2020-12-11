@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dailystudio.memory.mood"
+    android:versionCode="13061417"
+    android:versionName="1.0.6.13061417" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+	
+	<uses-permission android:name="memory.permission.READ_MEMORY_DATABASE" />
+	<uses-permission android:name="memory.permission.UPDATE_MEMORY_ACHIEVEMENTS_AND_LEADERBOARDS" />
+	
+    <application
+        android:name=".MemoryMoodApplication"
+        android:icon="@drawable/ic_mood"
+        android:label="@string/app_name" >
+
+		<activity
+            android:name=".MoodCoreAppCheckActivity"
+            android:icon="@drawable/ic_mood"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+ 		
+ 		</activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.mood.activity.WhatIsYourMoodActivity"
+            android:icon="@drawable/ic_mood_ask"
+            android:label="@string/activity_wiym"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_mood" />
+ 		
+ 		</activity>
+
+        <activity
+            android:name="com.dailystudio.memory.mood.activity.MoodByDayChartActivity"
+            android:icon="@drawable/ic_mood_daily"
+            android:label="@string/activity_mood_by_day_chart"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+  			<intent-filter>
+				<action android:name="memory.intent.ACTION_MAINPAGE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_mood" />
+ 		
+ 		</activity>
+
+        <activity
+            android:name="com.dailystudio.memory.mood.activity.MoodByDayListActivity"
+            android:icon="@drawable/ic_mood"
+            android:label="@string/activity_mood_by_day_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!--             
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_mood" />
+  -->		
+ 		</activity>
+
+        <activity
+            android:name="com.dailystudio.memory.mood.activity.MoodByWeekChartActivity"
+            android:icon="@drawable/ic_mood_weekly"
+            android:label="@string/activity_mood_by_week_chart"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_mood" />
+ 		
+ 		</activity>
+
+        <activity
+            android:name="com.dailystudio.memory.mood.activity.WeekdaysListActivity"
+            android:icon="@drawable/ic_mood"
+            android:label="@string/activity_weekdays_list"
+            android:theme="@style/Theme.DefaultActivity.Light"/>
+ 		
+        <activity
+            android:name="com.dailystudio.memory.mood.activity.WeeksListActivity"
+            android:icon="@drawable/ic_mood"
+            android:label="@string/activity_weeks_list"
+            android:theme="@style/Theme.DefaultActivity.Light"/>
+
+		<receiver
+            android:icon="@drawable/ic_mood"
+			android:name=".PluginMood"
+			android:enabled="true">
+
+            <intent-filter>
+                <action android:name="dailylife.intent.ACTION_REGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_UNREGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_CREATE_TASK" />
+                <action android:name="dailylife.intent.ACTION_DESTROY_TASK" />
+                <action android:name="dailylife.intent.ACTION_EXECUTE_TASK" />
+                <category android:name="dailylife.intent.category.MAIN" />
+            </intent-filter>
+
+			<meta-data 
+				android:name="memory.plugin.meta"
+				android:resource="@xml/plugin_mood" />
+            
+		</receiver>
+  
+  		<receiver
+            android:icon="@drawable/ic_mood"
+			android:name=".MemoryMoodPieceQueryReceiver"
+			android:permission="memory.permission.QUERY_MEMORY_PIECE"
+			android:enabled="true">
+			
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+            
+		</receiver>
+  
+  		<service 
+  		    android:name="com.dailystudio.memory.mood.MemoryMoodPieceQueryService"
+		    android:permission="memory.permission.REQUEST_MEMORY_SERVICE">
+        
+		    <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+
+		</service>
+  		    
+  		
+        <provider
+            android:name=".MemoryMoodDatabaseConnectivityProvider"
+            android:authorities="com.dailystudio.memory.mood"
+            android:writePermission="memory.permission.WRITE_MEMORY_DATABASE"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+        
+		<provider
+            android:name=".MoodSearchableContentProvider"
+            android:authorities="com.dailystudio.memory.mood.searchable"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+        		
+		<service
+            android:name=".MoodTasksKeepAliveSerive"
+            android:authorities="com.dailystudio.memory.mood" />
+		
+        <receiver android:name="com.dailystudio.memory.mood.appwidget.MoodDayChartWidgetProvider"
+            android:label="@string/widget_mood_chart" >
+            
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/aw_info_mood_day_chart" />
+        </receiver>
+		
+		<service
+            android:name="com.dailystudio.memory.mood.appwidget.MoodAppWidgetDataService"
+            android:authorities="com.dailystudio.memory.mood.appwidgetservice" />
+        		
+	</application>
+
+</manifest>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="StatsItemTitle" parent="DefaultText">
+		<item name="textSize">@dimen/stats_item_title_text_size</item>
+	    <item name="android:gravity">left|center_vertical</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="StatsLifetimeValue" parent="DefaultText">
+		<item name="textSize">@dimen/stats_item_value_text_size</item>
+	    <item name="textStyle">bold</item>
+	</style>
+		
+	<style name="StatsPiecesValue" parent="DefaultText">
+		<item name="android:textSize">@dimen/stats_item_value_text_size</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="AboutText">
+	    <item name="android:textColor">@color/black</item>
+	    <item name="android:gravity">center</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="AboutAppName" parent="AboutText">
+	    <item name="android:textStyle">bold</item>
+		<item name="android:textSize">@dimen/about_app_name_font_size</item>
+	</style>
+	
+	<style name="AboutSlogan" parent="AboutText">
+		<item name="android:textSize">@dimen/about_slogan_font_size</item>
+		<item name="android:textColor">@color/android_blue</item>
+	</style>
+		
+	<style name="AboutVerName" parent="AboutText">
+	    <item name="android:textStyle">italic</item>
+		<item name="android:textSize">@dimen/about_ver_name_font_size</item>
+	</style>
+	
+	<style name="AboutStudioName" parent="AboutText">
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:gravity">center</item>
+		<item name="android:textSize">@dimen/about_studio_name_font_size</item>
+	</style>
+	
+	<style name="SearchResultText">
+ 		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="SearchResultText.Title">
+ 		<item name="android:textColor">@color/black</item>
+ 		<item name="android:textSize">@dimen/search_result_title_font_size</item>
+	</style>
+
+	<style name="SearchResultText.Subtitle">
+ 		<item name="android:textColor">@color/gray</item>
+ 		<item name="android:textSize">@dimen/search_result_subtitle_font_size</item>
+	</style>
+				
+	<style name="GMSLoginPanelText">
+ 		<item name="android:textColor">@color/gray</item>
+ 		<item name="android:textSize">@dimen/gsm_login_text_size</item>
+	    <item name="android:gravity">center_vertical|left</item>
+ 		<item name="android:paddingLeft">@dimen/gsm_login_text_hpadding</item>
+ 		<item name="android:paddingRight">@dimen/gsm_login_text_hpadding</item>
+ 		<item name="android:paddingTop">@dimen/gsm_login_text_vpadding</item>
+ 		<item name="android:paddingBottom">@dimen/gsm_login_text_vpadding</item>
+ 	</style>
+				
+	<style name="GMSLoginPlayerName" parent="GMSLoginPanelText">
+	    <item name="android:gravity">center_vertical|left</item>
+		<item name="android:textColor">@color/black</item>
+	    <item name="android:textStyle">bold</item>
+ 		<item name="android:textSize">@dimen/gsm_login_player_name_text_size</item>
+	</style>
+				
+	<style name="GMSLoginPanelButton" parent="DefaultButton">
+ 		<item name="android:textSize">@dimen/gsm_login_text_size</item>
+ 	</style>
+							
+	<style name="SliderDay" parent="DefaultText">
+ 		<item name="android:textSize">@dimen/slide_day_text_size</item>
+	    <item name="android:textStyle">bold|italic</item>
+	    <item name="android:textColor">@color/light_white</item>
+	</style>
+	
+	<style name="SliderLabel" parent="DefaultLabel">
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="SliderVal" parent="DefaultText">
+	    <item name="android:gravity">right|center_vertical</item>
+	</style>
+	
+	<style name="QuoteContent" parent="DefaultText">
+	    <item name="android:lines">5</item>
+	    <item name="android:ellipsize">end</item>
+	    <item name="android:gravity">left|center_vertical</item>
+		<item name="android:textColor">@color/semi_white</item>
+		<item name="android:textSize">@dimen/quote_content_text_size</item>
+		<item name="android:textStyle">italic</item>
+	</style>
+	
+	<style name="QuoteLoading" parent="QuoteContent">
+	    <item name="android:gravity">center</item>
+		<item name="android:textStyle">bold|italic</item>
+	</style>
+	
+	<style name="QuoteAuthor" parent="DefaultText">
+		<item name="android:gravity">right|center_vertical</item>
+		<item name="android:textColor">@color/semi_white</item>
+		<item name="android:textSize">@dimen/quote_author_text_size</item>
+		<item name="android:textStyle">italic</item>
+	</style>
+	
+	<style name="DashboardTitle" parent="DefaultLabel">
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="LifeActivityTimeText" parent="DefaultListItemText">
+		<item name="android:textColor">@color/light_white</item>
+	    <item name="android:textSize">@dimen/life_activity_time_text_size</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:gravity">center</item>
+	</style>
+	
+	<style name="LifeActivityTitleText">
+		<item name="android:paddingTop">@dimen/life_activity_title_vpadding</item>
+		<item name="android:paddingBottom">@dimen/life_activity_title_vpadding</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/light_white</item>
+	    <item name="android:textStyle">bold</item>
+		<item name="android:textSize">@dimen/life_activity_title_text_size</item>
+		<item name="android:singleLine">true</item>
+	</style>
+					
+	<style name="KeyNotesListView" parent="DefaultListView">
+		<item name="android:divider">@null</item>
+		<item name="android:dividerHeight">0dp</item>
+		<item name="android:layoutAnimation">@anim/keynotes_layout_anim</item>
+	</style>
+					
+	<style name="KeyNotesTimeText" parent="DefaultText">
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/light_white</item>
+		<item name="android:textSize">@dimen/key_note_time_key_text_size</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:paddingLeft">@dimen/key_note_time_padding</item>
+	    <item name="android:paddingRight">@dimen/key_note_time_padding</item>
+   	</style>
+					
+	<style name="KeyNotesContentText" parent="DefaultText">
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:textSize">@dimen/lv_item_font_size</item>
+		<item name="android:paddingLeft">@dimen/lv_item_padding</item>
+		<item name="android:paddingRight">@dimen/lv_item_padding</item>
+		<item name="android:paddingTop">@dimen/key_note_content_padding</item>
+		<item name="android:paddingBottom">@dimen/key_note_content_padding</item>
+	</style>
+					
+	<style name="KeyNotesPagerTitleStrip" parent="DefaultDarkPagerTitleStrip">
+<!-- Google Red 
+		<item name="android:background">#CC4A30</item>
+-->
+<!-- Codrops Blue 
+		<item name="android:background">#4F87A2</item>
+-->		
+		<item name="android:background">@color/dark_red</item>
+	</style>
+			
+</resources>

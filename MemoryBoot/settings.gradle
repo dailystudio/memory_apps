@@ -1,0 +1,8 @@
+include ':'
+include 'DevBricks'
+include 'MemoryCore'
+include 'MemoryUI'
+
+project(':DevBricks').projectDir = new File('../../devbricks')
+project(':MemoryCore').projectDir = new File('../../dsprivate_memory/MemoryCore')
+project(':MemoryUI').projectDir = new File('../../dsprivate_memory/MemoryUI')

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+	android:background="@drawable/favorite_apps_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	
+    <TextView
+        android:id="@+id/favorite_apps_title"
+		style="@style/FavoriteAppTitle"
+		android:text="@string/activity_favorite_apps"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    
+    <View
+        android:id="@+id/favorite_apps_title_separator"
+        android:background="@drawable/list_divider"
+        android:layout_below="@id/favorite_apps_title"
+	    android:layout_width="fill_parent"
+	    android:layout_height="2px"/>
+    
+    <GridView
+        android:id="@android:id/list"
+        style="@style/DefaultGridView"
+        android:layoutAnimation="@anim/favorite_apps_layout_anim"
+        android:numColumns="4"
+        android:layout_below="@id/favorite_apps_title_separator"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@android:id/empty"
+		style="@style/FavoriteAppEmptyText"
+		android:text="@string/no_favorite_apps"
+        android:layout_below="@id/favorite_apps_title_separator"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    	
+</RelativeLayout>

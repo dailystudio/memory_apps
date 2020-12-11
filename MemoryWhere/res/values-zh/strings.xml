@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name">你在哪里</string>
+
+    <string name="activity_geo_point_map">地理坐标信息</string>
+    <string name="activity_location_list">位置列表</string>
+    <string name="activity_hotspot_list">热点列表（最近一个月）</string>
+    <string name="activity_distance_calculator">距离计算</string>
+    <string name="activity_hotspot_map">热点坐标信息</string>
+    <string name="activity_idspot_list">我的地址列表</string>
+    <string name="activity_idspot_map">可识别热点坐标信息</string>
+    <string name="activity_idspot_history_list">可识别热点历史列表</string>
+    <string name="activity_idspot_day_stat">每日统计</string>
+    <string name="activity_idspot_week_stat">每周统计</string>
+    <string name="activity_weeks_list">各周统计</string>
+    <string name="activity_now_where">我在这里</string>
+    
+    <string name="plugin_label_where">碎片插件-你在哪里</string>
+    <string name="task_label_location">位置跟踪</string>
+    <string name="task_label_identify_hotspot">鉴别热点</string>
+	<string name="task_label_identify_residence">鉴别居住地</string>
+	<string name="task_label_check_work_and_spare_time">分析上下班时间</string>
+	<string name="task_label_update_hotspot_map">刷新位置地图快照</string>
+		
+    <string name="category_where_label">你在哪里</string>
+        
+    <string name="label_from">起始位置</string>
+    <string name="label_to">目标位置</string>
+    <string name="label_latitude">纬度</string>
+    <string name="label_longitude">经度</string>
+    <string name="label_address">地址</string>
+    <string name="label_hour_distrib">小时分布</string>
+    <string name="label_similarity">相似度</string>
+    <string name="label_time_start">开始：</string>
+    <string name="label_time_end">结束：</string>
+    
+    <string name="hint_latitude">例如：39.981632</string>
+    <string name="hint_longitude">例如：116.320563</string>
+    
+    <string name="button_calculate">计算</string>
+ 
+	<string name="default_geo_value">0.0</string>
+    <string name="geo_address_resolve">解析中</string>
+    <string name="geo_address_separator"></string>
+    
+    <plurals name="hotspot_occur">
+        <item quantity="other">次</item>
+    </plurals>
+    
+    <string name="hotspot_home">家</string>
+    <string name="hotspot_workplace">工作单位</string>
+    <string name="hotspot_unknow">其他</string>
+	
+	<string name="welcome_idspot_ask_templ">欢迎回%s！</string>		
+		
+	<string name="idspot_stat_title">统计</string>			
+	<string name="idspot_stat_label_day">每天</string>			
+	<string name="idspot_stat_label_week">每周</string>			
+	<string name="idspot_stat_label_month">每月</string>			
+	<string name="idspot_stat_label_day_templ">MMM dd日</string>			
+	<string name="idspot_stat_label_week_templ">第%d周</string>			
+	<string name="idspot_stat_label_month_templ">MMM</string>			
+	<string name="idspot_stat_pie_chart_title">一周整体分布</string>			
+	<string name="idspot_stat_line_chart_title">一周各天分布</string>			
+	<string name="idspot_stat_every_avg_tmpl">平均每天停留: %s</string>			
+				
+	<string name="chart_label_idspot">可识别热点</string>
+	<string name="chart_label_weekdays">天</string>
+	<string name="chart_label_hours">小时</string>
+		
+	<string name="prompt_go_idspot">去往您的%s……</string>
+	<string name="prompt_update_location">正在确定您的位置……</string>
+	<string name="prompt_rotate_camera">正在调整您的视角……</string>
+	<string name="marker_now">您在这里！</string>
+	<string name="marker_idspot_templ">您的%s</string>
+		
+	<string name="no_idspot_loading_data">加载数据……</string>
+	
+	<string name="dashboard_my_places">时间去哪儿了</string>
+	<string name="dashboard_idpost_now">现在位于%1$s</string>
+			
+	<string name="search_duration_hour_templ">在[%1$s]停留了%2$d个小时</string>
+	<string name="search_duration_min_templ">在[%1$s]停留了%2$d分钟</string>
+
+	<string name="key_note_arrive_office">努力爬&lt;keynote_main>到公司&lt;/keynote_main>了⊙﹏⊙b</string>	
+	<string name="key_note_lunch_time">&lt;keynote_main>午餐&lt;/keynote_main>时间！</string>	
+	<string name="key_note_back_to_office">回到座位上，继续&lt;keynote_main>开工&lt;/keynote_main>！</string>	
+	<string name="key_note_return_home">&lt;keynote_main>收工&lt;/keynote_main>！回家吃饭咯~</string>	
+
+</resources>

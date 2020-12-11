@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_gsm_login"
+    android:orientation="vertical"
+    android:background="@drawable/actbar_dropdown_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout 
+        android:id="@+id/sign_in_bar"
+        android:layout_height="@dimen/gsm_login_bar_height"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView 
+            style="@style/GMSLoginPanelText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/gms_sign_in_prompt"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sign_out_bar"
+        android:layout_height="@dimen/gsm_login_bar_height"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/gsm_login_bar_hpadding"
+        android:paddingRight="@dimen/gsm_login_bar_hpadding"
+        android:paddingTop="@dimen/gsm_login_bar_vpadding"
+        android:paddingBottom="@dimen/gsm_login_bar_vpadding">
+        
+		<ImageView
+	        android:id="@+id/player_icon"
+	        android:src="@drawable/default_player_icon"
+			android:background="@drawable/player_icon_frame"
+			android:contentDescription="@string/default_iv_description"
+	        android:layout_centerVertical="true"
+	        android:layout_width="@dimen/gsm_login_player_icon_size"
+	        android:layout_height="@dimen/gsm_login_player_icon_size" />
+
+		<Button
+            android:id="@+id/sign_out_button"
+         	style="@style/GMSLoginPanelButton"
+         	android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gms_sign_out"/>
+        
+		<LinearLayout 
+		    android:orientation="vertical"
+		    android:padding="@dimen/gsm_login_player_info_padding"
+            android:layout_toRightOf="@id/player_icon"
+            android:layout_toLeftOf="@id/sign_out_button"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+		    <TextView
+		        android:id="@+id/player_name"
+		    	style="@style/GMSLoginPlayerName"
+		        android:text="@string/gms_achievements"
+		        android:layout_weight="1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>
+			<TextView
+		        android:id="@+id/menu_achievements"
+		    	style="@style/GMSLoginPanelText"
+		        android:drawableRight="@drawable/games_achievements"
+		        android:background="@drawable/actbar_button"
+		        android:text="@string/gms_achievements"
+		        android:layout_weight="1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>
+			<TextView
+		        android:id="@+id/menu_leaderboards"
+		    	style="@style/GMSLoginPanelText"
+		        android:drawableRight="@drawable/games_leaderboards"
+		        android:background="@drawable/actbar_button"
+		        android:text="@string/gms_leaderboards"
+		        android:layout_weight="1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>
+		</LinearLayout>
+		
+		<TextView 
+		    style="@style/GMSLoginPanelText"
+		    android:id="@+id/player_info"
+		    android:visibility="gone"
+		    android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/player_icon"
+            android:layout_toLeftOf="@id/sign_out_button"
+            android:text="@string/gms_signed_in"/>
+		
+    </RelativeLayout>
+
+</LinearLayout>

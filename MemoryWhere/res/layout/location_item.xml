@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	
+    <LinearLayout
+    	android:id="@+id/geo_info"
+		android:orientation="horizontal"
+		android:layout_alignParentTop="true"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+		<TextView 
+			style="@style/LocationGeoInfoText" 
+	    	android:id="@+id/geo_lat"
+	    	android:layout_weight="1"
+	    	android:layout_width="wrap_content" 
+	  		android:layout_height="fill_parent"/>
+	    <TextView 
+			style="@style/LocationGeoInfoText" 
+	    	android:id="@+id/geo_lon"
+	    	android:layout_weight="1"
+	    	android:layout_width="wrap_content" 
+	  		android:layout_height="wrap_content"/>
+	</LinearLayout>
+	    
+    <TextView 
+		style="@style/DefaultListItemText" 
+   		android:id="@+id/location_time"
+		android:layout_below="@id/geo_info"
+   		android:layout_width="fill_parent" 
+ 		android:layout_height="wrap_content"/>
+
+    <TextView 
+		style="@style/DefaultListItemText" 
+    	android:id="@+id/location_duration"
+		android:layout_below="@id/location_time"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content"/>
+
+</RelativeLayout>

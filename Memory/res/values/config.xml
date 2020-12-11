@@ -1,0 +1,10 @@
+<resources>
+
+	<integer name="config_aboutAnimTime">2000</integer>
+    
+    <integer name="config_statsShortAnimTime">500</integer>
+    <integer name="config_statsLongAnimTime">800</integer>
+    
+    <string name="config_admob_publish_id"></string>
+    
+</resources>

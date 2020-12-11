@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uptime_trends_actbar_custom_view"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/uptime_trends_curr_month"
+        style="@style/ActionBarText"
+        android:paddingRight="@dimen/action_bar_right_padding"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

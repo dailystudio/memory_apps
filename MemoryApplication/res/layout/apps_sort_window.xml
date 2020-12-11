@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    <RadioButton 
+        android:id="@+id/radio_sort_by_name"
+    	android:text="@string/app_sort_type_name"
+    	style="@style/AppSortRadioBox"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"/>
+	
+    <RadioButton 
+        android:id="@+id/radio_sort_by_update_time"
+    	android:text="@string/app_sort_type_update_time"
+    	style="@style/AppSortRadioBox"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"/>
+    
+    <RadioButton 
+        android:id="@+id/radio_sort_by_install_time"
+    	android:text="@string/app_sort_type_install_time"
+    	style="@style/AppSortRadioBox"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"/>
+    	
+</RadioGroup>

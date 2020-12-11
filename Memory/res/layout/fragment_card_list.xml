@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+	android:background="@drawable/default_content_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView
+        android:id="@+id/slide_card_title"
+        style="@style/SliderDay"
+		android:background="@color/light_black"
+		android:text="@string/slider_card_list"
+		android:layout_alignParentBottom="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/slider_bottom_height" />
+    
+    <ListView
+        android:id="@android:id/list"
+		style="@style/DefaultListView"
+		android:divider="@color/transparent"
+	    android:dividerHeight="0dp"
+	    android:listSelector="@color/transparent"
+	    android:layout_above="@id/slide_card_title"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+    
+    <TextView
+        android:id="@android:id/empty"
+		style="@style/DefaultEmptyText"
+		android:text="@string/default_nodata_prompt"
+	    android:layout_above="@id/slide_card_title"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+        
+</RelativeLayout>

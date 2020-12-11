@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="@dimen/search_result_hpadding"
+    android:paddingRight="@dimen/search_result_hpadding"
+    android:layout_width="fill_parent" 
+    android:layout_height="@dimen/search_result_item_height">
+
+    <ImageView
+        android:id="@+id/search_icon_1"
+        android:src="@drawable/ic_search_memory"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/default_iv_description"
+        android:visibility="invisible"        
+        android:padding="@dimen/search_result_hpadding"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+	    android:layout_width="@dimen/search_result_icon_width" 
+	    android:layout_height="@dimen/search_result_icon_height" />
+    
+    <ImageView
+        android:id="@+id/search_icon_2"
+        android:src="@drawable/ic_search_memory"
+        android:scaleType="centerInside"
+		android:visibility="gone"
+        android:contentDescription="@string/default_iv_description"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+	    android:layout_width="@dimen/search_result_subicon_width" 
+	    android:layout_height="@dimen/search_result_subicon_height" />
+	
+	<TextView
+		android:id="@+id/search_text_2"
+		style="@style/SearchResultText.Subtitle"
+        android:paddingBottom="@dimen/search_result_hpadding"
+        android:gravity="top"
+        android:layout_toRightOf="@id/search_icon_1"
+        android:layout_toLeftOf="@id/search_icon_2"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentBottom="true"
+ 		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"/>
+	
+    
+	<TextView
+		android:id="@+id/search_text_1"
+		style="@style/SearchResultText.Title"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/search_icon_1"
+        android:layout_toLeftOf="@id/search_icon_2"
+        android:layout_above="@id/search_text_2"
+        android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"/>
+            
+</RelativeLayout>    

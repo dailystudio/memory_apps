@@ -1,0 +1,109 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="AppListLabel" parent="DefaultListItemText">
+		<item name="android:singleLine">false</item>
+		<item name="android:lines">2</item>
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+	
+	<style name="AppFlagText" parent="DefaultText">
+	    <item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/app_flag_text_size</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:drawablePadding">@dimen/app_flags_drawable_padding</item>
+		<item name="android:paddingTop">@dimen/app_flag_text_padding</item>
+		<item name="android:paddingBottom">@dimen/app_flag_text_padding</item>
+	</style>
+    
+    <style name="AppFlagCheckBox" parent="DefaultCheck.Light">
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingTop">@dimen/app_filter_check_padding</item>
+		<item name="android:paddingBottom">@dimen/app_filter_check_padding</item>
+	</style>
+	
+    <style name="AppFlagCheckBox.User">
+		<item name="android:button">@drawable/check_app_user_flag</item>
+	</style>
+	
+    <style name="AppFlagCheckBox.SdCard">
+		<item name="android:button">@drawable/check_app_sd_flag</item>
+	</style>
+    	
+    <style name="AppFlagCheckBox.System">
+		<item name="android:button">@drawable/check_app_sys_flag</item>
+	</style>
+	
+	<style name="AppInfoLabel" parent="DefaultLabel">
+		<item name="android:textColor">@color/royal_blue</item>
+	</style>
+
+	<style name="AppInfoText" parent="DefaultText">
+		<item name="android:gravity">right|center_vertical</item>
+		<item name="android:paddingLeft">@dimen/app_info_text_padding</item>
+		<item name="android:paddingRight">@dimen/app_info_text_padding</item>
+	</style>
+
+	<style name="AppInfoPackageText" parent="AppInfoText">
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+	
+	<style name="AppInfoPathText" parent="AppInfoText">
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+	
+	<style name="AppSortRadioBox" parent="DefaultText">
+		<item name="android:textStyle">bold</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:paddingTop">@dimen/app_sort_radio_padding</item>
+		<item name="android:paddingBottom">@dimen/app_sort_radio_padding</item>
+	</style>
+	
+	<style name="AppUsageInfoLabel" parent="AppInfoLabel">
+	</style>
+
+	<style name="AppUsageInfoText" parent="AppInfoText">
+		<item name="android:gravity">right|center_vertical</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="UninstalledAppItemText" parent="DefaultListItemText">
+		<item name="android:textColor">@color/gray</item>
+	</style>
+	
+	<style name="AppUsageInfoListTitle">
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:textColor">@color/light_white</item>
+		<item name="android:textSize">@dimen/default_font_size</item>
+	</style>
+	
+	<style name="AppUsageInfoSlidingDrawer">
+	</style>
+	
+	<style name="FavoriteAppLabel" parent="DefaultGridItemText">
+		<item name="android:textSize">@dimen/favorite_app_font_size</item>
+	</style>
+	
+	<style name="FavoriteAppEmptyText" parent="DefaultEmptyText">
+		<item name="android:padding">@dimen/favorite_apps_empty_padding</item>
+	</style>
+	
+	<style name="FavoriteAppTitle" parent="DefaultEmptyText">
+		<item name="android:textColor">@color/light_black</item>
+		<item name="android:padding">@dimen/favorite_apps_title_padding</item>
+	</style>
+	
+	<style name="AppWidgetFavoriteAppLabel" parent="FavoriteAppLabel">
+		<item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowColor">#B0000000</item>
+	</style>
+				
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心情曲线</string>
+    
+    <string name="plugin_label_mood">碎片插件-心情曲线</string>
+    <string name="task_label_ask_mood">阶段心情</string>
+    <string name="task_label_aw_data_update_checker">心情更新检查</string>
+    
+    <string name="activity_wiym">秀心情</string>
+    <string name="activity_mood_by_day_chart">每日心情曲线</string>
+	<string name="activity_mood_by_day_list">每日心情列表</string>
+    <string name="activity_mood_by_week_chart">本周心情曲线</string>
+    <string name="activity_weekdays_list">本周里的一天</string>
+    <string name="activity_weeks_list">选择一周</string>
+    		
+	<string name="category_mood_label">心情曲线</string>
+	
+    <string name="widget_mood_chart">今日心情</string>
+    
+    <string name="mood_01_label">大笑</string>
+	<string name="mood_02_label">汗</string>
+	<string name="mood_03_label">哭</string>
+	<string name="mood_04_label">害羞</string>
+	<string name="mood_05_label">怒</string>
+	<string name="mood_06_label">Hold</string>
+	<string name="mood_07_label">纠结</string>
+	<string name="mood_08_label">期盼</string>
+	<string name="mood_09_label">委屈</string>
+	<string name="mood_10_label">好吃</string>
+	<string name="mood_11_label">诱人</string>
+	<string name="mood_12_label">困</string>
+		
+    <string name="mood_01_digest">笑了^0^</string>
+	<string name="mood_02_digest">汗！</string>
+	<string name="mood_03_digest">哭了！</string>
+	<string name="mood_04_digest">不好意思了……</string>
+	<string name="mood_05_digest">怒了╭(╯^╰)╮</string>
+	<string name="mood_06_digest">Hold住！</string>
+	<string name="mood_07_digest">纠结啊~</string>
+	<string name="mood_08_digest">期盼的事儿就要来了。</string>
+	<string name="mood_09_digest">受委屈了@_@</string>
+	<string name="mood_10_digest">看见好吃的了？</string>
+	<string name="mood_11_digest">看见美女了？</string>
+	<string name="mood_12_digest">这叫一个困哪=_=</string>
+			
+	<string name="alert_dialog_add_mood_title">有啥补充吗？</string>
+	
+	<string name="menu_add_mood">秀心情</string>
+	<string name="menu_list_mood">心情列表</string>
+	<string name="menu_list_weekdays">各天心情</string>
+	<string name="menu_list_weeks">各周心情</string>
+	<string name="menu_share">分享</string>
+	<string name="menu_mood_by_week">本周心情</string>
+						
+	<string name="chart_label_hours">小时</string>
+	<string name="chart_label_levels">心情好坏</string>
+	<string name="chart_label_weekdays">天</string>
+	
+	<string name="share_moods_title">分享到…</string>
+	<string name="share_subject_day_moods">一天心情</string>
+	<string name="share_subject_week_moods">一周心情</string>
+	<string name="share_content_name">心情曲线</string>
+		
+	<string name="ask_mood_hint_01">感觉好点儿了吗？</string>
+	<string name="ask_mood_hint_02">心情不错吧？</string>
+	<string name="ask_mood_hint_03">哥们，想什么呢？</string>
+	<string name="ask_mood_hint_04">早啊，睡的好吗？</string>
+	<string name="ask_mood_hint_05">吃了吗？</string>
+	<string name="ask_mood_hint_06">该睡觉了，一天累吗？</string>
+	
+	<string name="series_title_mood">心情曲线</string>
+	<string name="series_title_avg_mood">以往平均的心情</string>
+
+	<string name="app_widget_mood_chart">今日心情</string>
+				
+</resources>

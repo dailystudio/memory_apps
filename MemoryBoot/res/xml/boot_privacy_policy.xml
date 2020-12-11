@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<privacy>
+	<collection>
+	 Plugin will log whole lifetime of each device boot, includes boot time, boot-up duration and shutdown time.
+	</collection>
+</privacy>

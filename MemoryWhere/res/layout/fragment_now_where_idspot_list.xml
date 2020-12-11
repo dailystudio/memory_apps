@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+	android:padding="@dimen/nw_idspots_frame_padding"
+	android:background="@drawable/actbar_dropdown_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+    <ListView
+        android:id="@android:id/list"
+		style="@style/DefaultListView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+    
+    <TextView
+        android:id="@android:id/empty"
+		style="@style/DefaultEmptyText"
+		android:text="@string/no_idspot_loading_data"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+        
+</RelativeLayout>

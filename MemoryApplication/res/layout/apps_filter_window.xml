@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+    <CheckBox 
+    	android:id="@+id/check_user_apps"
+    	android:text="@string/flag_user"
+    	style="@style/AppFlagCheckBox.User"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+
+	<CheckBox 
+    	android:id="@+id/check_sd_apps"
+    	android:text="@string/flag_sd"
+    	style="@style/AppFlagCheckBox.SdCard"
+    	android:layout_marginLeft="28dp"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+	
+	<CheckBox 
+    	android:id="@+id/check_sys_apps"
+    	android:text="@string/flag_sys"
+    	style="@style/AppFlagCheckBox.System"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+	
+</LinearLayout>

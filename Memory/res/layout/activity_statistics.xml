@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layoutAnimation="@anim/stats_layout_anim"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+	<fragment 
+	    android:name="com.dailystudio.memory.fragment.StatisticsLifeTimeFragment"
+        android:id="@+id/stats_lifetime_fragment"
+ 		android:layout_width="fill_parent"
+		android:layout_height="@dimen/stats_item_height" />
+
+	<View 
+	    android:background="@drawable/list_divider"
+ 		android:layout_width="fill_parent"
+		android:layout_height="2px" />
+	
+	<fragment 
+	    android:name="com.dailystudio.memory.fragment.StatisticsPiecesFragment"
+        android:id="@+id/stats_pieces_fragment"
+ 		android:layout_width="fill_parent"
+		android:layout_height="@dimen/stats_item_height" />
+
+	<View 
+	    android:background="@drawable/list_divider"
+ 		android:layout_width="fill_parent"
+		android:layout_height="2px" />
+		    
+</LinearLayout>

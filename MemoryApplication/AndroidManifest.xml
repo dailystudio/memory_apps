@@ -1,0 +1,358 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dailystudio.memory.application"
+    android:versionCode="13061423"
+    android:versionName="1.0.6.13061423">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+    
+	<uses-permission android:name="memory.permission.READ_MEMORY_DATABASE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+ 		
+    <application
+        android:name=".MemoryAppApplication"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_app"
+        android:theme="@style/AppTheme">
+        
+		<activity
+            android:name=".AppCoreAppCheckActivity"
+            android:icon="@drawable/ic_app"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+ 		
+ 		</activity>
+        
+		<receiver
+            android:icon="@drawable/ic_app"
+			android:name=".PluginApp"
+			android:enabled="true">
+
+            <intent-filter>
+                <action android:name="dailylife.intent.ACTION_REGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_UNREGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_CREATE_TASK" />
+                <action android:name="dailylife.intent.ACTION_DESTROY_TASK" />
+                <action android:name="dailylife.intent.ACTION_EXECUTE_TASK" />
+                <category android:name="dailylife.intent.category.MAIN" />
+            </intent-filter>
+
+			<meta-data 
+				android:name="memory.plugin.meta"
+				android:resource="@xml/plugin_app" />
+            
+		</receiver>
+		
+        <activity
+            android:name=".activity.AppsListActivity"
+            android:icon="@drawable/ic_app_list"
+            android:label="@string/activity_apps_list"
+			android:launchMode="singleTask"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+  			<intent-filter>
+				<action android:name="memory.intent.ACTION_MAINPAGE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+
+       	</activity>
+       	
+        <activity
+            android:name=".activity.FavoriteAppsActivity"
+            android:icon="@drawable/ic_app_favorite"
+            android:label="@string/activity_favorite_apps"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Transparent"
+            android:windowAnimationStyle="@null">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+<!-- 
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+ -->
+       	</activity>
+       	
+		<activity 
+		    android:name=".activity.CreateFavoriteAppsShortcutActivity" 
+		    android:icon="@drawable/ic_app_favorite"
+            android:label="@string/activity_favorite_apps"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".activity.ActivityUsagesListActivity"
+            android:icon="@drawable/ic_memory_list"
+            android:label="@string/activity_act_usage_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!-- 
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+ -->
+       	</activity>
+     
+        <activity
+            android:name=".activity.AppUsageInfoActivity"
+            android:icon="@drawable/ic_memory_chart"
+            android:label="@string/activity_app_usage_info"
+            android:theme="@style/Theme.DefaultActivity.Light">
+       	</activity>
+        
+<!-- 
+        <activity
+            android:name=".activity.ApplicationUsagesListActivity"
+            android:icon="@drawable/ic_app_statistics"
+            android:label="@string/activity_app_usage_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+
+       	</activity>
+ -->
+       	
+        <activity
+            android:name=".activity.UsageActivitiesListActivity"
+            android:icon="@drawable/ic_app_statistics"
+            android:label="@string/activity_app_usage_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+
+       	</activity>
+        
+        <activity
+            android:name=".activity.WeeklyApplicationUsagesListActivity"
+            android:icon="@drawable/ic_calendar_week"
+            android:label="@string/activity_weekly_app_usage_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!-- 
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+ -->
+       	</activity>
+       	
+		<activity
+            android:name=".activity.DailyApplicationUsagesListActivity"
+            android:icon="@drawable/ic_calendar_day"
+            android:label="@string/activity_daily_app_usage_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!-- 
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+ -->
+       	</activity>
+       	
+		<activity
+            android:name=".activity.MonthlyApplicationUsagesListActivity"
+            android:icon="@drawable/ic_calendar_month"
+            android:label="@string/activity_monthly_app_usage_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!-- 
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+ -->
+       	</activity>
+       	
+        <activity
+            android:name="com.dailystudio.memory.application.activity.WeeksListActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_weeks_list"
+            android:theme="@style/Theme.DefaultActivity.Light"/>
+        
+        <activity
+            android:name="com.dailystudio.memory.application.activity.MonthsListActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_months_list"
+            android:theme="@style/Theme.DefaultActivity.Light"/>
+        				
+		<activity
+            android:name=".activity.AppInstHistoryListActivity"
+            android:icon="@drawable/ic_app_inst_history"
+            android:label="@string/activity_appinst_history"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+
+       	</activity>
+		
+        <activity
+            android:name=".activity.UselessAppListActivity"
+            android:icon="@drawable/ic_app_useless"
+            android:label="@string/activity_useless_app"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+
+       	</activity>
+		
+		<activity
+            android:name=".activity.FavoriteAppsPagerActivity"
+            android:icon="@drawable/ic_app_favorite"
+            android:label="@string/activity_favorite_apps_pager"
+			android:launchMode="singleTask"
+            android:theme="@style/Theme.DefaultActivity.Light">
+
+  			<intent-filter>
+				<action android:name="memory.intent.ACTION_MAINPAGE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		    
+  			<intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_app" />
+       	</activity>
+         
+		<receiver
+            android:icon="@drawable/ic_app"
+			android:name=".MemoryAppPieceQueryReceiver"
+			android:permission="memory.permission.QUERY_MEMORY_PIECE"
+			android:enabled="true">
+			
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+            
+		</receiver>
+		
+		<service
+            android:name="com.dailystudio.memory.application.MemoryAppPieceQueryService"
+		    android:permission="memory.permission.REQUEST_MEMORY_SERVICE">
+        
+		    <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+
+		</service>
+				
+        <provider
+			android:name=".MemoryAppDatabaseConnectivityProvider"
+            android:authorities="com.dailystudio.memory.application"
+			android:writePermission="memory.permission.WRITE_MEMORY_DATABASE"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+		
+		<provider
+            android:name=".MemoryAppSearchableContentProvider"
+            android:authorities="com.dailystudio.memory.app.searchable"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+        		
+		<service
+            android:name=".AppTasksKeepAliveSerive"
+            android:authorities="com.dailystudio.memory.application" />
+		
+		<receiver android:name="com.dailystudio.memory.application.appwidget.FavoriteAppsWidgetProvider"
+		    android:icon="@drawable/ic_app_favorite"
+            android:label="@string/widget_favorite_apps" >
+            
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/favorite_apps_widget_info" />
+        </receiver>
+		
+		<receiver android:name="com.dailystudio.memory.application.appwidget.HourlyFavoriteAppsWidgetProvider"
+		    android:icon="@drawable/ic_app_favorite"
+            android:label="@string/widget_hourly_favorite_apps" >
+            
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/hourly_favorite_apps_widget_info" />
+        </receiver>
+		
+		<service
+            android:name="com.dailystudio.memory.application.appwidget.FavoriteAppsWidgetDataService"
+            android:authorities="com.dailystudio.memory.application.appwidgetservice" />
+				
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <include 
+        layout="@layout/activity_geo_point_map"
+        android:id="@+id/geo_point_map" />
+   	
+   	<LinearLayout         
+	    android:id="@+id/hotpot_extras"
+	    android:orientation="vertical"
+	    android:paddingLeft="@dimen/map_frame_padding"
+	    android:paddingRight="@dimen/map_frame_padding"
+	    android:paddingBottom="@dimen/map_frame_padding"
+	    android:layout_below="@id/geo_point_map"
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:text="@string/label_hour_distrib"
+            style="@style/DefaultLabel"
+	    	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content" />
+        <com.dailystudio.memory.where.ui.HourDistribView
+            style="@style/HotspotHourDistrib"
+            android:id="@+id/hotspot_hour_distrib"
+            android:padding="@dimen/hour_distrib_padding"
+	    	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content" />
+	</LinearLayout>
+    
+        
+</RelativeLayout>

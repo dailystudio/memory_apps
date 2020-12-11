@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file(RELEASE_STORE_FILE)
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+
+        debug {
+            storeFile file(DEBUG_STORE_FILE)
+            storePassword DEBUG_STORE_PASSWORD
+            keyAlias DEBUG_KEY_ALIAS
+            keyPassword DEBUG_KEY_PASSWORD
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            proguardFile 'proguard-project.txt'
+
+            signingConfig signingConfigs.release
+
+            manifestPlaceholders = [
+                    google_map_key: "@string/map_v2_release_key",
+                    baidu_map_key: "@string/baidu_map_release_key",
+            ]
+        }
+
+        debug {
+            debuggable true
+            signingConfig signingConfigs.debug
+            versionNameSuffix " (DEBUG)"
+
+            manifestPlaceholders = [
+                    google_map_key: "@string/map_v2_debug_key",
+                    baidu_map_key: "@string/baidu_map_debug_key",
+            ]
+        }
+    }
+
+    defaultConfig {
+        versionName appVersion
+        versionCode Integer.parseInt(appVersionCode)
+        minSdkVersion Integer.parseInt(androidMinSdkVersion)
+        targetSdkVersion Integer.parseInt(androidTargetSdkVersion)
+    }
+
+    lintOptions {
+        checkAllWarnings true
+        warningsAsErrors false
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+    compileSdkVersion Integer.parseInt(androidCompileSdkVersion)
+    buildToolsVersion androidBuildToolsVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:${project.ext.gradleAndroidPluginVersion}"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile "com.google.android.gms:play-services:${project.ext.googlePlayServiceVersion}"
+    compile "com.aranea-apps.android.libs:android-rest-additions:${project.ext.androidRestClientVersion}"
+    compile "com.fasterxml.jackson.core:jackson-databind:${project.ext.jacksonVersion}"
+    compile "com.fasterxml.jackson.core:jackson-annotations:${project.ext.jacksonVersion}"
+    compile "com.fasterxml.jackson.core:jackson-core:${project.ext.jacksonVersion}"
+
+    debugCompile project(path: ':MemoryBoot', configuration: 'debug')
+    releaseCompile project(path: ':MemoryBoot', configuration: 'release')
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = gradleWrapperVersion
+}

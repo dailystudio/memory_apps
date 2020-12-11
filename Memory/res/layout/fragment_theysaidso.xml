@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/subject"
+        android:text="@string/dashboard_quote"
+        style="@style/DashboardTitle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+    
+	<LinearLayout
+        android:id="@+id/controls"
+        android:orientation="horizontal"
+		android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/subject"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    
+	    <ImageView 
+	        android:id="@+id/dashboard_refresh"
+	        android:src="@drawable/ic_actbar_refresh_dark"
+	        android:contentDescription="@string/default_iv_description"
+	        android:background="@drawable/actbar_button"
+	        android:padding="@dimen/dashboard_ctrl_icon_padding"
+	        android:layout_gravity="center_vertical"
+		    android:layout_width="@dimen/dashboard_ctrl_icon_size"
+		    android:layout_height="@dimen/dashboard_ctrl_icon_size"/>
+	    
+	    <ImageView 
+	        android:id="@+id/dashboard_settings"
+	        android:src="@drawable/ic_actbar_settings_dark"
+	        android:visibility="gone"
+	        android:contentDescription="@string/default_iv_description"
+	        android:background="@drawable/actbar_button"
+	        android:padding="@dimen/dashboard_ctrl_icon_padding"
+	        android:layout_gravity="center_vertical"
+		    android:layout_width="@dimen/dashboard_ctrl_icon_size"
+		    android:layout_height="@dimen/dashboard_ctrl_icon_size"/>
+	    	    
+	</LinearLayout>
+	    
+    <RelativeLayout
+        android:layout_below="@id/subject"
+		android:background="@color/translucent_background"
+		android:paddingLeft="@dimen/quote_item_hpadding"
+		android:paddingRight="@dimen/quote_item_hpadding"
+		android:paddingTop="@dimen/quote_item_vpadding"
+		android:paddingBottom="@dimen/quote_item_vpadding"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/quote_content_height">
+		
+		<TextView
+	        android:id="@+id/quote_loading"
+	        style="@style/QuoteLoading"
+	        android:text="@string/quote_loading"
+	        android:visibility="visible"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"/>
+	    
+	    <TextView
+	        android:id="@+id/author"
+	        style="@style/QuoteAuthor"
+	        android:layout_alignParentBottom="true"
+			android:paddingTop="@dimen/quote_item_vpadding"
+			android:paddingBottom="@dimen/quote_item_vpadding"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"/>
+
+	    <TextView
+	        android:id="@+id/quote"
+	        style="@style/QuoteContent"
+	        android:layout_alignParentTop="true"
+	        android:layout_above="@id/author"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"/>
+	    
+	</RelativeLayout>    
+	
+</RelativeLayout>

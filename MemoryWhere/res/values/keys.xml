@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="map_key">@string/map_debug_key</string>
+    
+    <string name="map_debug_key"></string>
+	<string name="map_release_key"></string>
+    
+    <string name="map_v2_debug_key"></string>
+	<string name="map_v2_release_key"></string>
+
+    <string name="baidu_map_debug_key"></string>
+    <string name="baidu_map_release_key"></string>
+
+</resources>

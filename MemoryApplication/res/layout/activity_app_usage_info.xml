@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<fragment 
+        android:name="com.dailystudio.memory.application.fragment.ApplicationUsageChartFragment"
+    	android:id="@+id/fragment_app_usage_chart"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content" />
+	
+	<com.dailystudio.memory.ui.SlidingDrawer
+    	android:id="@+id/sliding_drawer"
+	    app:handle="@+id/handle"
+     	app:content="@+id/content"
+     	app:topOffset="@dimen/app_usage_list_handle_top_offset"
+     	app:bottomOffset="@dimen/app_usage_list_handle_bottom_offset"
+     	android:layout_alignParentBottom="true"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="fill_parent">
+  		
+	    <RelativeLayout 
+	        android:id="@id/handle"
+			android:background="@color/action_bar_bg_color"
+			android:padding="@dimen/app_usage_list_handle_padding"
+		    android:layout_width="fill_parent"
+		    android:layout_height="@dimen/app_usage_list_handle_height">
+		    
+	    	<ImageView 
+	    	    android:id="@+id/handle_iv"
+		        android:src="@drawable/ic_actbar_app_usage_history"
+		        android:contentDescription="@string/default_iv_description"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"/>
+		    <TextView
+	    	    android:id="@+id/handle_text"
+		        style="@style/AppUsageInfoListTitle"
+		        android:text="@string/app_usage_label_app_usage_history"
+		        android:layout_toRightOf="@id/handle_iv"
+		        android:layout_alignParentRight="true"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"/>
+		    
+    	</RelativeLayout>
+		
+		<fragment 
+	        android:name="com.dailystudio.memory.application.fragment.ActivityUsagesListFragment"
+	    	android:id="@id/content"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+		
+	</com.dailystudio.memory.ui.SlidingDrawer>
+	
+</RelativeLayout>

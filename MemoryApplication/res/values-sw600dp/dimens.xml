@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<dimen name="app_usage_list_handle_bottom_offset">-400dp</dimen>
+	
+	<dimen name="app_widget_res_icon_size">65dp</dimen>
+		
+    <dimen name="app_widget_favorite_apps_min_width">546dp</dimen>
+    <dimen name="app_widget_favorite_apps_min_height">110dp</dimen>
+	<dimen name="app_widget_favorite_app_width">76dp</dimen>
+    <dimen name="app_widget_favorite_app_height">100dp</dimen>
+    <dimen name="app_widget_favorite_app_gap_width">18dp</dimen>
+    <dimen name="app_widget_favorite_app_gap_height">10dp</dimen>
+														
+</resources>

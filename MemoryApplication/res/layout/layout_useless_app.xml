@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="@dimen/default_app_item_padding"     
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+	<ImageView 
+    	android:id="@+id/res_icon"
+    	android:src="@drawable/ic_app"
+    	android:scaleType="centerInside"
+    	android:contentDescription="@string/default_iv_description"
+		android:layout_centerVertical="true"
+    	android:layout_width="@dimen/default_res_icon_size" 
+  		android:layout_height="@dimen/default_res_icon_size" />
+	
+	<RelativeLayout
+	    android:orientation="vertical"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/res_icon"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent">
+	    
+		<LinearLayout
+			android:id="@+id/useless_app_icons"
+		    android:orientation="horizontal"
+		    android:layout_alignParentRight="true"
+		    android:layout_width="@dimen/useless_app_icons_width" 
+		    android:layout_height="fill_parent">
+	
+			<ImageView 
+		    	android:id="@+id/useless_app_not_used_icon"
+		    	android:src="@drawable/ic_app_used"
+		    	android:scaleType="centerInside"
+		    	android:contentDescription="@string/default_iv_description"
+		    	android:layout_weight="1"
+		    	android:layout_gravity="center"
+		    	android:layout_width="0dp" 
+		  		android:layout_height="@dimen/useless_app_icon_size" />
+		    
+			<ImageView 
+		    	android:id="@+id/useless_app_not_updated_icon"
+		    	android:src="@drawable/ic_app_updated"
+		    	android:scaleType="centerInside"
+		    	android:contentDescription="@string/default_iv_description"
+		    	android:layout_weight="1"
+		    	android:layout_gravity="center"
+		    	android:layout_width="0dp" 
+		  		android:layout_height="@dimen/useless_app_icon_size" />
+	 		
+		</LinearLayout>
+		 		
+		<TextView 
+	    	android:id="@+id/res_label"
+	 		style="@style/DefaultListItemText" 
+	 		android:text="@string/default_app_label"
+	    	android:gravity="left|center_vertical"
+			android:layout_toLeftOf="@id/useless_app_icons"
+			android:layout_alignWithParentIfMissing="true"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="fill_parent"/>
+		
+	</RelativeLayout>
+
+</RelativeLayout>

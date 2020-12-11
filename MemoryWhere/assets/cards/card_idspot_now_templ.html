@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+
+        <title>@element/idspot_name</title>
+
+		<style type="text/css">
+		html, body {
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+			
+		
+			-webkit-transform: translate3d(0, 0, 0);
+		}
+		
+		.card {
+    		position: absolute;
+    		width: 100%;
+    		height: 100%;
+		}
+		
+		img {
+			width: 300px;
+			height: 150px;
+		}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="card" onclick="onCardClick()">
+			<img src='data:image/png;base64, @element/idspot_map'>	
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+		function onCardClick() {
+			var intent = {
+				"comp" : "com.dailystudio.memory.where/.activity.NowWherePlusActivity",
+			};
+			
+			console.log("intent: {" + JSON.stringify(intent) + "}");
+			
+			jsintent.launchActivity(JSON.stringify(intent));
+		}
+	</script>
+	
+</html>

@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="AppFlagText" parent="DefaultText">
+	    <item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/app_flag_text_size</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:drawablePadding">@dimen/app_flags_drawable_padding</item>
+		<item name="android:paddingTop">@dimen/app_flag_text_padding</item>
+		<item name="android:paddingBottom">@dimen/app_flag_text_padding</item>
+	</style>
+    
+    <style name="AppFlagCheckBox" parent="DefaultCheck.Light">
+		<item name="android:paddingTop">@dimen/app_filter_check_padding</item>
+		<item name="android:paddingBottom">@dimen/app_filter_check_padding</item>
+	</style>
+
+	<style name="AppSortRadioBox" parent="DefaultText">
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:paddingTop">@dimen/app_sort_radio_padding</item>
+		<item name="android:paddingBottom">@dimen/app_sort_radio_padding</item>
+	</style>
+		
+</resources>

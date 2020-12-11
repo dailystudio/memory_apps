@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <FrameLayout
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent">
+	    <FrameLayout
+			android:id="@+id/chartStub"
+		    android:background="@color/white"
+			android:layoutAnimation="@anim/char_layout_anim"
+			android:padding="@dimen/idspot_day_stat_chart_padding"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"/>
+	    
+			<TextView
+				android:id="@+id/chart_center"
+			    android:background="@drawable/chart_center_bg"
+			    android:layout_gravity="center"
+			    android:layout_marginBottom="@dimen/idspot_pie_chart_center_bottom_margin"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"/>
+	</FrameLayout>
+		        
+    <TextView
+        android:id="@android:id/empty"
+		style="@style/DefaultEmptyText"
+		android:text="@string/default_nodata_prompt"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+    
+</RelativeLayout> 

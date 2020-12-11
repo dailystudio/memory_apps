@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <declare-styleable name="HourDistribView">
+        <attr name="textStyle" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+		<attr name="distribBarHeight" format="dimension" />
+		<attr name="distribBarColor" format="reference|color" />
+	</declare-styleable>
+
+</resources>

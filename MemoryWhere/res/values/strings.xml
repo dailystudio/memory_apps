@@ -1,0 +1,99 @@
+<resources>
+
+    <string name="app_name">MemoryWhere</string>
+
+	<string name="activity_geo_point_map">GeoPoint Map</string>
+    <string name="activity_location_list">Location List</string>
+	<string name="activity_hotspot_list">Hotspot List (Recent 1 month)</string>
+	<string name="activity_distance_calculator">Distance Calculator</string>
+	<string name="activity_hotspot_map">Hotspot Map</string>
+    <string name="activity_idspot_list">Identified Hotspot List</string>
+    <string name="activity_idspot_map">Identified Hotspot Map</string>
+    <string name="activity_idspot_history_list">History List</string>
+    <string name="activity_idspot_day_stat">Day Statistics</string>
+    <string name="activity_idspot_week_stat">Week Statistics</string>
+    <string name="activity_weeks_list">Weeks</string>
+    <string name="activity_now_where">Now where</string>
+    
+	<string name="plugin_label_where">Where are you?</string>
+    <string name="task_label_location">Location Track Task</string>
+    <string name="task_label_identify_hotspot">Identify Hotspot Task</string>
+	<string name="task_label_identify_residence">Identify Residence Task</string>
+	<string name="task_label_check_work_and_spare_time">Check Worl and Spare time Task</string>
+	<string name="task_label_update_hotspot_map">Update Static map for hotspots</string>
+		
+	<string name="category_where_label">Where</string>
+		
+	<string name="menu_idspot_history">History</string>
+	<string name="menu_list_weeks">Weeks</string>
+		
+    <string name="label_from">Location From</string>
+    <string name="label_to">Location To</string>
+    <string name="label_latitude">Latitude</string>
+    <string name="label_longitude">Longitude</string>
+    <string name="label_address">Addresss</string>
+    <string name="label_hour_distrib">Hour Distribution</string>
+    <string name="label_similarity">Similarity</string>
+    <string name="label_time_start">From:</string>
+    <string name="label_time_end">To:</string>
+    	
+	<string name="hint_latitude">e.g. 39.981632</string>
+	<string name="hint_longitude">e.g. 116.320563</string>
+    
+    <string name="button_calculate">Calculate</string>
+ 
+	<string name="default_geo_value">0.0</string>
+	<string name="geo_address_resolve">Resolving</string>
+	<string name="geo_address_separator">\n</string>
+	
+	<plurals name="hotspot_occur">
+        <item quantity="one">time</item>
+        <item quantity="other">times</item>
+	</plurals>
+    
+    <string name="hotspot_home">Home</string>
+    <string name="hotspot_workplace">Workplace</string>
+    <string name="hotspot_casual_place">Casual Place</string>
+    <string name="hotspot_unknow">Others</string>
+    	
+	<string name="welcome_idspot_ask_templ">Welcome back to %s</string>			
+    	
+	<string name="idspot_stat_title">Statistics</string>			
+	<string name="idspot_stat_label_day">Day</string>			
+	<string name="idspot_stat_label_week">Week</string>			
+	<string name="idspot_stat_label_month">Month</string>			
+	<string name="idspot_stat_label_day_templ">dd MMM.</string>			
+	<string name="idspot_stat_label_week_templ">Week %d</string>			
+	<string name="idspot_stat_label_month_templ">MMM.</string>	
+	<string name="idspot_stat_pie_chart_title">Total</string>			
+	<string name="idspot_stat_line_chart_title">Weekdays</string>			
+	<string name="idspot_stat_every_avg_tmpl">Avg. stay at: %s</string>			
+					
+	<string name="chart_label_idspot">Identified Hotspot</string>
+	<string name="chart_label_weekdays">Weekday</string>
+	<string name="chart_label_hours">Hour</string>
+	
+	<string name="prompt_go_idspot">Going to your %s &#8230;</string>
+	<string name="prompt_update_location">Locate your position&#8230;</string>
+	<string name="prompt_rotate_camera">Adjust your heading&#8230;</string>
+	<string name="marker_now">Now, here!</string>
+	<string name="marker_idspot_templ">Your %s</string>
+		
+	<string name="no_idspot_loading_data">Loading data&#8230;</string>
+			
+	<string name="loading_weather">Loading&#8230;</string>
+	<string name="temperatur_unit_metric">ºC</string>
+	<string name="temperatur_unit_imperial">ºF</string>
+	
+	<string name="dashboard_my_places">Time of places</string>
+	<string name="dashboard_idpost_now">Now at %1$s</string>
+		
+	<string name="search_duration_hour_templ">Stay at [%1$s] for %2$d hour.</string>
+	<string name="search_duration_min_templ">Stay at [%1$s] for %2$d min.</string>
+	
+	<string name="key_note_arrive_office">You &lt;keynote_main>arrived&lt;/keynote_main> the &lt;keynote_main>office&lt;/keynote_main>.</string>	
+	<string name="key_note_lunch_time">&lt;keynote_main>Lunch&lt;/keynote_main> time.</string>	
+	<string name="key_note_back_to_office">&lt;keynote_main>Back&lt;/keynote_main> to the &lt;keynote_main>office&lt;/keynote_main>.</string>	
+	<string name="key_note_return_home">&lt;keynote_main>Leave office&lt;/keynote_main>.</string>	
+								
+</resources>

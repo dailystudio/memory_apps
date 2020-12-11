@@ -1,0 +1,33 @@
+<style type="text/css">
+	h2 {
+		text-align: center;
+	}
+	
+	img {
+		align: center; 
+		width: 48px; 
+		height: 48px; 
+		style:align: middle 
+	}
+	
+	ul {
+		width: 100%;
+	}
+	
+	li {
+		width: 33%; 
+		height: 120px; 
+		list-style-type: none; 
+		float: left;
+	}
+	
+	p { 
+		width: 75%; 
+		height: 36px;
+		text-align: center; 
+		display: block; 
+		overflow: hidden; 
+		text-overflow: ellipsis; 
+	}
+	
+</style>

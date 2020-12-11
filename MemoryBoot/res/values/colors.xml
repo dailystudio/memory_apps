@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="boot_expand_separator_color">@color/light_black</color>
+	<color name="boot_expand_separator_active_color">@color/royal_blue</color>
+   
+</resources>

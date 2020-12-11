@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <com.dailystudio.memory.where.weather.effects.FogEffectOverlay
+        android:id="@+id/fog_overlay"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+    
+    <com.dailystudio.memory.where.weather.effects.RainEffectOverlay
+        android:id="@+id/rain_overlay"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+    
+    <com.dailystudio.memory.where.weather.effects.SnowEffectOverlay
+        android:id="@+id/snow_overlay"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+	
+</FrameLayout>

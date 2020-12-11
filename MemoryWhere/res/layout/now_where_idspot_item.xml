@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	
+	<ImageView 
+    	android:id="@+id/loc_icon"
+    	android:src="@drawable/ic_where"
+    	android:scaleType="centerInside"
+    	android:contentDescription="@string/default_iv_description"
+		android:layout_centerVertical="true"
+    	android:layout_width="@dimen/nw_idspot_icon_size" 
+  		android:layout_height="@dimen/nw_idspot_icon_size" />
+	
+    <LinearLayout
+        android:id="@+id/idspot_info"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@id/loc_icon"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+	    <TextView 
+			style="@style/DefaultListItemText" 
+	   		android:id="@+id/idspot_type"
+	   		android:layout_width="wrap_content" 
+	 		android:layout_height="wrap_content"/>
+    </LinearLayout>
+    
+</RelativeLayout>

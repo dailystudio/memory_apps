@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="admob_publisher_id"></string>
+
+    <string name="memory_game_app_id"></string>
+    
+    <string name="achievement_first_piece"></string>
+    <string name="achievement_search_in_memory"></string>
+    <string name="achievement_poor_memory"></string>
+    
+    <string name="leaderboard_memory_collector"></string>
+    
+</resources>

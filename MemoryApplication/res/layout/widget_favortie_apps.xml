@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+	
+    <LinearLayout 
+		android:id="@+id/fapp_row_0"
+    	android:orientation="horizontal"
+    	android:baselineAligned="false"
+   		android:layout_width="fill_parent"
+	    android:layout_height="@dimen/app_widget_favorite_app_height" >
+	    
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_left_offset"
+		    android:layout_height="match_parent" />
+
+		<FrameLayout
+		    android:id="@+id/fapp_slot_0"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width"
+		    android:layout_height="match_parent" />
+		
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_gap_width"
+		    android:layout_height="match_parent" />
+		
+		<FrameLayout
+		    android:id="@+id/fapp_slot_1"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width" 
+		    android:layout_height="match_parent" />
+		
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_gap_width" 
+		    android:layout_height="match_parent" />
+		
+		<FrameLayout
+		    android:id="@+id/fapp_slot_2"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width" 
+		    android:layout_height="match_parent" />
+		
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_gap_width" 
+		    android:layout_height="match_parent" />
+		
+		<FrameLayout
+		    android:id="@+id/fapp_slot_3"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width"
+		    android:layout_height="match_parent" />
+												
+	</LinearLayout>
+	
+	<TextView
+	    android:layout_width="fill_parent" android:layout_height="@dimen/app_widget_favorite_app_gap_height" />
+    
+    <LinearLayout 
+		android:id="@+id/fapp_row_1"
+    	android:orientation="horizontal"
+    	android:baselineAligned="false"
+   		android:layout_width="fill_parent"
+	    android:layout_height="@dimen/app_widget_favorite_app_height" >
+	    
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_left_offset"
+		    android:layout_height="match_parent" />
+        
+		<FrameLayout
+		    android:id="@+id/fapp_slot_4"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width"
+		    android:layout_height="match_parent" />
+		
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_gap_width"
+		    android:layout_height="match_parent" />
+		
+		<FrameLayout
+		    android:id="@+id/fapp_slot_5"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width" 
+		    android:layout_height="match_parent" />
+		
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_gap_width" 
+		    android:layout_height="match_parent" />
+		
+		<FrameLayout
+		    android:id="@+id/fapp_slot_6"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width" 
+		    android:layout_height="match_parent" />
+		
+		<TextView
+		    android:layout_width="@dimen/app_widget_favorite_app_gap_width" 
+		    android:layout_height="match_parent" />
+		
+		<FrameLayout
+		    android:id="@+id/fapp_slot_7"
+		    style="@style/DefaultAppWidgetButton"
+		    android:layout_width="@dimen/app_widget_favorite_app_width"
+		    android:layout_height="match_parent" />
+												
+	</LinearLayout>
+	
+</LinearLayout>

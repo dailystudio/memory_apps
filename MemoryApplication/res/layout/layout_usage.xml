@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="@dimen/default_app_item_padding"     
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+	<ImageView 
+    	android:id="@+id/res_icon"
+    	android:src="@drawable/ic_app"
+    	android:scaleType="centerInside"
+    	android:contentDescription="@string/default_iv_description"
+		android:layout_centerVertical="true"
+    	android:layout_width="@dimen/default_res_icon_size" 
+  		android:layout_height="@dimen/default_res_icon_size" />
+	
+	<LinearLayout 
+	    android:orientation="vertical"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/res_icon"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent">
+	    
+		<TextView 
+	    	android:id="@+id/res_label"
+	 		style="@style/DefaultListItemText" 
+	 		android:text="@string/default_app_label"
+	    	android:gravity="left|center_vertical"
+			android:layout_weight="1"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="match_parent"/>
+		
+		<TextView 
+	    	android:id="@+id/us_time"
+	 		style="@style/DefaultListItemText" 
+	 		android:text="@string/error_unknow"
+	    	android:gravity="left|center_vertical"
+			android:layout_weight="1"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="match_parent"/>
+		
+		<TextView 
+	    	android:id="@+id/us_duration"
+	 		style="@style/DefaultListItemText" 
+	 		android:text="@string/error_unknow"
+	    	android:gravity="left|center_vertical"
+			android:layout_weight="1"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="match_parent"/>
+ 		
+	</LinearLayout>
+
+</RelativeLayout>

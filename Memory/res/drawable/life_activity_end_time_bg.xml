@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Background -->
+	<item android:drawable="@drawable/card_bg"/>
+    
+    <item>
+	    <shape>
+			<solid android:color="@color/tomato_red" />
+	        <corners android:radius="3dp" />
+	    </shape>
+	</item>
+	
+
+</layer-list>

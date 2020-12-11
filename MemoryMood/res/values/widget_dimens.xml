@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+	<integer name="aw_mood_day_chart_span_x">3</integer>
+	<integer name="aw_mood_day_chart_span_y">2</integer>
+				
+</resources>

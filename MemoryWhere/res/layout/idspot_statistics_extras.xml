@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+	<TextView 
+        android:id="@+id/idspot_statistics_title"
+		android:text="@string/idspot_stat_title"
+		style="@style/DefaultLabel"
+	    android:layout_below="@id/geo_point_map"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" />
+    
+   	<LinearLayout         
+	    android:id="@+id/idpot_statistics"
+	    android:orientation="horizontal"
+	    android:paddingLeft="@dimen/map_frame_padding"
+	    android:paddingRight="@dimen/map_frame_padding"
+	    android:paddingBottom="@dimen/map_frame_padding"
+	    android:layout_below="@id/idspot_statistics_title"
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" >
+        <TextView 
+			android:id="@+id/idspot_stat_today"
+            android:drawableTop="@drawable/ic_idspot_stat_day"
+            android:text="@string/idspot_stat_label_day"
+            style="@style/IdspotStatLabel"
+            android:layout_weight="1"
+	    	android:layout_width="0dp" 
+       		android:layout_height="wrap_content" />
+        <TextView 
+			android:id="@+id/idspot_stat_this_week"
+            android:drawableTop="@drawable/ic_idspot_stat_week"
+            android:text="@string/idspot_stat_label_week"
+            style="@style/IdspotStatLabel"
+            android:layout_weight="1"
+	    	android:layout_width="0dp" 
+       		android:layout_height="wrap_content" />
+        <TextView 
+			android:id="@+id/idspot_stat_this_month"
+            android:drawableTop="@drawable/ic_idspot_stat_month"
+            android:text="@string/idspot_stat_label_month"
+            style="@style/IdspotStatLabel"
+            android:layout_weight="1"
+	    	android:layout_width="0dp" 
+       		android:layout_height="wrap_content" />
+	</LinearLayout>
+        
+</RelativeLayout>

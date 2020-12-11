@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns:android="http://schemas.android.com/apk/res/android"
+	label="@string/plugin_label_where"
+	icon="@drawable/ic_where"
+	showcase="ball-pool.html"
+	privacy="@xml/where_privacy_policy"
+	searchableAuthority="com.dailystudio.memory.where.searchable">
+	
+	<task name=".MemoryLocationTask"
+		label="@string/task_label_location"
+    	executePeroidMillis="60000"/>
+	
+    <task name=".IdentifyHotspotTask"
+        label="@string/task_label_identify_hotspot"
+        executePeroidMillis="10800000"/>
+	
+    <task name=".IdentifyResidenceTask"
+        label="@string/task_label_identify_residence"
+        executePeroidMillis="43200000"/>
+ 	
+    <task name=".WorkAndSpareTimeCheckTask"
+        label="@string/task_label_check_work_and_spare_time"
+        executePeroidMillis="43200000"/>
+ 	
+    <task name=".UpdateIdentifiedHotspotMapsTask"
+        label="@string/task_label_update_hotspot_map"
+        executePeroidMillis="43200000"/>
+    
+</plugin>    	

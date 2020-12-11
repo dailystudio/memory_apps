@@ -1,0 +1,40 @@
+{
+   "version" : 20121101,
+   "apps" : [
+      {
+         "appName" : "promote_app_name_boot",
+         "disabledIconRes" : "ic_boot_disabled",
+         "enabledIconRes" : "ic_boot",
+         "packageName" : "com.dailystudio.memory",
+         "isPublished" : true
+      },
+      {
+         "appName" : "promote_app_name_mood",
+         "disabledIconRes" : "ic_mood_disabled",
+         "enabledIconRes" : "ic_mood",
+         "packageName" : "com.dailystudio.memory.mood",
+         "isPublished" : true
+      },
+      {
+         "appName" : "promote_app_name_application",
+         "disabledIconRes" : "ic_app_disabled",
+         "enabledIconRes" : "ic_app",
+         "packageName" : "com.dailystudio.memory.application",
+         "isPublished" : true
+      },
+      {
+         "appName" : "promote_app_name_where",
+         "disabledIconRes" : "ic_where_disabled",
+         "enabledIconRes" : "ic_where",
+         "packageName" : "com.dailystudio.memory.where",
+         "isPublished" : true
+      }/*,
+      {
+         "appName" : "promote_app_name_network",
+         "disabledIconRes" : "ic_coming_soon",
+         "enabledIconRes" : "ic_coming_soon",
+         "packageName" : "com.dailystudio.memory.network",
+         "isPublished" : false
+      }*/
+   ]   
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+        
+        <title>@element/quote_title</title>
+
+		<style type="text/css">
+		html, body {
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+			
+		
+			-webkit-transform: translate3d(0, 0, 0);
+		}
+
+		.quote-content {
+			font-style: bold;
+			font-size: 16px;
+			color: rgba(0, 0, 0, 0.8);
+		}
+		
+		#quote {
+			position: absolute;
+			margin:auto auto;
+			display: table;
+			padding: 34px 15px 15px;
+
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+		
+		.card {
+    		position: absolute;
+    		width: 100%;
+    		height: 100%;
+		}
+		
+		.theysaidso-ads {
+			position: absolute;
+    		top: 6px;
+    		left: 12px;
+			z-index: 50;
+			font-size: 14px;
+		}
+		
+		.theysaidso-ads img {
+			width: 20px;
+			height: 20px;
+		}
+		
+		.theysaidso-ads a {
+			color: #9fcc25; 
+			vertical-align: top;
+		}
+		
+		</style>
+	</head>
+	
+	<body>
+		<div class="card">
+			<div class="quote-content" id="quote" onclick="onQuoteClick()">
+				<b><i>@element/quote_content</i></b>
+			</div>
+		</div>
+		<span class="theysaidso-ads">
+			<img src='data:image/png;base64, @element/theysaido_logo_bitmap' alt="theysaidso.com"/>
+			<a href="http://theysaidso.com" title="Powered by quotes from theysaidso.com">theysaidso.com</a>
+		</span>
+	</body>
+	
+	<script type="text/javascript">
+		function onQuoteClick() {
+			var qid = "@element/quote_id";
+			console.log("view quote: " + qid);
+			
+			var intent = {
+				"action" : "memory.intent.ACTION_VIEW_QUOTE",
+				"extras" : {
+					"memory.intent.EXTRA_QUOTE_ID" : {
+							"etype" : "string",
+							"eval" : qid
+					}			            
+				}
+			};
+			
+			console.log("intent: {" + JSON.stringify(intent) + "}");
+			
+			jsintent.launchActivity(JSON.stringify(intent));
+		}
+	</script>
+	
+</html>

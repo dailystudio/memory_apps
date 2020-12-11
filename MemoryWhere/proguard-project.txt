@@ -1,0 +1,95 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+# -------- Daily Studio Library --------
+#
+-keep class * extends com.dailystudio.dataobject.DatabaseObject {
+	<init>();
+	<init>(android.content.Context);
+	<init>(android.content.Context, int);
+}
+
+-keep class * extends com.dailystudio.nativelib.observable.NativeObservable {
+	<init>();
+	<init>(android.content.Context);
+}
+
+# -------- Memory Library --------
+#
+-keep class * extends com.dailystudio.memory.task.TaskHost {
+	<init>();
+	<init>(android.content.Context);
+}
+
+-keep class * extends com.dailystudio.memory.task.Task {
+	<init>();
+	<init>(android.content.Context);
+}
+
+# -------- Gson --------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+#
+-keepattributes Signature
+-keep class sun.misc.Unsafe { *; }
+-keep class com.dailystudio.memory.searchable.MemorySearchableQuery { *; }
+-keep class com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter { *; }
+-keep class com.dailystudio.memory.searchable.queryparams.TimeQueryParameter { *; }
+-keep class com.dailystudio.memory.searchable.queryparams.TextQueryParameter { *; }
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# -------- Google Play Service --------
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+-dontwarn com.google.android.gms.**
+
+# -------- JDOM Library --------
+-dontwarn org.jaxen.**
+-dontwarn java.rmi.**
+
+# -------- OkHttp --------
+-keep class com.squareup.okhttp.** { *; }
+-keep interface com.squareup.okhttp.** { *; }
+-dontwarn com.squareup.okhttp.**
+
+# -------- Jackson --------
+-keepattributes *Annotation*,EnclosingMethod,Signature
+-keepnames class com.fasterxml.jackson.** { *; }
+-dontwarn com.fasterxml.jackson.databind.**
+-keep class org.codehaus.** { *; }
+-keepclassmembers public final enum org.codehaus.jackson.annotate.JsonAutoDetect$Visibility {
+	public static final org.codehaus.jackson.annotate.JsonAutoDetect$Visibility *;
+}
+
+# -------- Okio --------
+-dontwarn okio.**
+
+# -------- Baidu Map Apis --------
+-keep class com.baidu.mapapi.** {*; }
+-keep class com.baidu.location.** {*; }
+-keep class com.baidu.platform.** {*; }
+-keep class com.baidu.vi.** {*; }
+-keep class vi.com.gdi.bgl.android.java.** {*; }
+
+# -------- OpenWeather api --------
+-keep class com.dailystudio.memory.where.weather.** { *; }
+
+# -------- Android rest client --------
+-keep class com.dg.libs.rest.** { *; }

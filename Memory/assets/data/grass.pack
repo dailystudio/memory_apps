@@ -1,0 +1,33 @@
+
+data1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grass3
+  rotate: false
+  xy: 2, 2
+  size: 300, 28
+  orig: 300, 28
+  offset: 0, 0
+  index: -1
+grass2
+  rotate: false
+  xy: 2, 32
+  size: 300, 28
+  orig: 300, 28
+  offset: 0, 0
+  index: -1
+grass1
+  rotate: false
+  xy: 304, 2
+  size: 300, 28
+  orig: 300, 28
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 304, 32
+  size: 300, 28
+  orig: 300, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<fragment
+	    android:name="com.dailystudio.memory.fragment.PluginActivityListFragment"
+        android:id="@+id/fragment_list"
+ 		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+	
+	<fragment 
+	    android:name="com.dailystudio.memory.fragment.AdmobFragment"
+		android:id="@+id/fragment_admob"
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+    	
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="@dimen/default_app_item_padding"     
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+	<ImageView 
+    	android:id="@+id/res_icon"
+    	android:src="@drawable/ic_app"
+    	android:scaleType="centerInside"
+    	android:contentDescription="@string/default_iv_description"
+		android:layout_centerVertical="true"
+    	android:layout_width="@dimen/default_res_icon_size" 
+  		android:layout_height="@dimen/default_res_icon_size" />
+  		
+	<RelativeLayout 
+    	android:id="@+id/app_flags"
+	    android:orientation="vertical"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+	    android:layout_width="@dimen/app_flags_width" 
+	    android:layout_height="wrap_content">
+		    
+		<ImageView 
+	    	android:id="@+id/app_flag_2"
+	    	android:src="@drawable/ic_app_flag_unset"
+	    	android:scaleType="centerInside"
+	    	android:contentDescription="@string/default_iv_description"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_width="@dimen/app_flag_icon_size" 
+	  		android:layout_height="@dimen/app_flag_icon_size" />
+		<ImageView 
+	    	android:id="@+id/app_flag_1"
+	    	android:src="@drawable/ic_app_flag_unset"
+	    	android:scaleType="centerInside"
+	    	android:contentDescription="@string/default_iv_description"
+	    	android:layout_toLeftOf="@id/app_flag_2"
+	    	android:layout_width="@dimen/app_flag_icon_size" 
+	  		android:layout_height="@dimen/app_flag_icon_size" />
+	    <ImageView 
+	    	android:id="@+id/app_flag_4"
+	    	android:src="@drawable/ic_app_flag_unset"
+	    	android:scaleType="centerInside"
+	    	android:contentDescription="@string/default_iv_description"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_below="@id/app_flag_2"
+	    	android:layout_width="@dimen/app_flag_icon_size" 
+	  		android:layout_height="@dimen/app_flag_icon_size" />
+		<ImageView 
+	    	android:id="@+id/app_flag_3"
+	    	android:src="@drawable/ic_app_flag_unset"
+	    	android:scaleType="centerInside"
+	    	android:contentDescription="@string/default_iv_description"
+	    	android:layout_toLeftOf="@id/app_flag_4"
+	    	android:layout_below="@id/app_flag_1"
+	    	android:layout_width="@dimen/app_flag_icon_size" 
+	  		android:layout_height="@dimen/app_flag_icon_size" />
+										    
+	</RelativeLayout>
+	
+	<TextView 
+    	android:id="@+id/res_label"
+ 		style="@style/DefaultListItemText" 
+ 		android:text="@string/default_app_label"
+    	android:gravity="left|center_vertical"
+		android:layout_centerVertical="true"
+    	android:layout_toLeftOf="@id/app_flags"
+		android:layout_toRightOf="@id/res_icon"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="match_parent"/>
+		
+	<ImageView 
+    	android:id="@+id/app_uninstall"
+    	android:src="@drawable/ic_app_uninstall"
+    	android:scaleType="centerInside"
+    	android:contentDescription="@string/default_iv_description"
+    	android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/res_label"
+		android:layout_alignParentRight="true"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="fill_parent" />
+  		
+</RelativeLayout>

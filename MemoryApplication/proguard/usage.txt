@@ -1,0 +1,2179 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs
+android.support.v4.app.ActivityCompat
+android.support.v4.app.ActivityCompatHoneycomb:
+    27:27:ActivityCompatHoneycomb()
+    34:35:static void dump(android.app.Activity,java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.BackStackRecord:
+    static final java.lang.String TAG
+    static final int OP_NULL
+    static final int OP_ADD
+    static final int OP_REPLACE
+    static final int OP_REMOVE
+    static final int OP_HIDE
+    static final int OP_SHOW
+    static final int OP_DETACH
+    static final int OP_ATTACH
+    338:338:public int getId()
+    342:342:public int getBreadCrumbTitleRes()
+    346:346:public int getBreadCrumbShortTitleRes()
+    350:353:public java.lang.CharSequence getBreadCrumbTitle()
+    357:360:public java.lang.CharSequence getBreadCrumbShortTitle()
+    384:385:public android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+    421:421:public android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+    425:430:public android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+    443:448:public android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+    452:457:public android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+    479:479:public android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+    484:488:public android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+    492:493:public android.support.v4.app.FragmentTransaction setTransition(int)
+    497:498:public android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+    502:508:public android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+    512:512:public boolean isAddToBackStackAllowed()
+    516:521:public android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+    525:527:public android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+    531:533:public android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+    537:539:public android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+    543:545:public android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+    779:779:public int getTransition()
+    783:783:public int getTransitionStyle()
+    787:787:public boolean isEmpty()
+android.support.v4.app.DialogFragment:
+    public static final int STYLE_NORMAL
+    public static final int STYLE_NO_TITLE
+    public static final int STYLE_NO_FRAME
+    public static final int STYLE_NO_INPUT
+    private static final java.lang.String SAVED_DIALOG_STATE_TAG
+    private static final java.lang.String SAVED_STYLE
+    private static final java.lang.String SAVED_THEME
+    private static final java.lang.String SAVED_CANCELABLE
+    private static final java.lang.String SAVED_SHOWS_DIALOG
+    private static final java.lang.String SAVED_BACK_STACK_ID
+    102:109:public void setStyle(int,int)
+    140:145:public int show(android.support.v4.app.FragmentTransaction,java.lang.String)
+    155:156:public void dismiss()
+    165:166:public void dismissAllowingStateLoss()
+    195:195:public android.app.Dialog getDialog()
+    212:214:public void setCancelable(boolean)
+    220:220:public boolean isCancelable()
+    241:242:public void setShowsDialog(boolean)
+    248:248:public boolean getShowsDialog()
+android.support.v4.app.Fragment:
+    static final int INITIALIZING
+    static final int CREATED
+    static final int ACTIVITY_CREATED
+    static final int STOPPED
+    static final int STARTED
+    static final int RESUMED
+    481:481:public final int getId()
+    488:488:public final java.lang.String getTag()
+    522:527:public void setInitialSavedState(android.support.v4.app.Fragment$SavedState)
+    541:543:public void setTargetFragment(android.support.v4.app.Fragment,int)
+    549:549:public final android.support.v4.app.Fragment getTargetFragment()
+    556:556:public final int getTargetRequestCode()
+    583:583:public final java.lang.CharSequence getText(int)
+    606:606:public final varargs java.lang.String getString(int,java.lang.Object[])
+    628:640:public final android.support.v4.app.FragmentManager getChildFragmentManager()
+    648:648:public final android.support.v4.app.Fragment getParentFragment()
+    655:655:public final boolean isAdded()
+    673:673:public final boolean isRemoving()
+    684:684:public final boolean isInLayout()
+    692:692:public final boolean isResumed()
+    701:701:public final boolean isVisible()
+    713:713:public final boolean isHidden()
+    741:746:public void setRetainInstance(boolean)
+    749:749:public final boolean getRetainInstance()
+    760:766:public void setHasOptionsMenu(boolean)
+    778:784:public void setMenuVisibility(boolean)
+    800:805:public void setUserVisibleHint(boolean)
+    812:812:public boolean getUserVisibleHint()
+    835:839:public void startActivity(android.content.Intent)
+    846:850:public void startActivityForResult(android.content.Intent,int)
+    1288:1289:public void registerForContextMenu(android.view.View)
+    1299:1300:public void unregisterForContextMenu(android.view.View)
+    1410:1416:android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.Fragment$SavedState:
+    301:303:Fragment$SavedState(android.os.Bundle)
+android.support.v4.app.FragmentActivity:
+    private static final java.lang.String TAG
+    static final java.lang.String FRAGMENTS_TAG
+    private static final int HONEYCOMB
+    static final int MSG_REALLY_STOPPED
+    static final int MSG_RESUME_PENDING
+    612:614:public java.lang.Object getLastCustomNonConfigurationInstance()
+    825:833:public void startActivityFromFragment(android.support.v4.app.Fragment,android.content.Intent,int)
+    854:859:public android.support.v4.app.LoaderManager getSupportLoaderManager()
+android.support.v4.app.FragmentActivity$FragmentTag:
+    public static final int Fragment_id
+    public static final int Fragment_name
+    public static final int Fragment_tag
+    129:129:FragmentActivity$FragmentTag()
+android.support.v4.app.FragmentManager:
+    public static final int POP_BACK_STACK_INCLUSIVE
+    139:139:public android.support.v4.app.FragmentTransaction openTransaction()
+    public abstract void popBackStack()
+    public abstract boolean popBackStackImmediate()
+    public abstract void popBackStack(java.lang.String,int)
+    public abstract boolean popBackStackImmediate(java.lang.String,int)
+    public abstract boolean popBackStackImmediate(int,int)
+    public abstract int getBackStackEntryCount()
+    public abstract android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+    public abstract void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    public abstract void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    public abstract void putFragment(android.os.Bundle,java.lang.String,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.Fragment getFragment(android.os.Bundle,java.lang.String)
+    public abstract android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+    public abstract void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    334:335:public static void enableDebugLogging(boolean)
+android.support.v4.app.FragmentManager$BackStackEntry
+android.support.v4.app.FragmentManagerImpl:
+    static final java.lang.String TAG
+    static final java.lang.String TARGET_REQUEST_CODE_STATE_TAG
+    static final java.lang.String TARGET_STATE_TAG
+    static final java.lang.String VIEW_STATE_TAG
+    static final java.lang.String USER_VISIBLE_HINT_TAG
+    static final int ANIM_DUR
+    public static final int ANIM_STYLE_OPEN_ENTER
+    public static final int ANIM_STYLE_OPEN_EXIT
+    public static final int ANIM_STYLE_CLOSE_ENTER
+    public static final int ANIM_STYLE_CLOSE_EXIT
+    public static final int ANIM_STYLE_FADE_ENTER
+    public static final int ANIM_STYLE_FADE_EXIT
+    466:471:public void popBackStack()
+    482:487:public void popBackStack(java.lang.String,int)
+    491:493:public boolean popBackStackImmediate(java.lang.String,int)
+    510:515:public boolean popBackStackImmediate(int,int)
+    520:520:public int getBackStackEntryCount()
+    525:525:public android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+    530:534:public void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    538:541:public void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    572:580:public android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+    1314:1322:public android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.FragmentManagerImpl$2
+android.support.v4.app.FragmentManagerImpl$3
+android.support.v4.app.FragmentPagerAdapter
+android.support.v4.app.FragmentStatePagerAdapter
+android.support.v4.app.FragmentTabHost:
+    private android.widget.FrameLayout mRealTabContent
+    130:132:public FragmentTabHost(android.content.Context)
+    135:137:public FragmentTabHost(android.content.Context,android.util.AttributeSet)
+    140:172:private void initFragmentTabHost(android.content.Context,android.util.AttributeSet)
+    186:190:public void setup(android.content.Context,android.support.v4.app.FragmentManager)
+    193:205:public void setup(android.content.Context,android.support.v4.app.FragmentManager,int)
+    208:215:private void ensureContent()
+    223:242:public void addTab(android.widget.TabHost$TabSpec,java.lang.Class,android.os.Bundle)
+android.support.v4.app.FragmentTabHost$DummyTabFactory
+android.support.v4.app.FragmentTabHost$TabInfo:
+    67:71:FragmentTabHost$TabInfo(java.lang.String,java.lang.Class,android.os.Bundle)
+android.support.v4.app.FragmentTransaction:
+    public static final int TRANSIT_ENTER_MASK
+    public static final int TRANSIT_EXIT_MASK
+    public static final int TRANSIT_UNSET
+    public static final int TRANSIT_NONE
+    public static final int TRANSIT_FRAGMENT_OPEN
+    public static final int TRANSIT_FRAGMENT_CLOSE
+    public static final int TRANSIT_FRAGMENT_FADE
+    public abstract android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+    public abstract android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+    public abstract boolean isEmpty()
+    public abstract android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+    public abstract android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+    public abstract android.support.v4.app.FragmentTransaction setTransition(int)
+    public abstract android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+    public abstract android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+    public abstract boolean isAddToBackStackAllowed()
+    public abstract android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+android.support.v4.app.ListFragment
+android.support.v4.app.ListFragment$1
+android.support.v4.app.ListFragment$2
+android.support.v4.app.LoaderManager:
+    public abstract void destroyLoader(int)
+    public abstract android.support.v4.content.Loader getLoader(int)
+    public abstract void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    177:178:public static void enableDebugLogging(boolean)
+android.support.v4.app.LoaderManagerImpl:
+    static final java.lang.String TAG
+    boolean mRetainingStarted
+    658:678:public void destroyLoader(int)
+    686:697:public android.support.v4.content.Loader getLoader(int)
+android.support.v4.app.NavUtils
+android.support.v4.app.NavUtils$NavUtilsImpl
+android.support.v4.app.NavUtils$NavUtilsImplBase
+android.support.v4.app.NavUtils$NavUtilsImplJB
+android.support.v4.app.NavUtilsJB
+android.support.v4.app.NotificationCompat
+android.support.v4.app.NotificationCompat$Action
+android.support.v4.app.NotificationCompat$BigPictureStyle
+android.support.v4.app.NotificationCompat$BigTextStyle
+android.support.v4.app.NotificationCompat$Builder
+android.support.v4.app.NotificationCompat$InboxStyle
+android.support.v4.app.NotificationCompat$NotificationCompatImpl
+android.support.v4.app.NotificationCompat$NotificationCompatImplBase
+android.support.v4.app.NotificationCompat$NotificationCompatImplHoneycomb
+android.support.v4.app.NotificationCompat$NotificationCompatImplIceCreamSandwich
+android.support.v4.app.NotificationCompat$NotificationCompatImplJellybean
+android.support.v4.app.NotificationCompat$Style
+android.support.v4.app.NotificationCompatHoneycomb
+android.support.v4.app.NotificationCompatIceCreamSandwich
+android.support.v4.app.NotificationCompatJellybean
+android.support.v4.app.ServiceCompat
+android.support.v4.app.ShareCompat
+android.support.v4.app.ShareCompat$IntentBuilder
+android.support.v4.app.ShareCompat$IntentReader
+android.support.v4.app.ShareCompat$ShareCompatImpl
+android.support.v4.app.ShareCompat$ShareCompatImplBase
+android.support.v4.app.ShareCompat$ShareCompatImplICS
+android.support.v4.app.ShareCompat$ShareCompatImplJB
+android.support.v4.app.ShareCompatICS
+android.support.v4.app.ShareCompatJB
+android.support.v4.app.TaskStackBuilder
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImpl
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplBase
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplHoneycomb
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplJellybean
+android.support.v4.app.TaskStackBuilderHoneycomb
+android.support.v4.app.TaskStackBuilderJellybean
+android.support.v4.content.AsyncTaskLoader:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+    103:107:public void setUpdateThrottle(long)
+    254:262:public void waitForLoader()
+android.support.v4.content.AsyncTaskLoader$LoadTask:
+    40:40:static synthetic java.util.concurrent.CountDownLatch access$000(android.support.v4.content.AsyncTaskLoader$LoadTask)
+android.support.v4.content.ContextCompat
+android.support.v4.content.ContextCompatHoneycomb
+android.support.v4.content.ContextCompatJellybean
+android.support.v4.content.CursorLoader:
+    107:114:public CursorLoader(android.content.Context,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+    163:163:public android.net.Uri getUri()
+    167:168:public void setUri(android.net.Uri)
+    171:171:public java.lang.String[] getProjection()
+    175:176:public void setProjection(java.lang.String[])
+    179:179:public java.lang.String getSelection()
+    183:184:public void setSelection(java.lang.String)
+    187:187:public java.lang.String[] getSelectionArgs()
+    191:192:public void setSelectionArgs(java.lang.String[])
+    195:195:public java.lang.String getSortOrder()
+    199:200:public void setSortOrder(java.lang.String)
+android.support.v4.content.IntentCompat
+android.support.v4.content.IntentCompat$IntentCompatImpl
+android.support.v4.content.IntentCompat$IntentCompatImplBase
+android.support.v4.content.IntentCompat$IntentCompatImplHC
+android.support.v4.content.IntentCompat$IntentCompatImplIcsMr1
+android.support.v4.content.IntentCompatHoneycomb
+android.support.v4.content.IntentCompatIcsMr1
+android.support.v4.content.Loader:
+    118:118:public int getId()
+android.support.v4.content.LocalBroadcastManager
+android.support.v4.content.LocalBroadcastManager$1
+android.support.v4.content.LocalBroadcastManager$BroadcastRecord
+android.support.v4.content.LocalBroadcastManager$ReceiverRecord
+android.support.v4.content.ModernAsyncTask:
+    private static final java.lang.String LOG_TAG
+    private static final int CORE_POOL_SIZE
+    private static final int MAXIMUM_POOL_SIZE
+    private static final int KEEP_ALIVE
+    private static final int MESSAGE_POST_RESULT
+    private static final int MESSAGE_POST_PROGRESS
+    106:107:public static void init()
+    111:112:public static void setDefaultExecutor(java.util.concurrent.Executor)
+    169:169:public final android.support.v4.content.ModernAsyncTask$Status getStatus()
+    321:321:public final java.lang.Object get()
+    341:341:public final java.lang.Object get(long,java.util.concurrent.TimeUnit)
+    371:371:public final varargs android.support.v4.content.ModernAsyncTask execute(java.lang.Object[])
+    433:434:public static void execute(java.lang.Runnable)
+    451:455:protected final varargs void publishProgress(java.lang.Object[])
+android.support.v4.content.pm.ActivityInfoCompat
+android.support.v4.database.DatabaseUtilsCompat
+android.support.v4.net.ConnectivityManagerCompat
+android.support.v4.net.ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$ConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$GingerbreadConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$HoneycombMR2ConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$JellyBeanConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompatGingerbread
+android.support.v4.net.ConnectivityManagerCompatHoneycombMR2
+android.support.v4.net.ConnectivityManagerCompatJellyBean
+android.support.v4.net.TrafficStatsCompat
+android.support.v4.net.TrafficStatsCompat$1
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl$1
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl$SocketTags
+android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompatIcs
+android.support.v4.os.ParcelableCompat:
+    26:42:public ParcelableCompat()
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2:
+    36:36:public java.lang.Object createFromParcel(android.os.Parcel)
+    40:40:public java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader)
+    44:44:public java.lang.Object[] newArray(int)
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub:
+    22:22:ParcelableCompatCreatorHoneycombMR2Stub()
+android.support.v4.util.AtomicFile
+android.support.v4.util.DebugUtils:
+    25:25:public DebugUtils()
+android.support.v4.util.LongSparseArray
+android.support.v4.util.LruCache
+android.support.v4.util.SparseArrayCompat:
+    94:98:public void removeAt(int)
+    107:111:public void removeAtRange(int,int)
+    236:241:public void setValueAt(int,java.lang.Object)
+    249:253:public int indexOfKey(int)
+    265:273:public int indexOfValue(java.lang.Object)
+    296:323:public void append(int,java.lang.Object)
+android.support.v4.util.TimeUtils:
+    public static final int HUNDRED_DAY_FIELD_LEN
+    private static final int SECONDS_PER_MINUTE
+    private static final int SECONDS_PER_HOUR
+    private static final int SECONDS_PER_DAY
+    27:27:public TimeUtils()
+    148:152:public static void formatDuration(long,java.lang.StringBuilder)
+android.support.v4.view.AccessibilityDelegateCompat
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl
+android.support.v4.view.AccessibilityDelegateCompatIcs
+android.support.v4.view.AccessibilityDelegateCompatIcs$1
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge
+android.support.v4.view.AccessibilityDelegateCompatJellyBean
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$1
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean
+android.support.v4.view.GestureDetectorCompat
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImpl
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplJellybeanMr1
+android.support.v4.view.KeyEventCompat:
+    25:95:public KeyEventCompat()
+    127:127:public static int normalizeMetaState(int)
+    131:131:public static boolean metaStateHasModifiers(int,int)
+    135:135:public static boolean metaStateHasNoModifiers(int)
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
+    private static final int META_MODIFIER_MASK
+    private static final int META_ALL_MASK
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl:
+    98:98:public int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl:
+    public abstract int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompatHoneycomb:
+    24:24:KeyEventCompatHoneycomb()
+    26:26:public static int normalizeMetaState(int)
+android.support.v4.view.MenuCompat
+android.support.v4.view.MenuCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompat
+android.support.v4.view.MenuItemCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuItemCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuItemCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompatHoneycomb
+android.support.v4.view.MotionEventCompat:
+    public static final int ACTION_MASK
+    public static final int ACTION_POINTER_DOWN
+    public static final int ACTION_POINTER_UP
+    public static final int ACTION_HOVER_MOVE
+    public static final int ACTION_SCROLL
+    public static final int ACTION_POINTER_INDEX_MASK
+    public static final int ACTION_POINTER_INDEX_SHIFT
+    public static final int ACTION_HOVER_ENTER
+    public static final int ACTION_HOVER_EXIT
+    25:80:public MotionEventCompat()
+    183:183:public static int getActionMasked(android.view.MotionEvent)
+    236:236:public static int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl:
+    73:73:public int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl:
+    99:99:public int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl:
+    public abstract int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompatEclair:
+    24:24:MotionEventCompatEclair()
+    38:38:public static int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.PagerAdapter:
+    public static final int POSITION_UNCHANGED
+    public static final int POSITION_NONE
+    78:79:public PagerAdapter()
+    276:277:public void notifyDataSetChanged()
+    297:297:public java.lang.CharSequence getPageTitle(int)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip$1
+android.support.v4.view.PagerTabStrip$2
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip$1
+android.support.v4.view.PagerTitleStrip$PageListener
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImpl
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImplBase
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImplIcs
+android.support.v4.view.PagerTitleStripIcs
+android.support.v4.view.PagerTitleStripIcs$SingleLineAllCapsTransform
+android.support.v4.view.VelocityTrackerCompat:
+    25:51:public VelocityTrackerCompat()
+    91:91:public static float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl:
+    44:44:public float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl:
+    58:58:public float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl:
+    public abstract float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompatHoneycomb:
+    24:24:VelocityTrackerCompatHoneycomb()
+    29:29:public static float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.ViewCompat:
+    public static final int OVER_SCROLL_ALWAYS
+    public static final int OVER_SCROLL_IF_CONTENT_SCROLLS
+    public static final int OVER_SCROLL_NEVER
+    private static final long FAKE_FRAME_TIME
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_AUTO
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_YES
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_NO
+    public static final int LAYER_TYPE_NONE
+    public static final int LAYER_TYPE_SOFTWARE
+    public static final int LAYER_TYPE_HARDWARE
+    31:308:public ViewCompat()
+    358:358:public static boolean canScrollVertically(android.view.View,int)
+    387:388:public static void setOverScrollMode(android.view.View,int)
+    424:425:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    457:458:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    493:494:public static void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    508:509:public static void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    520:520:public static boolean hasTransientState(android.view.View)
+    531:532:public static void setHasTransientState(android.view.View,boolean)
+    562:563:public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    593:594:public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    609:609:public static int getImportantForAccessibility(android.view.View)
+    625:626:public static void setImportantForAccessibility(android.view.View,int)
+    643:643:public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    670:670:public static android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    733:733:public static int getLayerType(android.view.View)
+    744:744:public static int getLabelFor(android.view.View)
+    755:756:public static void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompat$BaseViewCompatImpl:
+    144:144:public boolean canScrollVertically(android.view.View,int)
+    151:151:public void setOverScrollMode(android.view.View,int)
+    154:154:public void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    157:157:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    160:160:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    163:163:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    166:166:public boolean hasTransientState(android.view.View)
+    170:170:public void setHasTransientState(android.view.View,boolean)
+    175:176:public void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    181:182:public void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    187:187:public int getImportantForAccessibility(android.view.View)
+    191:191:public void setImportantForAccessibility(android.view.View,int)
+    193:193:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    196:196:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    201:201:public int getLayerType(android.view.View)
+    204:204:public int getLabelFor(android.view.View)
+    208:208:public void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompat$GBViewCompatImpl:
+    218:219:public void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompat$HCViewCompatImpl:
+    230:230:public int getLayerType(android.view.View)
+android.support.v4.view.ViewCompat$ICSViewCompatImpl:
+    241:241:public boolean canScrollVertically(android.view.View,int)
+    245:246:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    249:250:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    253:254:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    257:258:public void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+android.support.v4.view.ViewCompat$JBViewCompatImpl:
+    264:264:public boolean hasTransientState(android.view.View)
+    268:269:public void setHasTransientState(android.view.View,boolean)
+    276:277:public void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    284:285:public void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    288:288:public int getImportantForAccessibility(android.view.View)
+    292:293:public void setImportantForAccessibility(android.view.View,int)
+    296:296:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    300:304:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl:
+    312:312:public int getLabelFor(android.view.View)
+    317:318:public void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompat$ViewCompatImpl:
+    public abstract boolean canScrollVertically(android.view.View,int)
+    public abstract void setOverScrollMode(android.view.View,int)
+    public abstract void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    public abstract void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    public abstract boolean hasTransientState(android.view.View)
+    public abstract void setHasTransientState(android.view.View,boolean)
+    public abstract void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    public abstract void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    public abstract int getImportantForAccessibility(android.view.View)
+    public abstract void setImportantForAccessibility(android.view.View,int)
+    public abstract boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    public abstract android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    public abstract int getLayerType(android.view.View)
+    public abstract int getLabelFor(android.view.View)
+    public abstract void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompatGingerbread:
+    21:21:ViewCompatGingerbread()
+    27:28:public static void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompatHC:
+    23:23:ViewCompatHC()
+    33:33:public static int getLayerType(android.view.View)
+android.support.v4.view.ViewCompatICS:
+    27:27:ViewCompatICS()
+    34:34:public static boolean canScrollVertically(android.view.View,int)
+    38:39:public static void setAccessibilityDelegate(android.view.View,java.lang.Object)
+    42:43:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    46:47:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    50:51:public static void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object)
+android.support.v4.view.ViewCompatJB:
+    25:25:public ViewCompatJB()
+    28:28:public static boolean hasTransientState(android.view.View)
+    32:33:public static void setHasTransientState(android.view.View,boolean)
+    41:42:public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    49:50:public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    53:53:public static int getImportantForAccessibility(android.view.View)
+    57:58:public static void setImportantForAccessibility(android.view.View,int)
+    61:61:public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    65:65:public static java.lang.Object getAccessibilityNodeProvider(android.view.View)
+android.support.v4.view.ViewCompatJellybeanMr1
+android.support.v4.view.ViewConfigurationCompat
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompatFroyo
+android.support.v4.view.ViewGroupCompat
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatIcsImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatStubImpl
+android.support.v4.view.ViewGroupCompatIcs
+android.support.v4.view.ViewPager:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    private static final boolean USE_CACHE
+    private static final int DEFAULT_OFFSCREEN_PAGES
+    private static final int MAX_SETTLE_DURATION
+    private static final int MIN_DISTANCE_FOR_FLING
+    private static final int DEFAULT_GUTTER_SIZE
+    private boolean mIgnoreGutter
+    private static final int INVALID_POINTER
+    private static final int CLOSE_ENOUGH
+    private long mFakeDragBeginTime
+    private static final int DRAW_ORDER_DEFAULT
+    private static final int DRAW_ORDER_FORWARD
+    private static final int DRAW_ORDER_REVERSE
+    public static final int SCROLL_STATE_IDLE
+    public static final int SCROLL_STATE_DRAGGING
+    public static final int SCROLL_STATE_SETTLING
+    337:339:public ViewPager(android.content.Context)
+    342:344:public ViewPager(android.content.Context,android.util.AttributeSet)
+    347:371:void initViewPager()
+    579:591:public void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+    623:625:android.support.v4.view.ViewPager$OnPageChangeListener setInternalPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+    747:748:void smoothScrollTo(int,int)
+    2196:2212:public boolean beginFakeDrag()
+    2222:2243:public void endFakeDrag()
+    2253:2291:public void fakeDragBy(float)
+    2303:2303:public boolean isFakeDragging()
+    84:84:static synthetic void access$000(android.support.v4.view.ViewPager,int)
+    84:84:static synthetic android.support.v4.view.PagerAdapter access$200(android.support.v4.view.ViewPager)
+    84:84:static synthetic int access$300(android.support.v4.view.ViewPager)
+android.support.v4.view.ViewPager$3
+android.support.v4.view.ViewPager$MyAccessibilityDelegate
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.accessibility.AccessibilityEventCompat
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventIcsImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventStubImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl$1
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerStubImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$1
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$AccessibilityStateChangeListenerBridge
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge
+android.support.v4.view.accessibility.AccessibilityRecordCompat
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1
+android.support.v4.view.accessibility.AccessibilityRecordCompatJellyBean
+android.support.v4.widget.CursorAdapter:
+    public static final int FLAG_AUTO_REQUERY
+    public static final int FLAG_REGISTER_CONTENT_OBSERVER
+    121:123:public CursorAdapter(android.content.Context,android.database.Cursor)
+    137:139:public CursorAdapter(android.content.Context,android.database.Cursor,boolean)
+    160:161:protected void init(android.content.Context,android.database.Cursor,boolean)
+    420:420:public android.widget.FilterQueryProvider getFilterQueryProvider()
+    436:437:public void setFilterQueryProvider(android.widget.FilterQueryProvider)
+android.support.v4.widget.EdgeEffectCompat:
+    132:134:public EdgeEffectCompat(android.content.Context)
+    204:204:public boolean onAbsorb(int)
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl:
+    60:60:public java.lang.Object newEdgeEffect(android.content.Context)
+    82:82:public boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl:
+    92:92:public java.lang.Object newEdgeEffect(android.content.Context)
+    116:116:public boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl:
+    public abstract java.lang.Object newEdgeEffect(android.content.Context)
+    public abstract boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompatIcs:
+    28:28:EdgeEffectCompatIcs()
+    30:30:public static java.lang.Object newEdgeEffect(android.content.Context)
+    57:58:public static boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.ResourceCursorAdapter:
+    54:57:public ResourceCursorAdapter(android.content.Context,int,android.database.Cursor)
+    76:79:public ResourceCursorAdapter(android.content.Context,int,android.database.Cursor,boolean)
+    120:121:public void setViewResource(int)
+    129:130:public void setDropDownViewResource(int)
+android.support.v4.widget.ScrollerCompat
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImplIcs
+android.support.v4.widget.ScrollerCompatIcs
+android.support.v4.widget.SearchViewCompat
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl$1
+android.support.v4.widget.SearchViewCompat$SearchViewCompatImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatStubImpl
+android.support.v4.widget.SearchViewCompatHoneycomb
+android.support.v4.widget.SearchViewCompatHoneycomb$1
+android.support.v4.widget.SearchViewCompatHoneycomb$OnQueryTextListenerCompatBridge
+android.support.v4.widget.SimpleCursorAdapter:
+    63:67:public SimpleCursorAdapter(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])
+    162:162:public android.support.v4.widget.SimpleCursorAdapter$ViewBinder getViewBinder()
+    175:176:public void setViewBinder(android.support.v4.widget.SimpleCursorAdapter$ViewBinder)
+    228:228:public int getStringConversionColumn()
+    246:247:public void setStringConversionColumn(int)
+    262:262:public android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter getCursorToStringConverter()
+    278:279:public void setCursorToStringConverter(android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter)
+    344:348:public void changeCursorAndColumns(android.database.Cursor,java.lang.String[],int[])
+com.dailystudio.R
+com.dailystudio.R$drawable
+com.dailystudio.R$string
+com.dailystudio.app.R
+com.dailystudio.app.R$drawable
+com.dailystudio.app.R$string
+com.dailystudio.app.async.AsyncChecker:
+    private static final java.lang.String KEY_CHECK_TIMESTAMP
+com.dailystudio.app.dataobject.BaseDatabaseStream:
+    16:17:public BaseDatabaseStream(android.content.Context,java.lang.Class)
+    22:23:public BaseDatabaseStream(android.content.Context,java.lang.String,java.lang.Class)
+    28:29:public BaseDatabaseStream(android.content.Context,java.lang.Class,int)
+com.dailystudio.app.dataobject.CountObject:
+    29:30:public void setCount(int)
+com.dailystudio.app.dataobject.DatabaseReader:
+    28:29:public DatabaseReader(android.content.Context,java.lang.Class,int)
+com.dailystudio.app.dataobject.DatabaseWriter:
+    13:14:public DatabaseWriter(android.content.Context,java.lang.Class)
+    19:20:public DatabaseWriter(android.content.Context,java.lang.String,java.lang.Class)
+    25:26:public DatabaseWriter(android.content.Context,java.lang.Class,int)
+    52:57:public int update(com.dailystudio.dataobject.query.Query,com.dailystudio.dataobject.DatabaseObject)
+com.dailystudio.app.dataobject.asynctask.DatabaseObjectsAsyncTask
+com.dailystudio.app.dataobject.asynctask.ProjectedDatabaseObjectsAsyncTask
+com.dailystudio.app.fragment.AbsAdapterFragment:
+    128:129:protected void postDelayed(java.lang.Runnable,long)
+    132:133:protected void notifyAdapterChanged()
+com.dailystudio.app.utils.ActivityLauncher:
+    54:67:public static void launchActivityForResult(android.app.Activity,android.content.Intent,int,com.dailystudio.app.utils.ActivityLauncher$OnExceptionHandler)
+    70:71:public static void launchActivityForResult(android.app.Activity,android.content.Intent,int)
+com.dailystudio.app.utils.ArrayUtils:
+    6:6:public ArrayUtils()
+com.dailystudio.app.utils.BitmapUtils:
+    16:16:public BitmapUtils()
+    20:20:public static int estimateSampleSize(android.content.Context,java.lang.String,int,int)
+    27:65:public static int estimateSampleSize(android.content.Context,java.lang.String,int,int,int)
+    69:90:public static android.graphics.Bitmap rotateBitmap(android.graphics.Bitmap,int)
+    95:149:public static android.graphics.Bitmap scaleBitmap(android.content.Context,android.graphics.Bitmap,int,int)
+    154:164:private static android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,float,int,int)
+    169:175:private static android.graphics.Bitmap createClippedBitmap(android.graphics.Bitmap,int,int,int,int)
+com.dailystudio.app.utils.FileUtils:
+    private static final java.lang.String NO_MEDIA_TAG_FILE
+    private static final int DOWNLOAD_CONNECTION_TIMEOUT
+    private static final int DOWNLOAD_READ_TIMEOUT
+    29:29:public FileUtils()
+    89:98:public static boolean isFileExisted(java.lang.String)
+    102:108:public static java.lang.String getDirectory(java.lang.String)
+    112:118:public static boolean checkOrCreateFile(java.lang.String)
+    122:138:public static boolean checkOrCreateFile(java.io.File)
+    142:165:public static boolean deleteFiles(java.lang.String)
+    169:178:public static long getFileLength(java.lang.String)
+    182:189:public static java.lang.String getFileContent(java.lang.String)
+    193:215:public static java.lang.String getFileContent(java.io.InputStream,java.lang.String)
+    219:236:public static java.lang.String getAssetFileContent(android.content.Context,java.lang.String)
+    241:266:public static boolean copyRawFile(android.content.Context,java.lang.String,java.lang.String)
+    271:290:public static boolean copyAssetFile(android.content.Context,java.lang.String,java.lang.String)
+    294:300:public static java.lang.String detectFileEncoding(java.lang.String)
+    304:316:public static java.lang.String detectFileEncoding(java.io.File)
+    320:349:public static java.lang.String detectFileEncoding(java.io.InputStream)
+    353:353:public static java.lang.String getFileExtension(java.lang.String)
+    357:365:public static java.lang.String getFileExtension(java.lang.String,java.lang.String)
+    369:385:public static void writeFileContent(java.lang.String,java.lang.String)
+    389:465:public static boolean downloadFile(java.lang.String,java.lang.String)
+com.dailystudio.app.utils.ThumbAsyncDecoder
+com.dailystudio.app.utils.ThumbAsyncDecoder$AbsDecodeThumbAsyncTask
+com.dailystudio.app.utils.ThumbAsyncDecoder$DecodeActivityIconThumbAsyncTask
+com.dailystudio.app.utils.ThumbAsyncDecoder$DecodeAndroidResourceSchemeThumbAsyncTask
+com.dailystudio.app.utils.ThumbAsyncDecoder$DecodeFileThumbAsyncTask
+com.dailystudio.app.utils.ThumbAsyncDecoder$DecodeResourceThumbAsyncTask
+com.dailystudio.app.utils.ThumbCacheManager
+com.dailystudio.app.utils.ThumbCacheManager$1
+com.dailystudio.app.utils.ThumbCacheManager$ThumbCacheObserable
+com.dailystudio.app.utils.UrlUtils
+com.dailystudio.app.utils.WebViewUtils
+com.dailystudio.app.widget.DeferredHandler:
+    101:104:public void cancelRunnable(java.lang.Runnable)
+    107:110:public void cancel()
+com.dailystudio.build.BuildSpec
+com.dailystudio.compat.CompatAsyncTask:
+    private static final java.lang.String LOG_TAG
+    private static final int CORE_POOL_SIZE
+    private static final int MAXIMUM_POOL_SIZE
+    private static final int KEEP_ALIVE
+    private static final int MESSAGE_POST_RESULT
+    private static final int MESSAGE_POST_PROGRESS
+    217:218:public static void init()
+    222:223:public static void setDefaultExecutor(java.util.concurrent.Executor)
+    433:433:public final java.lang.Object get()
+    453:453:public final java.lang.Object get(long,java.util.concurrent.TimeUnit)
+    545:546:public static void execute(java.lang.Runnable)
+    563:567:protected final varargs void publishProgress(java.lang.Object[])
+com.dailystudio.database.Column
+com.dailystudio.database.DatabaseConnectivity
+com.dailystudio.database.DatabaseLocalConnectivity
+com.dailystudio.database.DatabaseObject
+com.dailystudio.database.DatabaseObjectFactory
+com.dailystudio.database.DatabaseOpenHelper
+com.dailystudio.database.DatabaseRemoteConnectivity
+com.dailystudio.database.DoubleColumn
+com.dailystudio.database.Expression
+com.dailystudio.database.ExpressionToken
+com.dailystudio.database.ISDatabaseOpenHelper
+com.dailystudio.database.IntegerColumn
+com.dailystudio.database.LongColumn
+com.dailystudio.database.OrderingToken
+com.dailystudio.database.Query
+com.dailystudio.database.QueryToken
+com.dailystudio.database.RemoteDatabaseProvider
+com.dailystudio.database.RemoteSQLiteDatabase
+com.dailystudio.database.RemoteSQLiteDatabaseCloseReceiver
+com.dailystudio.database.RemoteSQLiteDatabaseMananger
+com.dailystudio.database.SortOrderEncoder
+com.dailystudio.database.Template
+com.dailystudio.database.TemplateInflater
+com.dailystudio.database.TextColumn
+com.dailystudio.dataobject.BlobColumn:
+    private static final java.lang.String TYPE_NAME
+    24:25:public BlobColumn(java.lang.String,int)
+    28:29:public BlobColumn(java.lang.String,boolean,int)
+    32:33:public BlobColumn(java.lang.String,boolean,boolean,int)
+    66:76:protected void attachValueTo(android.content.Intent,android.content.ContentValues)
+com.dailystudio.dataobject.Column:
+    public static final int VERSION_LATEST
+    public static final int VERSION_1
+    private static final java.lang.String WHITE_SPACE
+    private static final java.lang.String CONSTRAINT_NOT_NULL
+    private static final java.lang.String CONSTRAINT_PRIMARY_KEY
+    30:31:public Column(java.lang.String,java.lang.String)
+    34:35:public Column(java.lang.String,java.lang.String,boolean)
+    38:39:public Column(java.lang.String,java.lang.String,boolean,boolean)
+    42:43:public Column(java.lang.String,java.lang.String,int)
+    46:47:public Column(java.lang.String,java.lang.String,boolean,int)
+    68:68:public boolean isAllowNull()
+    72:72:public boolean isPrimary()
+    protected abstract void attachValueTo(android.content.Intent,android.content.ContentValues)
+    145:145:public com.dailystudio.dataobject.query.ExpressionToken minus(com.dailystudio.dataobject.Column)
+    149:149:public com.dailystudio.dataobject.query.ExpressionToken multiple(com.dailystudio.dataobject.Column)
+    153:153:public com.dailystudio.dataobject.query.ExpressionToken divide(com.dailystudio.dataobject.Column)
+    157:157:public com.dailystudio.dataobject.query.ExpressionToken modulo(com.dailystudio.dataobject.Column)
+    181:181:public com.dailystudio.dataobject.query.ExpressionToken lt(java.lang.Object)
+    191:191:public com.dailystudio.dataobject.query.ExpressionToken in(java.lang.Object,java.lang.Object)
+    200:200:public com.dailystudio.dataobject.query.ExpressionToken outOf(java.lang.Object,java.lang.Object)
+    209:215:public com.dailystudio.dataobject.query.ExpressionToken isNull()
+    219:225:public com.dailystudio.dataobject.query.ExpressionToken notNull()
+com.dailystudio.dataobject.DatabaseObject:
+    public static final int VERSION_LATEST
+    public static final int VERSION_START
+    private static final java.lang.String TABLE_SQL_BASE
+    47:52:protected void setTemplate(com.dailystudio.dataobject.Template)
+    63:90:public final java.util.List listNonEmptyColumns()
+    94:103:public void setValue(java.lang.String,java.lang.Object)
+    142:150:public java.lang.Object getValue(java.lang.String)
+    185:193:public int getIntegerValue(java.lang.String)
+    212:220:public long getLongValue(java.lang.String)
+    239:247:public double getDoubleValue(java.lang.String)
+    266:274:public java.lang.String getTextValue(java.lang.String)
+    293:301:public byte[] getBlobValue(java.lang.String)
+    327:350:public android.content.Intent convertToIntent()
+    381:438:public java.lang.String toSQLSelectionString()
+    442:442:public java.lang.String handleNullProjection()
+com.dailystudio.dataobject.DatabaseObjectCopier
+com.dailystudio.dataobject.DatabaseObjectCreationParams:
+    10:11:DatabaseObjectCreationParams(java.lang.Class)
+com.dailystudio.dataobject.DatabaseObjectFactory:
+    21:21:public static final com.dailystudio.dataobject.DatabaseObject createDatabaseObject()
+com.dailystudio.dataobject.DatabaseObjectFactory$ObjectCreationParams
+com.dailystudio.dataobject.DoubleColumn:
+    private static final java.lang.String TYPE_NAME
+    14:15:public DoubleColumn(java.lang.String)
+    26:27:public DoubleColumn(java.lang.String,int)
+    30:31:public DoubleColumn(java.lang.String,boolean,int)
+    34:35:public DoubleColumn(java.lang.String,boolean,boolean,int)
+    69:79:protected void attachValueTo(android.content.Intent,android.content.ContentValues)
+com.dailystudio.dataobject.IntegerColumn:
+    private static final java.lang.String TYPE_NAME
+    24:25:public IntegerColumn(java.lang.String,int)
+    28:29:public IntegerColumn(java.lang.String,boolean,int)
+    32:33:public IntegerColumn(java.lang.String,boolean,boolean,int)
+    66:76:protected void attachValueTo(android.content.Intent,android.content.ContentValues)
+com.dailystudio.dataobject.LongColumn:
+    private static final java.lang.String TYPE_NAME
+    24:25:public LongColumn(java.lang.String,int)
+    28:29:public LongColumn(java.lang.String,boolean,int)
+    66:76:protected void attachValueTo(android.content.Intent,android.content.ContentValues)
+com.dailystudio.dataobject.Template:
+    54:65:public synchronized void removeColumn(com.dailystudio.dataobject.Column)
+    72:80:public synchronized com.dailystudio.dataobject.Column getColumn(java.lang.String)
+    97:107:public boolean containsColumn(java.lang.String)
+com.dailystudio.dataobject.TextColumn:
+    private static final java.lang.String TYPE_NAME
+    27:28:public TextColumn(java.lang.String,int)
+    31:32:public TextColumn(java.lang.String,boolean,int)
+    35:36:public TextColumn(java.lang.String,boolean,boolean,int)
+    69:79:protected void attachValueTo(android.content.Intent,android.content.ContentValues)
+    124:124:public com.dailystudio.dataobject.query.ExpressionToken like(java.lang.String)
+com.dailystudio.dataobject.TimeColumn:
+    25:26:public TimeColumn(java.lang.String,int)
+    29:30:public TimeColumn(java.lang.String,boolean,int)
+    33:34:public TimeColumn(java.lang.String,boolean,boolean,int)
+    67:77:protected void attachValueTo(android.content.Intent,android.content.ContentValues)
+    114:114:public com.dailystudio.dataobject.query.OrderingToken groupByMinute()
+    118:118:public com.dailystudio.dataobject.query.OrderingToken groupBySecond()
+    126:126:public com.dailystudio.dataobject.query.OrderingToken groupByWeekday()
+    138:138:public com.dailystudio.dataobject.query.OrderingToken groupByYear()
+    142:142:public com.dailystudio.dataobject.Column HOUR()
+    146:146:public com.dailystudio.dataobject.Column MINUTE()
+    150:150:public com.dailystudio.dataobject.Column SECOND()
+    154:154:public com.dailystudio.dataobject.Column DAY()
+    170:170:public com.dailystudio.dataobject.Column YEAR()
+com.dailystudio.dataobject.database.AbsDatabaseConnectivity:
+    24:25:public AbsDatabaseConnectivity(android.content.Context,java.lang.Class)
+    public abstract com.dailystudio.dataobject.database.DatabaseUpdateInfo checkUpdates()
+    205:221:protected java.lang.String projectionToString(java.lang.String[])
+com.dailystudio.dataobject.database.AbsDatabaseUpdater
+com.dailystudio.dataobject.database.AsyncDatabaseHelper
+com.dailystudio.dataobject.database.AsyncDatabaseHelper$ResultHandler
+com.dailystudio.dataobject.database.AsyncDatabaseHelper$WorkerArgs
+com.dailystudio.dataobject.database.AsyncDatabaseHelper$WorkerHandler
+com.dailystudio.dataobject.database.CommandCursor:
+    24:24:public java.lang.String getCommand()
+    52:67:public void removeColumn(java.lang.String)
+    70:80:public void clearValue(int)
+    83:92:public void putValue(java.lang.String,java.lang.Double)
+    95:104:public void putValue(java.lang.String,java.lang.Float)
+    119:128:public void putValue(java.lang.String,java.lang.Long)
+    131:140:public void putValue(java.lang.String,java.lang.Short)
+    143:152:public void putValue(java.lang.String,java.lang.String)
+com.dailystudio.dataobject.database.DatabaseConnectivity:
+    58:59:public DatabaseConnectivity(android.content.Context,java.lang.Class,int)
+    408:453:public com.dailystudio.dataobject.database.DatabaseUpdateInfo checkUpdates()
+com.dailystudio.dataobject.database.DatabaseConnectivityDirectSQLiteImpl
+com.dailystudio.dataobject.database.DatabaseObserver:
+    static final java.lang.String ACTION_DATABASE_CHANGED_SUFFIX
+com.dailystudio.dataobject.database.DatabaseOpenHandler:
+    private static final int RETRY_TIMES
+    private static final int RETRY_INTERVAL
+    43:45:public void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int)
+com.dailystudio.dataobject.database.DatabaseUpdateInfo
+com.dailystudio.dataobject.database.DatabaseUpdater
+com.dailystudio.dataobject.database.DatabaseUpdaterDirectSQLImpl
+com.dailystudio.dataobject.database.GetUpdateInfoCmdCursor:
+    static final java.lang.String COMMAND_NAME
+    static final java.lang.String COLUMN_NEW_VERSION
+    static final java.lang.String COLUMN_OLD_VERSION
+    1:1:public bridge synthetic void clearValue(int)
+    1:1:public bridge synthetic void putValue(java.lang.String,java.lang.String)
+    1:1:public bridge synthetic void putValue(java.lang.String,java.lang.Short)
+    1:1:public bridge synthetic void putValue(java.lang.String,java.lang.Long)
+    1:1:public bridge synthetic void putValue(java.lang.String,java.lang.Float)
+    1:1:public bridge synthetic void putValue(java.lang.String,java.lang.Double)
+    1:1:public bridge synthetic void removeColumn(java.lang.String)
+    1:1:public bridge synthetic java.lang.String getCommand()
+com.dailystudio.dataobject.database.OpenedDatabaseCloseReceiver:
+    public static final java.lang.String ACTION_CLOSE_DATABASE
+    public static final java.lang.String EXTRA_SERIAL
+com.dailystudio.dataobject.database.ProviderCommandUriParser:
+    static final java.lang.String BASE_COMMAND
+    protected static final int SEG_COMMAND_IND_DATABASE
+    protected static final int SEG_COMMAND_IND_VERSION
+    protected static final int SEG_COMMAND_IND_TABLE
+    protected static final int SEG_COMMAND_IND_COMMAND
+com.dailystudio.dataobject.database.ProviderQueryUriParser:
+    static final java.lang.String BASE_QUERY
+    protected static final int SEG_QUERY_IND_DATABASE
+    protected static final int SEG_QUERY_IND_VERSION
+    protected static final int SEG_QUERY_IND_TABLE
+    protected static final java.lang.String QUERY_KEY_SERIAL
+    protected static final java.lang.String QUERY_KEY_CREATE_TABLE
+com.dailystudio.dataobject.database.ProviderResultUriParser:
+    static final java.lang.String BASE_RESULT
+    protected static final int SEG_RESULT_IND_DATABASE
+    protected static final int SEG_RESULT_IND_VERSION
+    protected static final int SEG_RESULT_IND_TABLE
+    protected static final int SEG_RESULT_IND_ROWID
+com.dailystudio.dataobject.database.ProviderUriBuilder:
+    8:8:ProviderUriBuilder()
+    12:12:public static android.net.Uri buildQueryUri(java.lang.String,java.lang.Class)
+    18:18:public static android.net.Uri buildQueryUri(java.lang.String,java.lang.Class,long)
+    144:144:public static android.net.Uri buildCommandUri(java.lang.String,java.lang.Class,java.lang.String)
+    151:182:public static android.net.Uri buildCommandUri(java.lang.String,java.lang.Class,int,java.lang.String)
+com.dailystudio.dataobject.database.ProviderUriParser:
+    protected static final int SEG_INDEX_BASE
+com.dailystudio.dataobject.database.SortOrderEncoder:
+    private static final java.lang.String HEADER_GROUP_BY
+    private static final java.lang.String HEADER_HAVING
+    private static final java.lang.String HEADER_ORDER_BY
+    private static final java.lang.String HEADER_LIMIT
+    private static final java.lang.String SPLITTER
+    3:3:SortOrderEncoder()
+com.dailystudio.dataobject.query.Expression:
+    3:3:public Expression()
+com.dailystudio.dataobject.query.ExpressionToken:
+    20:21:public ExpressionToken(double)
+    37:37:public com.dailystudio.dataobject.query.ExpressionToken minus(com.dailystudio.dataobject.query.ExpressionToken)
+    42:42:public com.dailystudio.dataobject.query.ExpressionToken multiple(com.dailystudio.dataobject.query.ExpressionToken)
+    47:47:public com.dailystudio.dataobject.query.ExpressionToken divide(com.dailystudio.dataobject.query.ExpressionToken)
+    52:52:public com.dailystudio.dataobject.query.ExpressionToken modulo(com.dailystudio.dataobject.query.ExpressionToken)
+    65:65:public com.dailystudio.dataobject.query.ExpressionToken eq(com.dailystudio.dataobject.query.ExpressionToken)
+    69:69:public com.dailystudio.dataobject.query.ExpressionToken neq(com.dailystudio.dataobject.query.ExpressionToken)
+    77:77:public com.dailystudio.dataobject.query.ExpressionToken gte(com.dailystudio.dataobject.query.ExpressionToken)
+    81:81:public com.dailystudio.dataobject.query.ExpressionToken lt(com.dailystudio.dataobject.query.ExpressionToken)
+    89:89:public com.dailystudio.dataobject.query.ExpressionToken in(com.dailystudio.dataobject.query.ExpressionToken,com.dailystudio.dataobject.query.ExpressionToken)
+    93:93:public com.dailystudio.dataobject.query.ExpressionToken outOf(com.dailystudio.dataobject.query.ExpressionToken,com.dailystudio.dataobject.query.ExpressionToken)
+com.dailystudio.dataobject.query.Query:
+    40:41:public void setHaving(com.dailystudio.dataobject.query.ExpressionToken)
+com.dailystudio.dataobject.utils.SQLiteDateTimeUtils:
+    private static final java.lang.String TIME_FUNC
+    private static final java.lang.String HOUR
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+    private static final java.lang.String DAY
+    private static final java.lang.String WEEK_DAY
+    private static final java.lang.String WEEK
+    private static final java.lang.String MONTH
+    private static final java.lang.String YEAR
+    3:3:public SQLiteDateTimeUtils()
+    27:27:public static java.lang.String hourOf(long)
+    31:31:public static java.lang.String minuteOf(java.lang.String)
+    35:35:public static java.lang.String minuteOf(long)
+    39:39:public static java.lang.String secondOf(java.lang.String)
+    43:43:public static java.lang.String secondOf(long)
+    51:51:public static java.lang.String dayOf(long)
+    59:59:public static java.lang.String weekdayOf(long)
+    67:67:public static java.lang.String weekOf(long)
+    75:75:public static java.lang.String monthOf(long)
+    79:79:public static java.lang.String yearOf(java.lang.String)
+    83:83:public static java.lang.String yearOf(long)
+com.dailystudio.datetime.CalendarUtils:
+    public static final java.lang.String FORMAT_TEPML_TIME
+    public static final java.lang.String FORMAT_TEPML_DATETIME
+    public static final long SECOND_IN_MILLIS
+    public static final long MINUTE_IN_MILLIS
+    public static final long HOUR_IN_MILLIS
+    public static final long DAY_IN_MILLIS
+    public static final long WEEK_IN_MILLIS
+    public static final long YEAR_IN_MILLIS
+    6:6:public CalendarUtils()
+    130:143:public static final synchronized long getStartOfYear(long)
+    147:160:public static final synchronized long getEndOfYear(long)
+    235:241:public static final synchronized int getMinute(long)
+    245:251:public static final synchronized int getSecond(long)
+    255:257:public static final boolean isCurrentDay(long)
+    261:263:public static final boolean isCurrentWeek(long)
+    267:269:public static final boolean isCurrentMonth(long)
+    273:275:public static final boolean isCurrentYear(long)
+    331:331:public static java.lang.String timeToReadableStringWithoutDate(long)
+com.dailystudio.datetime.TimeSpanUtils:
+    11:11:public TimeSpanUtils()
+    15:29:public static long calculateOverlapDuration(long,long,long,long)
+    33:33:public static long calculateDays(long,long)
+    77:77:public static long[] calculateHourDistribution(long,long)
+    85:85:public static long[] calculateHourDistribution(long,long,int[])
+com.dailystudio.development.FileLogger
+com.dailystudio.development.Logger:
+    private static final java.lang.String UNKNOWN_METHOD
+    private static final java.lang.String UNKNOWN_CLASS
+    private static final int TRACE_BASE_INDEX
+    private static final java.lang.String DEBUG_MSG_TEMPL
+    7:7:public Logger()
+    48:48:public static boolean isDebugEnabled()
+    52:53:public static varargs void info(java.lang.String,java.lang.Object[])
+    104:104:public static java.lang.String getCallingMethodName()
+    117:117:public static java.lang.String getCallingClassName()
+    121:121:public static java.lang.String getCallingSimpleClassName()
+com.dailystudio.factory.Factory:
+    48:48:public synchronized void reset()
+com.dailystudio.factory.SingletoneFactory
+com.dailystudio.job.Job
+com.dailystudio.job.Job$OnFinishedListener
+com.dailystudio.job.JobExecutor
+com.dailystudio.job.JobExecutor$LooperThread
+com.dailystudio.job.JobExecutor$NotifyJobListenersRunnable
+com.dailystudio.manager.GroupManager:
+    114:121:public void clearObjects()
+    124:124:public java.util.List listGroups()
+    130:130:public int getGroupCount()
+    154:160:public int getCountInGroup(java.lang.Object)
+    164:182:public void removeGroup(java.lang.Object)
+    186:191:public com.dailystudio.manager.IGroupObject getFirstObjectInGroup(java.lang.Object)
+    195:200:public com.dailystudio.manager.IGroupObject getLastObjectInGroup(java.lang.Object)
+    210:210:protected void onGroupsCleared()
+com.dailystudio.manager.INamedSingletonObject
+com.dailystudio.manager.IObjectWatcher:
+    public abstract void onObjectsCleared(java.lang.Object[])
+com.dailystudio.manager.Manager:
+    70:72:public static synchronized void clearManagers()
+    75:90:public static synchronized java.util.List listManagers()
+    94:101:public static synchronized void addManagerWatcher(com.dailystudio.manager.IManagerWatcher)
+    104:111:public static synchronized void removeManagerWatcher(com.dailystudio.manager.IManagerWatcher)
+    155:174:public void clearObjects()
+    197:206:public synchronized void addObjectWatcher(com.dailystudio.manager.IObjectWatcher)
+    209:218:public synchronized void removeObjectWatcher(com.dailystudio.manager.IObjectWatcher)
+    239:248:public static synchronized com.dailystudio.manager.Manager queryInstanceByName(java.lang.String)
+    252:262:public java.util.ArrayList getClassHierarchy()
+com.dailystudio.manager.SingletonManager:
+    91:96:public void clearObjects()
+com.dailystudio.memory.Constants
+com.dailystudio.memory.activity.ActionBar$LayoutParams:
+    32:33:public ActionBar$LayoutParams(android.content.Context,android.util.AttributeSet)
+    36:37:public ActionBar$LayoutParams(int,int)
+    40:42:public ActionBar$LayoutParams(int,int,int)
+    45:46:public ActionBar$LayoutParams(android.view.ViewGroup$LayoutParams)
+    49:50:public ActionBar$LayoutParams(android.view.ViewGroup$MarginLayoutParams)
+com.dailystudio.memory.activity.ActionBarActivity:
+    private static final java.lang.String SAVED_STATE_OVERFLOW_SHOWN
+    private static final long INDETERMINATE_PRG_INTERVAL
+    private static final long INDETERMINATE_PRG_INCREMENT
+    private static final long DEFAULT_PROMPT_DELAY
+    261:276:public void setActionBarIndeterminateProgress(boolean)
+com.dailystudio.memory.activity.MemoryCoreAppCheckActivity:
+    private static final java.lang.String MEMORY_GOOGLE_PLAY_LINK
+    private static final java.lang.String MEMORY_PACKGE_NAME
+    private static final java.lang.String MEMORY_ACTIVITY_NAME
+com.dailystudio.memory.activity.MemoryPeroidChartActivity
+com.dailystudio.memory.app.MemoryPieceQueryReceiver:
+    protected abstract void onQueryMemoryPiceceDigest(android.content.Context)
+com.dailystudio.memory.application.BuildConfig
+com.dailystudio.memory.application.Constants
+com.dailystudio.memory.application.Directories:
+    private static final java.lang.String APP_RES_CACHES_DIR
+    7:7:public Directories()
+com.dailystudio.memory.application.LoaderIds
+com.dailystudio.memory.application.MemoryAppPieceQueryReceiver:
+    39:39:protected void onQueryMemoryPiceceDigest(android.content.Context)
+com.dailystudio.memory.application.MemoryAppSearchableContentProvider:
+    private static final java.lang.String SEARCHABLE_AUTHORITY
+    private static final long USAGE_DURATION_THRESHOLD
+com.dailystudio.memory.application.R
+com.dailystudio.memory.application.R$anim
+com.dailystudio.memory.application.R$attr
+com.dailystudio.memory.application.R$color
+com.dailystudio.memory.application.R$dimen
+com.dailystudio.memory.application.R$drawable
+com.dailystudio.memory.application.R$id
+com.dailystudio.memory.application.R$integer
+com.dailystudio.memory.application.R$layout
+com.dailystudio.memory.application.R$menu
+com.dailystudio.memory.application.R$plurals
+com.dailystudio.memory.application.R$raw
+com.dailystudio.memory.application.R$string
+com.dailystudio.memory.application.R$style
+com.dailystudio.memory.application.R$styleable
+com.dailystudio.memory.application.R$xml
+com.dailystudio.memory.application.activity.ActivityUsagesListActivity:
+    26:32:private com.dailystudio.memory.application.fragment.ActivityUsagesListFragment findUsagesListFragment()
+com.dailystudio.memory.application.activity.AppUsageInfoActivity:
+    52:58:private com.dailystudio.memory.application.fragment.ActivityUsagesListFragment findUsagesListFragment()
+com.dailystudio.memory.application.appchecker.AppInstHistoryChecker:
+    private static final java.lang.String APP_INST_PREF
+    private static final java.lang.String KEY_APP_INST_CHECK_TIMESTAMP
+com.dailystudio.memory.application.appchecker.UselessAppsChecker:
+    private static final java.lang.String USELESS_APP_PREF
+    private static final java.lang.String KEY_USELESS_APP_CHECK_TIMESTAMP
+    private static final long APP_NOT_USED_RECENTLY_THRESHOLD
+    private static final long APP_NOT_UPDATED_RECENTLY_THRESHOLD
+com.dailystudio.memory.application.appwidget.FavoriteAppsWidgetDataAsyncTask:
+    36:40:public FavoriteAppsWidgetDataAsyncTask(android.content.Context,boolean,int)
+com.dailystudio.memory.application.databaseobject.AbsResMemoryObject:
+    50:55:public void setIconDimension(int,int)
+    59:63:public int getIconWidth()
+    68:72:public int getIconHeight()
+com.dailystudio.memory.application.databaseobject.ActivityUsageStatistics:
+    38:39:public void setComponentId(int)
+com.dailystudio.memory.application.databaseobject.AppInstHistory:
+    public static final java.lang.String PACKAGE_ACTION_INSTALL
+    public static final java.lang.String PACKAGE_ACTION_UNINSTALL
+    public static final java.lang.String PACKAGE_ACTION_UPDATE
+    71:84:public static int getAciontIcon(java.lang.String)
+com.dailystudio.memory.application.databaseobject.AppInstHistoryDatabaseModal:
+    18:18:public AppInstHistoryDatabaseModal()
+    28:28:public static com.dailystudio.memory.application.databaseobject.AppInstHistory addInstallHistory(android.content.Context,long,com.dailystudio.nativelib.application.AndroidApplication)
+    40:40:public static com.dailystudio.memory.application.databaseobject.AppInstHistory addUpdateHistory(android.content.Context,long,com.dailystudio.nativelib.application.AndroidApplication)
+    46:46:public static com.dailystudio.memory.application.databaseobject.AppInstHistory addUninstallHistory(android.content.Context,long,com.dailystudio.nativelib.application.AndroidApplication)
+    58:58:public static com.dailystudio.memory.application.databaseobject.AppInstHistory addHistory(android.content.Context,com.dailystudio.nativelib.application.AndroidApplication,java.lang.String)
+    189:194:public static com.dailystudio.memory.application.databaseobject.AppInstHistory getLatestHistory(android.content.Context,com.dailystudio.nativelib.application.AndroidApplication)
+    228:236:public static void clearHistory(android.content.Context)
+com.dailystudio.memory.application.databaseobject.CachedResMemoryObject:
+    144:144:public java.lang.String getLabelCachePath()
+com.dailystudio.memory.application.databaseobject.FavoriteAppDatabaseModal:
+    12:12:public FavoriteAppDatabaseModal()
+    18:44:public static java.util.List listTopFavoriteApps(android.content.Context,boolean,int,int)
+com.dailystudio.memory.application.databaseobject.UsageComponentDatabaseModal:
+    20:20:public UsageComponentDatabaseModal()
+    202:206:public static int getComponentId(android.content.Context,com.dailystudio.nativelib.application.AndroidComponentObject)
+    210:235:public static int getComponentId(android.content.Context,android.content.ComponentName)
+com.dailystudio.memory.application.databaseobject.UsageDatabaseModal:
+    19:19:public UsageDatabaseModal()
+    22:42:public static com.dailystudio.memory.application.databaseobject.Usage getFirstUsage(android.content.Context)
+com.dailystudio.memory.application.databaseobject.UselessAppDatabaseModal:
+    12:12:public UselessAppDatabaseModal()
+    68:86:public static boolean isUselessApp(android.content.Context,java.lang.String)
+    91:96:public static com.dailystudio.memory.application.databaseobject.UselessApp getLatestHistory(android.content.Context,com.dailystudio.nativelib.application.AndroidApplication)
+com.dailystudio.memory.application.fragment.ActivityUsagesListFragment:
+    84:91:public void loadUdageForPackage(java.lang.String)
+com.dailystudio.memory.application.fragment.AndroidApplicationListFragment:
+    196:196:public int getAppFilter()
+    213:213:public int getSortType()
+com.dailystudio.memory.application.fragment.AppFlagsFragment:
+    public static final int POSITION_INVALID
+    public static final int POSITION_TOP
+    public static final int POSITION_BOTTOM
+    private static final long SHOW_FLAGS_DELAY
+com.dailystudio.memory.application.fragment.BaseResObjectListFragment:
+    private static final int DEFAULT_BATCH_SIZE
+    180:180:protected int getNotifyBatchSize()
+com.dailystudio.memory.application.loader.ActivityUsagesLoader
+com.dailystudio.memory.application.loader.FavoriteAppsLoader:
+    20:21:public FavoriteAppsLoader(android.content.Context)
+com.dailystudio.memory.application.loader.UsageMonthsLoader:
+    11:12:public UsageMonthsLoader(android.content.Context)
+com.dailystudio.memory.application.loader.UsageWeeksLoader:
+    11:12:public UsageWeeksLoader(android.content.Context)
+com.dailystudio.memory.application.utils.PrintUtils
+com.dailystudio.memory.appwidget.AppWidgetChartDataAsyncTask
+com.dailystudio.memory.appwidget.AppWidgetDataAsyncTask:
+    15:16:public AppWidgetDataAsyncTask(android.content.Context,long,long)
+com.dailystudio.memory.appwidget.ConvertedAppWidgetChartDataAsyncTask
+com.dailystudio.memory.appwidget.ConvertedAppWidgetDataAsyncTask:
+    66:66:public long getPeroidStart()
+    70:70:public long getPeroidEnd()
+    91:142:protected android.graphics.Bitmap buildViewCache(android.content.Context,android.view.View,int,int)
+    159:197:protected int[] estimateDimensionInWidget(int,int,int,int)
+    201:217:protected int estimateWidgetWidth(int)
+    221:237:protected int estimateWidgetHeight(int)
+com.dailystudio.memory.appwidget.MemoryAppWidgetDataService:
+    105:105:protected com.dailystudio.dataobject.database.DatabaseObserver[] getDatabaseObserver()
+com.dailystudio.memory.appwidget.ProjectedAppWidgetChartDataAsyncTask
+com.dailystudio.memory.appwidget.ProjectedAppWidgetDataAsyncTask:
+    15:16:public ProjectedAppWidgetDataAsyncTask(android.content.Context,long,long)
+com.dailystudio.memory.ask.MemoryAsk
+com.dailystudio.memory.ask.MemoryAskCommandReceiver
+com.dailystudio.memory.ask.MemoryAskController
+com.dailystudio.memory.ask.MemoryAskCursorAdapter:
+    10:11:public MemoryAskCursorAdapter(android.content.Context)
+com.dailystudio.memory.ask.MemoryAskFragment
+com.dailystudio.memory.ask.MemoryAskHostView:
+    private static final long SCHEDULE_INTERVAL_SHORT
+    private static final long SCHEDULE_INTERVAL_LONG
+    private static final long MOVE_NEXT_INTERVAL
+    private static final int CHECK_POSITION_SEARCH_DISTANCE
+    private com.dailystudio.memory.ask.MemoryAskHostView$AskDataSetObserver mDataSetObserver
+    183:231:private boolean checkAndRestoredPositionsById()
+    235:256:public void scheduleQuestions(android.widget.Adapter)
+    296:297:public void pasueAskQuestions()
+    300:301:public void resumeAskQuestions()
+    321:322:public void hideAskBoard()
+    182:182:static synthetic boolean access$9(com.dailystudio.memory.ask.MemoryAskHostView)
+com.dailystudio.memory.ask.MemoryAskHostView$3:
+    private static final float XY_FACTOR
+com.dailystudio.memory.ask.MemoryAskHostView$AskDataSetObserver
+com.dailystudio.memory.ask.MemoryQuestion:
+    public static final int PRIORITY_NORMAL
+    public static final int PRIORITY_ROUTINE
+    public static final int PRIORITY_EMERGENT
+    public static final int STATE_NEW
+    public static final int STATE_UPDATED
+    public static final int STATE_ASKED
+    public static final int STATE_CANCELLED
+    public static final int STATE_ANSWERED
+    62:63:public void setQuestionId(int)
+    70:71:public void setSourcePackage(java.lang.String)
+    78:79:public void setContentResourceName(java.lang.String)
+    86:111:public void setContentResourceId(int)
+    147:148:public void setContentText(java.lang.String)
+    199:200:public void setLaunchIntent(java.lang.String)
+    207:208:public void setPriority(int)
+    215:216:public void setState(int)
+    223:224:public void setAnswer(java.lang.String)
+com.dailystudio.memory.ask.MemoryQuestionDatabaseModal
+com.dailystudio.memory.ask.MemoryQuestionsLoader
+com.dailystudio.memory.boot.BootTasksKeepAliveSerive
+com.dailystudio.memory.boot.Constants
+com.dailystudio.memory.boot.LoaderIds
+com.dailystudio.memory.boot.MemoryBoot:
+    40:41:public void setBootSequence(long)
+    48:49:public void setBootUpTime(long)
+    60:60:public boolean isEstimated()
+    64:66:public void setEsitmated(boolean)
+com.dailystudio.memory.boot.MemoryBootDatabaseModal:
+    private static final long BOOT_DELTA_ACCEPTED
+    16:16:public MemoryBootDatabaseModal()
+    106:106:public static synchronized boolean tagNewBoot(android.content.Context,long)
+    110:152:public static synchronized boolean tagNewBoot(android.content.Context,long,long)
+com.dailystudio.memory.boot.MemoryBootPieceQueryReceiver
+com.dailystudio.memory.boot.MemoryBootSearchableContentProvider
+com.dailystudio.memory.boot.MemoryScreenOnDatabaseModal:
+    16:16:public MemoryScreenOnDatabaseModal()
+    30:44:public static com.dailystudio.memory.boot.MemoryScreenOn getFirstScreenOn(android.content.Context)
+com.dailystudio.memory.boot.NotifyIds
+com.dailystudio.memory.boot.OnBootCompleteReceiver
+com.dailystudio.memory.boot.OnShutdownReceiver
+com.dailystudio.memory.boot.PluginBoot
+com.dailystudio.memory.boot.R:
+    9:9:public R()
+com.dailystudio.memory.boot.R$anim
+com.dailystudio.memory.boot.R$attr
+com.dailystudio.memory.boot.R$color:
+    64:64:public R$color()
+com.dailystudio.memory.boot.R$dimen:
+    96:96:public R$dimen()
+com.dailystudio.memory.boot.R$drawable:
+    178:178:public R$drawable()
+com.dailystudio.memory.boot.R$id:
+    284:284:public R$id()
+com.dailystudio.memory.boot.R$integer
+com.dailystudio.memory.boot.R$layout:
+    410:410:public R$layout()
+com.dailystudio.memory.boot.R$menu
+com.dailystudio.memory.boot.R$raw
+com.dailystudio.memory.boot.R$string:
+    455:455:public R$string()
+com.dailystudio.memory.boot.R$style
+com.dailystudio.memory.boot.R$styleable
+com.dailystudio.memory.boot.R$xml
+com.dailystudio.memory.boot.activity.BaseScreenOnDistribChartActivity
+com.dailystudio.memory.boot.activity.BootListActivity
+com.dailystudio.memory.boot.activity.BootListActivity$1
+com.dailystudio.memory.boot.activity.BootRecordsActivity
+com.dailystudio.memory.boot.activity.MonthsListActivity
+com.dailystudio.memory.boot.activity.ScreenOnDistribChartActivity
+com.dailystudio.memory.boot.activity.ScreenOnListActivity
+com.dailystudio.memory.boot.activity.UptimeTrendsChartActivity
+com.dailystudio.memory.boot.activity.UptimeTrendsMonthChartActivity
+com.dailystudio.memory.boot.fragment.MonthsListFragment
+com.dailystudio.memory.boot.loader.BootMonthsLoader
+com.dailystudio.memory.boot.loader.MemoryBootCountLoader
+com.dailystudio.memory.boot.record.MemoryBootRecordDatabaseModal:
+    28:28:public MemoryBootRecordDatabaseModal()
+    111:117:public static boolean isBreakingFastestUptimeRecord(android.content.Context,long)
+    121:128:public static boolean isBreakingSlowestUptimeRecord(android.content.Context,long)
+    133:165:public static synchronized com.dailystudio.memory.boot.record.MemoryBootRecordDatabaseModal$MaxAndMinBootupTime getMaxAndMinBootupTime(android.content.Context)
+    169:175:public static boolean isBreakingShortestLifetimeRecord(android.content.Context,long)
+    179:186:public static boolean isBreakingLongestLifetimeRecord(android.content.Context,long)
+    191:222:public static synchronized com.dailystudio.memory.boot.record.MemoryBootRecordDatabaseModal$MaxAndMinLifeTime getMaxAndMinLifetime(android.content.Context)
+    226:243:public static void checkAndUpdateRecordsBreaking(android.content.Context)
+    246:321:public static void checkAndUpdateUptimeRecordsBreaking(android.content.Context,long)
+    324:380:public static void checkAndUpdateLifetimeRecordsBreaking(android.content.Context,long)
+com.dailystudio.memory.boot.record.Records
+com.dailystudio.memory.boot.ui.MonthsAdatper
+com.dailystudio.memory.chart.ChartBuilder
+com.dailystudio.memory.chart.ChartUtils:
+    14:14:public ChartUtils()
+    79:109:public static void applyDefaulWidgetChartStyle(android.content.Context,org.achartengine.renderer.DefaultRenderer)
+    112:133:public static void applyDefaulWidgetChartStyle(android.content.Context,org.achartengine.renderer.XYMultipleSeriesRenderer)
+com.dailystudio.memory.core.R
+com.dailystudio.memory.core.R$drawable
+com.dailystudio.memory.core.R$string
+com.dailystudio.memory.core.R$style
+com.dailystudio.memory.dataobject.MemoryDatabaseReader:
+    29:30:public MemoryDatabaseReader(android.content.Context,java.lang.Class,int)
+    62:62:public java.util.List query(long,long)
+    66:76:public java.util.List query(long,long,boolean)
+    80:80:public java.util.List queryForDay(long)
+    84:94:public java.util.List queryForDay(long,boolean)
+    98:98:public java.util.List queryForCurrentDay()
+    102:104:public java.util.List queryForCurrentDay(boolean)
+    108:108:public java.util.List queryForWeek(long)
+    112:122:public java.util.List queryForWeek(long,boolean)
+    126:126:public java.util.List queryForCurrentWeek()
+    130:132:public java.util.List queryForCurrentWeek(boolean)
+    136:136:public java.util.List queryForMonth(long)
+    140:150:public java.util.List queryForMonth(long,boolean)
+    154:154:public java.util.List queryForCurrentMonth()
+    158:160:public java.util.List queryForCurrentMonth(boolean)
+    164:164:public java.util.List queryForYear(long)
+    168:178:public java.util.List queryForYear(long,boolean)
+    182:182:public java.util.List queryForCurrentYear()
+    186:188:public java.util.List queryForCurrentYear(boolean)
+com.dailystudio.memory.dataobject.MemoryDatabaseWriter:
+    27:28:public MemoryDatabaseWriter(android.content.Context,java.lang.Class,int)
+com.dailystudio.memory.dataobject.MemoryQueryBuilder:
+    95:95:public com.dailystudio.dataobject.query.Query getQueryForDay(long)
+    99:102:public com.dailystudio.dataobject.query.Query getQueryForDay(long,boolean)
+    106:106:public com.dailystudio.dataobject.query.Query getQueryForCurrentDay()
+    110:112:public com.dailystudio.dataobject.query.Query getQueryForCurrentDay(boolean)
+    116:116:public com.dailystudio.dataobject.query.Query getQueryForWeek(long)
+    120:126:public com.dailystudio.dataobject.query.Query getQueryForWeek(long,boolean)
+    130:130:public com.dailystudio.dataobject.query.Query getQueryForCurrentWeek()
+    134:136:public com.dailystudio.dataobject.query.Query getQueryForCurrentWeek(boolean)
+    140:140:public com.dailystudio.dataobject.query.Query getQueryForMonth(long)
+    144:147:public com.dailystudio.dataobject.query.Query getQueryForMonth(long,boolean)
+    151:151:public com.dailystudio.dataobject.query.Query getQueryForCurrentMonth()
+    155:157:public com.dailystudio.dataobject.query.Query getQueryForCurrentMonth(boolean)
+    161:161:public com.dailystudio.dataobject.query.Query getQueryForYear(long)
+    165:168:public com.dailystudio.dataobject.query.Query getQueryForYear(long,boolean)
+    172:172:public com.dailystudio.dataobject.query.Query getQueryForCurrentYear()
+    176:178:public com.dailystudio.dataobject.query.Query getQueryForCurrentYear(boolean)
+com.dailystudio.memory.datetime.DaysFilter
+com.dailystudio.memory.fragment.AbsWeekdaysListFragment
+com.dailystudio.memory.fragment.MemoryChartFragment:
+    128:128:public android.graphics.Bitmap dumpChart()
+    132:151:protected android.graphics.Bitmap dumpChart(android.view.View)
+com.dailystudio.memory.game.DesEncrypter:
+    public static final int SALT_LENGTH
+    public static final int PBE_ITERATION_COUNT
+    private static final java.lang.String PBE_ALGORITHM
+    private static final java.lang.String CIPHER_ALGORITHM
+    27:49:public byte[] encrypt(java.lang.String,java.lang.String)
+com.dailystudio.memory.game.EncryptedMemoryObject:
+    private static final java.lang.String DEFAULT_ENCRPYTER_SEED
+    39:40:public static synchronized void setEncryptPassword(java.lang.String)
+    43:43:public static byte[] encryptString(java.lang.String)
+com.dailystudio.memory.game.MemoryGameService
+com.dailystudio.memory.game.MemoryGameService$ServiceHandler
+com.dailystudio.memory.game.MemoryGameUtils
+com.dailystudio.memory.game.UncommittedAchievement:
+    41:42:public void setEncryptedAchievementId(byte[])
+    49:50:public void setAchievementId(java.lang.String)
+    57:58:public void setEncryptedAchievementType(byte[])
+    79:84:public void setAchievementType(com.dailystudio.memory.game.UncommittedAchievement$AchievementType)
+    91:92:public void setEncryptedIncrementSteps(byte[])
+    113:114:public void setIncrementSteps(int)
+com.dailystudio.memory.game.UncommittedAchievementModal
+com.dailystudio.memory.game.UncommittedLeaderboardScore:
+    34:35:public void setEncryptedLeaderboardId(byte[])
+    42:43:public void setLeaderboardId(java.lang.String)
+    50:51:public void setEncryptedLeaderboardScore(byte[])
+    72:73:public void setLeaderboardScore(long)
+com.dailystudio.memory.game.UncommittedLeaderboardScoreModal
+com.dailystudio.memory.javascript.MemoryJSPluginManager
+com.dailystudio.memory.javascript.MemoryJSPluginManager$PluginPrivacy
+com.dailystudio.memory.loader.AbsDateGroupLoader:
+    64:65:public AbsDateGroupLoader(android.content.Context)
+com.dailystudio.memory.loader.CoreLoaderIds
+com.dailystudio.memory.loader.DatabaseChartLoader:
+    11:12:public DatabaseChartLoader(android.content.Context)
+com.dailystudio.memory.loader.MonthsLoader:
+    14:15:public MonthsLoader(android.content.Context)
+com.dailystudio.memory.loader.PeroidAsyncDataLoader
+com.dailystudio.memory.loader.PeroidDatabaseCursorLoader:
+    16:20:public PeroidDatabaseCursorLoader(android.content.Context)
+    42:42:public long getPeroidStart()
+    46:46:public long getPeroidEnd()
+com.dailystudio.memory.loader.PeroidDatabaseObjectsLoader:
+    11:12:public PeroidDatabaseObjectsLoader(android.content.Context)
+com.dailystudio.memory.loader.ProjectedPeroidDatabaseObjectsLoader:
+    11:12:public ProjectedPeroidDatabaseObjectsLoader(android.content.Context)
+com.dailystudio.memory.loader.WeekdaysLoader
+com.dailystudio.memory.loader.WeeksLoader:
+    14:15:public WeeksLoader(android.content.Context)
+com.dailystudio.memory.menu.ActionBarOverflowMenuItem:
+    private static final int NO_ICON
+    private static final int CHECKABLE
+    private static final int CHECKED
+    private static final int EXCLUSIVE
+    private static final int HIDDEN
+    private static final int ENABLED
+    256:256:public void setShowAsAction(int)
+    259:259:public android.view.MenuItem setActionView(android.view.View)
+    263:263:public android.view.View getActionView()
+com.dailystudio.memory.notify.MemoryNotification:
+    49:50:public void setNotifyId(int)
+    57:58:public void setSourcePackage(java.lang.String)
+    65:66:public void setTitleResource(int)
+    73:74:public void setTitleText(java.lang.String)
+    81:82:public void setContentResource(int)
+    89:90:public void setContentText(java.lang.String)
+    169:170:public void setNotifyIntent(java.lang.String)
+com.dailystudio.memory.notify.MemoryNotificationDatabaseModal:
+    13:13:public MemoryNotificationDatabaseModal()
+    17:21:public static void addNotify(android.content.Context,int,java.lang.String,java.lang.String,java.lang.String)
+    25:29:public static void addNotify(android.content.Context,int,java.lang.String,int,int)
+    36:82:public static void addNotify(android.content.Context,int,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String)
+    89:104:public static void updateNotify(android.content.Context,int,int,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String)
+    112:158:public static void updateNotify(android.content.Context,com.dailystudio.memory.notify.MemoryNotification,int,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String)
+    161:183:public static com.dailystudio.memory.notify.MemoryNotification findNotify(android.content.Context,int,java.lang.String)
+    212:232:public static void deleteNotify(android.content.Context,com.dailystudio.memory.notify.MemoryNotification)
+com.dailystudio.memory.notify.MemoryNotificationsLoader
+com.dailystudio.memory.notify.MemoryNotify
+com.dailystudio.memory.notify.MemoryNotifyCommandReceiver
+com.dailystudio.memory.notify.MemoryNotifyCursorAdapter:
+    10:11:public MemoryNotifyCursorAdapter(android.content.Context)
+com.dailystudio.memory.notify.MemoryNotifyFragment
+com.dailystudio.memory.notify.MemoryNotifyHostView:
+    private static final int ROOT_ANIM_DELAY
+    private static final int CHILD_ANIM_DELAY
+com.dailystudio.memory.plugin.MemoryPluginInfo:
+    30:36:MemoryPluginInfo(android.content.Context,android.content.ComponentName)
+    39:41:private void initMembers()
+    48:57:public java.lang.String getPackageName()
+    61:62:public void setLabel(java.lang.String)
+    69:70:public void setIconResource(int)
+    77:78:public void setShowcasePage(android.net.Uri)
+    81:81:public android.net.Uri getShowcasePage()
+    85:86:public void setPrivacyPolicResource(int)
+    93:134:public com.dailystudio.memory.plugin.privacy.PrivacyPolicy dumpPrivacyPolicy()
+    138:139:public void setSearchableAuthority(java.lang.String)
+    142:142:public java.lang.String getSearchableAuthority()
+    146:148:public void register()
+    151:152:public void unregister()
+    172:177:public void resumeTask(int)
+com.dailystudio.memory.plugin.PluginFactory
+com.dailystudio.memory.plugin.PluginManager:
+    64:72:public void clearObjects()
+    75:96:public static void registerPlugin(com.dailystudio.memory.plugin.MemoryPluginInfo)
+    99:117:public static void unregisterPlugin(com.dailystudio.memory.plugin.MemoryPluginInfo)
+    133:145:public static void clearPlugins()
+    158:163:public static java.util.List listPlugins()
+    167:172:public static int countPlugins()
+    176:184:public static int countPlugins(java.lang.String)
+com.dailystudio.memory.plugin.TaskActionExecutor:
+    93:98:public void clearActions()
+com.dailystudio.memory.plugin.privacy.PrivacyPolicy
+com.dailystudio.memory.plugin.privacy.PrivacyPolicyXmlParser
+com.dailystudio.memory.record.MemoryRecord:
+    36:37:public void setRecordName(java.lang.String)
+    44:45:public void setRecordScore(long)
+    52:53:public void setDeltaScore(long)
+com.dailystudio.memory.record.MemoryRecordDatabaseModal:
+    11:11:public MemoryRecordDatabaseModal()
+    14:14:public static com.dailystudio.memory.record.MemoryRecord getRecord(android.content.Context,java.lang.String)
+    46:48:public static void saveNewRecord(android.content.Context,java.lang.String,long)
+    53:87:public static void saveNewRecord(android.content.Context,java.lang.String,java.lang.String,long)
+com.dailystudio.memory.searchable.MemorySearchableContent:
+    44:94:public static com.dailystudio.memory.searchable.MemorySearchableContent parseFromCursor(android.database.Cursor)
+com.dailystudio.memory.searchable.MemorySearchableSuggestion:
+    48:110:public static com.dailystudio.memory.searchable.MemorySearchableSuggestion parseFromCursor(android.database.Cursor)
+com.dailystudio.memory.searchable.TimeSortedCursor
+com.dailystudio.memory.searchable.TimeSortedCursor$1
+com.dailystudio.memory.searchable.TimeSortedCursor$SortEntry
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameterAnanlzyer:
+    private static final java.lang.String KEYWORD_QUERY_PATTERN
+    private static final java.lang.String KEYWORD_PREFIX
+    private static final int MATCHER_GROUP_COUNT_MIN
+    private static final int MATCHER_GROUP_QUERY_KEYWORD
+com.dailystudio.memory.searchable.queryparams.TextQueryParameterAnanlzyer:
+    private static final java.lang.String TEXT_QUERY_PATTERN
+    private static final int MATCHER_GROUP_COUNT_MIN
+    private static final int MATCHER_GROUP_QUERY_TEXT
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameterAnanlzyer:
+    private static final java.lang.String OLD_TIME_QUERY_PATTERN
+    private static final java.lang.String TIME_QUERY_PATTERN
+    private static final java.lang.String TIME_RANGE_SPLITTER
+    private static final java.lang.String TIME_8DIGITS_FORMAT
+    private static final java.lang.String TIME_6DIGITS_FORMAT
+    private static final int MATCHER_GROUP_COUNT_MIN
+    private static final int MATCHER_GROUP_QUERY_TIME
+com.dailystudio.memory.searchable.queryparams.keywords.BuildinKeywords
+com.dailystudio.memory.showcase.Showcase
+com.dailystudio.memory.showcase.ShowcaseBundle
+com.dailystudio.memory.showcase.ShowcaseCommandReceiver
+com.dailystudio.memory.showcase.ShowcaseCommandReceiver$PrepareShowcaseAsyncTask
+com.dailystudio.memory.showcase.ShowcaseDirectories
+com.dailystudio.memory.showcase.ShowcaseFileAccessContentProvider
+com.dailystudio.memory.task.PeriodicalTaskHost:
+    35:36:public void setExecPeroid(int)
+com.dailystudio.memory.task.PeriodicalTaskUnit
+com.dailystudio.memory.task.Task:
+    54:57:public void checkAndUpdateDatabase(android.content.Context,long)
+    145:145:public void onCheckAndUpdate(android.content.Context,long)
+    156:168:private java.lang.String getPrefName()
+    175:187:public void setStateValue(java.lang.String,boolean)
+    191:203:public void setStateValue(java.lang.String,float)
+    207:219:public void setStateValue(java.lang.String,int)
+    223:235:public void setStateValue(java.lang.String,long)
+    239:251:public void setStateValue(java.lang.String,java.lang.String)
+    255:260:public boolean getStateBooleanValue(java.lang.String,boolean)
+    265:270:public float getStateFloatValue(java.lang.String,float)
+    275:280:public int getStateIntValue(java.lang.String,int)
+    285:290:public long getStateLongValue(java.lang.String,long)
+    295:300:public java.lang.String getStateStringValue(java.lang.String,java.lang.String)
+    304:309:protected void runInUiThread(java.lang.Runnable)
+    312:317:protected void runInUiThreadDelayed(java.lang.Runnable,long)
+com.dailystudio.memory.task.TaskFactory:
+    40:42:public void reset()
+com.dailystudio.memory.task.TaskHost:
+    60:61:public void setTaskId(int)
+    64:65:public void setLabel(java.lang.String)
+    80:80:public int getSuccessTimes()
+    84:84:public int getFailureTimes()
+    88:88:public long getLastExecTime()
+    96:96:public long getNextExecTime()
+    104:105:public void setOneShot(boolean)
+    112:113:public void setComponent(android.content.ComponentName)
+    116:117:public void setTaskClass(java.lang.String)
+    120:120:public java.lang.String getTaskClass()
+    124:124:public com.dailystudio.memory.task.TaskStatus getStatus()
+    268:292:private void realSaveIntoDatabase(java.lang.String)
+com.dailystudio.memory.task.TaskHostAction:
+    37:38:public void setTaskId(int)
+    41:41:public int getTaskId()
+    45:46:public void setTaskClass(java.lang.String)
+    49:49:public java.lang.String getTaskClass()
+    53:54:public void setTaskAction(java.lang.String)
+    57:57:public java.lang.String getTaskAction()
+com.dailystudio.memory.task.TaskHostCreationParams
+com.dailystudio.memory.task.TaskHostFactory
+com.dailystudio.memory.task.TaskHostManager:
+    164:173:public void clearObjects()
+    176:189:public void recoveryObject(int)
+    196:206:public static void registerTask(com.dailystudio.memory.task.TaskHost)
+    223:229:public static void unregisterTask(int)
+    232:238:public static void clearTasks()
+    263:268:public static java.util.List listTasks()
+com.dailystudio.memory.task.TaskManager:
+    41:47:public static void unregisterTask(int)
+    50:56:public static void clearTasks()
+    77:82:public static int countTasks()
+com.dailystudio.memory.ui.AbstractWindow:
+    90:102:protected android.view.WindowManager$LayoutParams generateWindowLayoutParameter()
+    149:153:public void removeCallbacks(com.dailystudio.memory.ui.AbstractWindow$Callbacks)
+    156:159:public void clearCallbacks()
+    246:251:public void setContentView(android.view.View,android.widget.FrameLayout$LayoutParams)
+com.dailystudio.memory.ui.AlertDialogFragment:
+    public static final int THEME_DEVICE_DEFAULT_DARK
+    public static final int THEME_DEVICE_DEFAULT_LIGHT
+    public static final int THEME_HOLO_DARK
+    public static final int THEME_HOLO_LIGHT
+    public static final int THEME_TRADITIONAL
+com.dailystudio.memory.ui.AnimatedImageView
+com.dailystudio.memory.ui.AnimatedImageView$AnimStartRunnable
+com.dailystudio.memory.ui.AnimatedImageView$AnimStopRunnable
+com.dailystudio.memory.ui.CircleLayout
+com.dailystudio.memory.ui.CircleLayout$LayoutInfo
+com.dailystudio.memory.ui.CountView:
+    private com.dailystudio.memory.ui.CountView$CountRunnable mCountRunable
+    127:152:public void countTo(long)
+    155:156:public void abortCount()
+    159:160:private void finishCount()
+    163:180:private void finishCount(boolean)
+    76:76:static synthetic void access$0(com.dailystudio.memory.ui.CountView,long)
+    76:76:static synthetic long access$1(com.dailystudio.memory.ui.CountView)
+    75:75:static synthetic long access$2(com.dailystudio.memory.ui.CountView)
+    182:182:static synthetic void access$3(com.dailystudio.memory.ui.CountView)
+    158:158:static synthetic void access$4(com.dailystudio.memory.ui.CountView)
+com.dailystudio.memory.ui.CountView$CountRunnable
+com.dailystudio.memory.ui.CountView$OnCountListener:
+    public abstract void onCountStart(com.dailystudio.memory.ui.CountView,long)
+    public abstract void onCountAbort(com.dailystudio.memory.ui.CountView,long)
+    public abstract void onCountFinished(com.dailystudio.memory.ui.CountView,long)
+com.dailystudio.memory.ui.DurationCountView
+com.dailystudio.memory.ui.DurationCountView$1
+com.dailystudio.memory.ui.DurationCountView$OnCountDurationListener
+com.dailystudio.memory.ui.FloatingWindow
+com.dailystudio.memory.ui.FloatingWindow$1
+com.dailystudio.memory.ui.MonthsAdapter:
+    private static final java.lang.String DEFAULT_MONTH_PATTERN
+com.dailystudio.memory.ui.PaperClipWindow
+com.dailystudio.memory.ui.R:
+    9:9:public R()
+com.dailystudio.memory.ui.R$anim:
+    10:10:public R$anim()
+com.dailystudio.memory.ui.R$attr
+com.dailystudio.memory.ui.R$color:
+    64:64:public R$color()
+com.dailystudio.memory.ui.R$dimen:
+    94:94:public R$dimen()
+com.dailystudio.memory.ui.R$drawable:
+    169:169:public R$drawable()
+com.dailystudio.memory.ui.R$id:
+    266:266:public R$id()
+com.dailystudio.memory.ui.R$integer
+com.dailystudio.memory.ui.R$layout:
+    347:347:public R$layout()
+com.dailystudio.memory.ui.R$raw
+com.dailystudio.memory.ui.R$string:
+    373:373:public R$string()
+com.dailystudio.memory.ui.R$style
+com.dailystudio.memory.ui.R$styleable:
+    458:458:public R$styleable()
+com.dailystudio.memory.ui.SlidingDrawer:
+    public static final int ORIENTATION_HORIZONTAL
+    public static final int ORIENTATION_VERTICAL
+    private static final int TAP_THRESHOLD
+    private static final float MAXIMUM_TAP_VELOCITY
+    private static final float MAXIMUM_MINOR_VELOCITY
+    private static final float MAXIMUM_MAJOR_VELOCITY
+    private static final float MAXIMUM_ACCELERATION
+    private static final int VELOCITY_UNITS
+    private static final int MSG_ANIMATE
+    private static final int ANIMATION_FRAME_DURATION
+    private static final int EXPANDED_FULL_OPEN
+    private static final int COLLAPSED_FULL_CLOSED
+    772:777:public void open()
+    787:790:public void close()
+    938:939:public void unlock()
+    956:956:public boolean isOpened()
+    965:965:public boolean isMoving()
+com.dailystudio.memory.ui.WeekdaysAdatper
+com.dailystudio.memory.ui.utils.ColorHelper:
+    6:6:public ColorHelper()
+com.dailystudio.memory.ui.utils.DateTimePrintUtils:
+    private static final java.lang.String DATE_PRINT_FORMAT
+    private static final java.lang.String TIME_PRINT_FORMAT
+    11:11:public DateTimePrintUtils()
+    161:161:public static java.lang.String printTimeStringWithoutDate(android.content.Context,long)
+com.dailystudio.memory.ui.utils.ViewHelper:
+    private static final int SCREENLAYOUT_SIZE_XLARGE
+    14:14:public ViewHelper()
+com.dailystudio.memory.utils.XmlHelper
+com.dailystudio.nativeapplib.R
+com.dailystudio.nativeapplib.R$drawable
+com.dailystudio.nativeapplib.R$string
+com.dailystudio.nativeapplib.R$style
+com.dailystudio.nativelib.application.AndroidActivity:
+    23:24:public AndroidActivity(android.content.pm.ResolveInfo)
+    32:40:protected android.content.ComponentName extractComponent(android.content.pm.ResolveInfo)
+    90:110:public void launch(android.content.Context)
+    113:116:public static final java.util.List queryActivities(android.content.Context)
+    120:145:public static final java.util.List queryActivities(android.content.Context,android.content.Intent)
+com.dailystudio.nativelib.application.AndroidApplication:
+    175:176:public void setFlags(int)
+com.dailystudio.nativelib.application.AndroidComponentObject:
+    34:36:public AndroidComponentObject(android.content.pm.ResolveInfo)
+    protected abstract android.content.ComponentName extractComponent(android.content.pm.ResolveInfo)
+    32:32:static synthetic android.content.ComponentName access$0(com.dailystudio.nativelib.application.AndroidComponentObject)
+com.dailystudio.nativelib.application.AndroidComponentObject$ComponentComparator
+com.dailystudio.nativelib.application.AndroidObject:
+    22:24:public void setIconDimension(int,int)
+com.dailystudio.nativelib.application.AndroidService
+com.dailystudio.nativelib.application.IResourceObject:
+    public abstract void setIconDimension(int,int)
+    public abstract int getIconWidth()
+    public abstract int getIconHeight()
+com.dailystudio.nativelib.application.ResourceUtilities:
+    33:33:ResourceUtilities()
+    52:68:static android.graphics.Bitmap createIconBitmap(android.graphics.Bitmap,android.content.Context,int,int)
+com.dailystudio.nativelib.observable.NativeObservable:
+    private static final int NOTIFY_LISTENERS
+com.dailystudio.nativelib.observable.ObservableManager:
+    44:52:public void clearObjects()
+    68:78:public static void unregisterObservable(java.lang.Class)
+    81:87:public static void clearObservables()
+    107:112:public static java.util.List listObservables()
+    116:121:public static int countObservables()
+com.dailystudio.nativelib.observable.TimeTickObservable:
+    112:114:public synchronized void reset()
+com.dailystudio.nativelib.observable.TimeTickObservable$TimeTickThread:
+    private static final int TIME_SYNC_DELTA
+com.dailystudio.system.CommandFinder
+com.dailystudio.system.CommandShell
+com.dailystudio.system.CommandShell$PendingReturnASyncTask
+com.dailystudio.system.CommandShell$PendingReturnHandler
+com.dailystudio.system.ExecIOASyncTask
+com.dailystudio.system.ExecInputASyncTask
+com.dailystudio.system.ExecOuputStreams
+com.dailystudio.system.ExecOutputASyncTask
+com.dailystudio.system.ExecUnit
+com.dailystudio.test.Asserts
+com.dailystudio.utils.ClassNameUtils:
+    3:3:public ClassNameUtils()
+com.dailystudio.utils.GenericsUtils
+com.dailystudio.utils.ResourcesUtils
+com.google.gson.DefaultDateTypeAdapter
+com.google.gson.FieldAttributes:
+    53:53:public java.lang.Class getDeclaringClass()
+    60:60:public java.lang.String getName()
+    80:80:public java.lang.reflect.Type getDeclaredType()
+    100:100:public java.lang.Class getDeclaredClass()
+    111:111:public java.lang.annotation.Annotation getAnnotation(java.lang.Class)
+    121:121:public java.util.Collection getAnnotations()
+    135:135:public boolean hasModifier(int)
+    146:146:java.lang.Object get(java.lang.Object)
+    155:155:boolean isSynthetic()
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+    415:418:public com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    438:440:public com.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
+    457:460:public java.lang.String toJson(java.lang.Object)
+    479:481:public java.lang.String toJson(java.lang.Object,java.lang.reflect.Type)
+    499:504:public void toJson(java.lang.Object,java.lang.Appendable)
+    524:529:public void toJson(java.lang.Object,java.lang.reflect.Type,java.lang.Appendable)
+    538:554:public void toJson(java.lang.Object,java.lang.reflect.Type,com.google.gson.stream.JsonWriter)
+    564:566:public java.lang.String toJson(com.google.gson.JsonElement)
+    579:584:public void toJson(com.google.gson.JsonElement,java.lang.Appendable)
+    591:599:private com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)
+    607:622:public void toJson(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter)
+    693:696:public java.lang.Object fromJson(java.io.Reader,java.lang.Class)
+    792:793:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.Class)
+    816:819:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$2:
+    132:132:public java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$3:
+    138:138:public com.google.gson.JsonElement serialize(java.lang.Object)
+    141:141:public com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.GsonBuilder
+com.google.gson.JsonArray:
+    61:62:public void addAll(com.google.gson.JsonArray)
+    70:70:public int size()
+    92:92:public com.google.gson.JsonElement get(int)
+    154:157:public java.math.BigDecimal getAsBigDecimal()
+    171:174:public java.math.BigInteger getAsBigInteger()
+    187:190:public float getAsFloat()
+    227:230:public byte getAsByte()
+    235:238:public char getAsCharacter()
+    251:254:public short getAsShort()
+com.google.gson.JsonDeserializationContext:
+    public abstract java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.JsonDeserializer
+com.google.gson.JsonElement:
+    130:133:public com.google.gson.JsonNull getAsJsonNull()
+    211:211:public float getAsFloat()
+    251:251:public byte getAsByte()
+    265:265:public char getAsCharacter()
+    279:279:public java.math.BigDecimal getAsBigDecimal()
+    293:293:public java.math.BigInteger getAsBigInteger()
+    306:306:public short getAsShort()
+com.google.gson.JsonIOException:
+    private static final long serialVersionUID
+    33:34:public JsonIOException(java.lang.String,java.lang.Throwable)
+com.google.gson.JsonObject:
+    68:68:public com.google.gson.JsonElement remove(java.lang.String)
+    79:80:public void addProperty(java.lang.String,java.lang.String)
+    90:91:public void addProperty(java.lang.String,java.lang.Number)
+    101:102:public void addProperty(java.lang.String,java.lang.Boolean)
+    112:113:public void addProperty(java.lang.String,java.lang.Character)
+    122:122:private com.google.gson.JsonElement createJsonElement(java.lang.Object)
+    142:142:public boolean has(java.lang.String)
+    152:156:public com.google.gson.JsonElement get(java.lang.String)
+    166:166:public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
+    176:176:public com.google.gson.JsonArray getAsJsonArray(java.lang.String)
+    186:186:public com.google.gson.JsonObject getAsJsonObject(java.lang.String)
+com.google.gson.JsonParseException:
+    static final long serialVersionUID
+com.google.gson.JsonParser
+com.google.gson.JsonPrimitive:
+    74:76:public JsonPrimitive(java.lang.Character)
+    84:86:JsonPrimitive(java.lang.Object)
+    199:199:public java.math.BigDecimal getAsBigDecimal()
+    210:210:public java.math.BigInteger getAsBigInteger()
+    222:222:public float getAsFloat()
+    244:244:public short getAsShort()
+    260:260:public byte getAsByte()
+    265:265:public char getAsCharacter()
+com.google.gson.JsonSerializationContext:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object)
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.JsonSerializer
+com.google.gson.JsonStreamParser
+com.google.gson.JsonSyntaxException:
+    private static final long serialVersionUID
+com.google.gson.LongSerializationPolicy:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$1:
+    36:36:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$2:
+    47:47:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.TreeTypeAdapter
+com.google.gson.TreeTypeAdapter$1
+com.google.gson.TreeTypeAdapter$SingleTypeFactory
+com.google.gson.TypeAdapter:
+    140:142:final void toJson(java.io.Writer,java.lang.Object)
+    185:185:public final com.google.gson.TypeAdapter nullSafe()
+    213:215:final java.lang.String toJson(java.lang.Object)
+    226:231:final com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    252:254:final java.lang.Object fromJson(java.io.Reader)
+    266:266:final java.lang.Object fromJson(java.lang.String)
+    276:280:final java.lang.Object fromJsonTree(com.google.gson.JsonElement)
+com.google.gson.TypeAdapter$1
+com.google.gson.internal.$Gson$Preconditions:
+    32:32:public $Gson$Preconditions()
+com.google.gson.internal.$Gson$Types:
+    45:45:private $Gson$Types()
+com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl:
+    private static final long serialVersionUID
+com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl:
+    private static final long serialVersionUID
+com.google.gson.internal.$Gson$Types$WildcardTypeImpl:
+    private static final long serialVersionUID
+com.google.gson.internal.Excluder:
+    private static final double IGNORE_VERSIONS
+    70:72:public com.google.gson.internal.Excluder withVersion(double)
+    76:81:public varargs com.google.gson.internal.Excluder withModifiers(int[])
+    85:87:public com.google.gson.internal.Excluder disableInnerClassSerialization()
+    91:93:public com.google.gson.internal.Excluder excludeFieldsWithoutExposeAnnotation()
+    98:108:public com.google.gson.internal.Excluder withExclusionStrategy(com.google.gson.ExclusionStrategy,boolean,boolean)
+com.google.gson.internal.Pair
+com.google.gson.internal.Primitives:
+    33:33:private Primitives()
+    81:81:public static boolean isWrapperType(java.lang.reflect.Type)
+    114:116:public static java.lang.Class unwrap(java.lang.Class)
+com.google.gson.internal.Streams:
+    35:78:public Streams()
+    40:59:public static com.google.gson.JsonElement parse(com.google.gson.stream.JsonReader)
+    71:71:public static java.io.Writer writerForAppendable(java.lang.Appendable)
+com.google.gson.internal.Streams$1
+com.google.gson.internal.Streams$AppendableWriter
+com.google.gson.internal.Streams$AppendableWriter$CurrentWrite
+com.google.gson.internal.bind.JsonTreeReader:
+    53:55:public JsonTreeReader(com.google.gson.JsonElement)
+com.google.gson.internal.bind.JsonTreeWriter:
+    163:167:public com.google.gson.stream.JsonWriter value(double)
+    192:192:public void flush()
+com.google.gson.internal.bind.TypeAdapters:
+    56:56:private TypeAdapters()
+    722:722:public static com.google.gson.TypeAdapterFactory newFactory(com.google.gson.reflect.TypeToken,com.google.gson.TypeAdapter)
+com.google.gson.internal.bind.TypeAdapters$21:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.internal.bind.TypeAdapters$25
+com.google.gson.reflect.TypeToken:
+    112:112:public boolean isAssignableFrom(java.lang.Class)
+    123:140:public boolean isAssignableFrom(java.lang.reflect.Type)
+    153:153:public boolean isAssignableFrom(com.google.gson.reflect.TypeToken)
+    161:178:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.GenericArrayType)
+    188:231:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map)
+    240:250:private static boolean typeEquals(java.lang.reflect.ParameterizedType,java.lang.reflect.ParameterizedType,java.util.Map)
+    257:265:private static varargs java.lang.AssertionError buildUnexpectedTypeError(java.lang.reflect.Type,java.lang.Class[])
+    273:273:private static boolean matches(java.lang.reflect.Type,java.lang.reflect.Type,java.util.Map)
+com.google.gson.stream.JsonReader:
+    private static final java.lang.String TRUE
+    private static final java.lang.String FALSE
+com.google.gson.stream.JsonWriter:
+    173:180:public final void setIndent(java.lang.String)
+    213:214:public final void setHtmlSafe(boolean)
+    221:221:public final boolean isHtmlSafe()
+    229:230:public final void setSerializeNulls(boolean)
+    407:413:public com.google.gson.stream.JsonWriter value(double)
+    456:457:public void flush()
+com.google.gson.stream.MalformedJsonException:
+    private static final long serialVersionUID
+    33:37:public MalformedJsonException(java.lang.String,java.lang.Throwable)
+    39:43:public MalformedJsonException(java.lang.Throwable)
+org.achartengine.ChartFactory:
+    public static final java.lang.String CHART
+    public static final java.lang.String TITLE
+    51:53:private ChartFactory()
+    68:70:public static final org.achartengine.GraphicalView getLineChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    86:88:public static final org.achartengine.GraphicalView getCubeLineChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,float)
+    104:106:public static final org.achartengine.GraphicalView getScatterChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    122:124:public static final org.achartengine.GraphicalView getBubbleChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    181:183:public static final org.achartengine.GraphicalView getRangeBarChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type)
+    200:207:public static final org.achartengine.GraphicalView getCombinedXYChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String[])
+    224:226:public static final org.achartengine.GraphicalView getPieChartView(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer)
+    243:245:public static final org.achartengine.GraphicalView getDialChartView(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DialRenderer)
+    262:264:public static final org.achartengine.GraphicalView getDoughnutChartView(android.content.Context,org.achartengine.model.MultipleCategorySeries,org.achartengine.renderer.DefaultRenderer)
+    282:282:public static final android.content.Intent getLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    300:300:public static final android.content.Intent getCubicLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,float)
+    317:317:public static final android.content.Intent getScatterChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    334:334:public static final android.content.Intent getBubbleChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    353:353:public static final android.content.Intent getTimeChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    371:371:public static final android.content.Intent getBarChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type)
+    392:397:public static final android.content.Intent getLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    419:424:public static final android.content.Intent getCubicLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,float,java.lang.String)
+    442:447:public static final android.content.Intent getScatterChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    465:470:public static final android.content.Intent getBubbleChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    490:496:public static final android.content.Intent getTimeChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String,java.lang.String)
+    515:520:public static final android.content.Intent getBarChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type,java.lang.String)
+    540:545:public static final android.content.Intent getRangeBarChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type,java.lang.String)
+    565:575:public static final android.content.Intent getCombinedXYChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String[],java.lang.String)
+    593:598:public static final android.content.Intent getPieChartIntent(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer,java.lang.String)
+    616:621:public static final android.content.Intent getDoughnutChartIntent(android.content.Context,org.achartengine.model.MultipleCategorySeries,org.achartengine.renderer.DefaultRenderer,java.lang.String)
+    639:644:public static final android.content.Intent getDialChartIntent(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DialRenderer,java.lang.String)
+    675:680:private static void checkParameters(org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer)
+    692:697:private static void checkParameters(org.achartengine.model.MultipleCategorySeries,org.achartengine.renderer.DefaultRenderer)
+    700:705:private static boolean checkMultipleSeriesItems(org.achartengine.model.MultipleCategorySeries,int)
+org.achartengine.GraphicalActivity
+org.achartengine.GraphicalView:
+    145:149:public double[] toRealPoint(int)
+    231:240:public void addZoomListener(org.achartengine.tools.ZoomListener,boolean,boolean)
+    248:253:public synchronized void removeZoomListener(org.achartengine.tools.ZoomListener)
+    261:262:public void addPanListener(org.achartengine.tools.PanListener)
+    270:271:public void removePanListener(org.achartengine.tools.PanListener)
+    313:318:public void repaint(int,int,int,int)
+    326:334:public android.graphics.Bitmap toBitmap()
+org.achartengine.GraphicalView$2
+org.achartengine.ITouchHandler:
+    public abstract void addZoomListener(org.achartengine.tools.ZoomListener)
+    public abstract void removeZoomListener(org.achartengine.tools.ZoomListener)
+    public abstract void addPanListener(org.achartengine.tools.PanListener)
+    public abstract void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.TouchHandler:
+    167:170:public void addZoomListener(org.achartengine.tools.ZoomListener)
+    178:181:public void removeZoomListener(org.achartengine.tools.ZoomListener)
+    189:192:public void addPanListener(org.achartengine.tools.PanListener)
+    200:203:public void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.TouchHandlerOld:
+    105:105:public void addZoomListener(org.achartengine.tools.ZoomListener)
+    113:113:public void removeZoomListener(org.achartengine.tools.ZoomListener)
+    121:124:public void addPanListener(org.achartengine.tools.PanListener)
+    132:135:public void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.chart.AbstractChart:
+    336:346:private java.lang.String getFitText(java.lang.String,float,android.graphics.Paint)
+    389:434:protected void drawLabel(android.graphics.Canvas,java.lang.String,org.achartengine.renderer.DefaultRenderer,java.util.List,int,int,float,float,float,float,int,int,int,android.graphics.Paint)
+org.achartengine.chart.BarChart:
+    public static final java.lang.String TYPE
+    private static final int SHAPE_WIDTH
+    308:308:public double getDefaultMinimum()
+    317:317:public java.lang.String getChartType()
+org.achartengine.chart.BubbleChart
+org.achartengine.chart.CombinedXYChart
+org.achartengine.chart.CubicLineChart
+org.achartengine.chart.DialChart
+org.achartengine.chart.DoughnutChart
+org.achartengine.chart.LineChart:
+    public static final java.lang.String TYPE
+    private static final int SHAPE_WIDTH
+    61:63:protected void setDatasetRenderer(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    167:167:public java.lang.String getChartType()
+org.achartengine.chart.PieChart
+org.achartengine.chart.PieMapper
+org.achartengine.chart.PieSegment
+org.achartengine.chart.PointStyle:
+    62:70:public static org.achartengine.chart.PointStyle getPointStyleForName(java.lang.String)
+    79:87:public static int getIndexForName(java.lang.String)
+org.achartengine.chart.RangeBarChart
+org.achartengine.chart.RoundChart:
+    protected static final int SHAPE_WIDTH
+    protected org.achartengine.model.CategorySeries mDataset
+    protected static final int NO_VALUE
+    49:52:public RoundChart(org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer)
+    64:71:public void drawTitle(android.graphics.Canvas,int,int,int,android.graphics.Paint)
+org.achartengine.chart.ScatterChart:
+    public static final java.lang.String TYPE
+    private static final float SIZE
+    private static final int SHAPE_WIDTH
+    58:60:protected void setDatasetRenderer(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    263:263:public java.lang.String getChartType()
+org.achartengine.chart.TimeChart:
+    public static final java.lang.String TYPE
+    public static final long DAY
+    65:65:public java.lang.String getDateFormat()
+    84:84:public boolean isXAxisSmart()
+    93:94:public void setXAxisSmart(boolean)
+    171:171:public java.lang.String getChartType()
+org.achartengine.chart.XYChart:
+    92:94:protected void setDatasetRenderer(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    438:438:protected android.graphics.Rect getScreenR()
+    442:443:protected void setScreenR(android.graphics.Rect)
+    774:775:public void setCalcRange(double[],int)
+    778:778:public double[] toRealPoint(float,float)
+    782:782:public double[] toScreenPoint(double[])
+    902:902:public double getDefaultMinimum()
+    public abstract java.lang.String getChartType()
+org.achartengine.model.CategorySeries
+org.achartengine.model.MultipleCategorySeries
+org.achartengine.model.Point:
+    46:47:public void setX(float)
+    50:51:public void setY(float)
+org.achartengine.model.RangeCategorySeries
+org.achartengine.model.SeriesSelection:
+    35:35:public int getSeriesIndex()
+    39:39:public int getPointIndex()
+    43:43:public double getXValue()
+    47:47:public double getValue()
+org.achartengine.model.XYMultipleSeriesDataset:
+    45:46:public synchronized void addSeries(int,org.achartengine.model.XYSeries)
+    54:55:public synchronized void removeSeries(int)
+    63:64:public synchronized void removeSeries(org.achartengine.model.XYSeries)
+org.achartengine.model.XYSeries:
+    116:117:public void setTitle(java.lang.String)
+    136:142:public synchronized void remove(int)
+    148:150:public synchronized void clear()
+org.achartengine.model.XYValueSeries
+org.achartengine.renderer.DefaultRenderer:
+    public static final int NO_COLOR
+    public static final int BACKGROUND_COLOR
+    public static final int TEXT_COLOR
+    159:160:public void addSeriesRenderer(int,org.achartengine.renderer.SimpleSeriesRenderer)
+    168:169:public void removeSeriesRenderer(org.achartengine.renderer.SimpleSeriesRenderer)
+    196:196:public org.achartengine.renderer.SimpleSeriesRenderer[] getSeriesRenderers()
+    214:215:public void setBackgroundColor(int)
+    232:233:public void setApplyBackgroundColor(boolean)
+    305:306:public void setShowAxes(boolean)
+    323:324:public void setShowLabels(boolean)
+    387:388:public void setShowCustomTextGrid(boolean)
+    469:471:public void setTextTypeface(java.lang.String,int)
+    488:489:public void setAntialiasing(boolean)
+    552:553:public void setZoomButtonsVisible(boolean)
+    570:571:public void setExternalZoomEnabled(boolean)
+    606:607:public void setZoomRate(float)
+    624:625:public void setClickEnabled(boolean)
+    642:643:public void setSelectableBuffer(int)
+    699:700:public void setInScroll(boolean)
+    710:710:public float getStartAngle()
+    721:722:public void setStartAngle(float)
+org.achartengine.renderer.DialRenderer
+org.achartengine.renderer.DialRenderer$Type
+org.achartengine.renderer.SimpleSeriesRenderer:
+    83:84:public void setDisplayChartValues(boolean)
+    101:102:public void setChartValuesTextSize(float)
+    120:121:public void setChartValuesTextAlign(android.graphics.Paint$Align)
+    138:139:public void setChartValuesSpacing(float)
+    172:173:public void setGradientEnabled(boolean)
+    197:199:public void setGradientStart(double,int)
+    223:225:public void setGradientStop(double,int)
+org.achartengine.renderer.XYMultipleSeriesRenderer:
+    168:169:public void setOrientation(org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation)
+    251:251:public double getXAxisMin()
+    269:269:public boolean isMinXSet()
+    278:278:public double getXAxisMax()
+    296:296:public boolean isMaxXSet()
+    305:305:public double getYAxisMin()
+    323:323:public boolean isMinYSet()
+    332:332:public double getYAxisMax()
+    350:350:public boolean isMaxYSet()
+    511:512:public void addTextLabel(double,java.lang.String)
+    521:522:public void addXTextLabel(double,java.lang.String)
+    549:550:public void clearTextLabels()
+    556:557:public void clearXTextLabels()
+    566:567:public void addYTextLabel(double,java.lang.String)
+    577:578:public void addYTextLabel(double,java.lang.String,int)
+    587:587:public java.lang.String getYTextLabel(java.lang.Double)
+    607:607:public java.lang.Double[] getYTextLabelLocations()
+    624:625:public void clearYTextLabels()
+    652:656:public void setDisplayChartValues(boolean)
+    665:669:public void setChartValuesTextSize(float)
+    705:707:public void setPanEnabled(boolean,boolean)
+    743:745:public void setZoomEnabled(boolean,boolean)
+    754:754:public double getBarsSpacing()
+    810:811:public void setGridColor(int)
+    868:869:public void setXLabelsAngle(float)
+    886:887:public void setYLabelsAngle(float)
+    908:909:public void setRange(double[])
+    945:945:public double[] getInitialRange()
+    965:966:public void setInitialRange(double[])
+    976:977:public void setInitialRange(double[],int)
+    1003:1004:public void setXLabelsColor(int)
+    1013:1014:public void setYLabelsColor(int,int)
+    1053:1054:public void setYAxisAlign(android.graphics.Paint$Align,int)
+org.achartengine.renderer.XYSeriesRenderer:
+    53:54:public void setFillBelowLine(boolean)
+    89:90:public void setFillBelowLineColor(int)
+org.achartengine.tools.Pan:
+    157:158:public synchronized void addPanListener(org.achartengine.tools.PanListener)
+    166:167:public synchronized void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.tools.Zoom:
+    public static final int ZOOM_AXIS_XY
+    public static final int ZOOM_AXIS_X
+    public static final int ZOOM_AXIS_Y
+    177:178:public synchronized void addZoomListener(org.achartengine.tools.ZoomListener)
+    186:187:public synchronized void removeZoomListener(org.achartengine.tools.ZoomListener)
+org.achartengine.tools.ZoomEvent:
+    45:45:public boolean isZoomIn()
+    54:54:public float getZoomRate()
+org.achartengine.util.IndexXYMap:
+    54:54:public double getMaxXDifference()
+    91:92:public org.achartengine.util.XYEntry getByIndex(int)
+    101:102:public org.achartengine.util.XYEntry removeByIndex(int)
+org.achartengine.util.MathHelper:
+    public static final double NULL_VALUE
+    35:37:private MathHelper()
+    46:57:public static double[] minmax(java.util.List)
+org.achartengine.util.XYEntry
+org.mozilla.universalchardet.CharsetListener
+org.mozilla.universalchardet.Constants
+org.mozilla.universalchardet.UniversalDetector
+org.mozilla.universalchardet.UniversalDetector$1
+org.mozilla.universalchardet.UniversalDetector$InputState
+org.mozilla.universalchardet.prober.Big5Prober
+org.mozilla.universalchardet.prober.CharsetProber
+org.mozilla.universalchardet.prober.CharsetProber$ProbingState
+org.mozilla.universalchardet.prober.EUCJPProber
+org.mozilla.universalchardet.prober.EUCKRProber
+org.mozilla.universalchardet.prober.EUCTWProber
+org.mozilla.universalchardet.prober.EscCharsetProber
+org.mozilla.universalchardet.prober.GB18030Prober
+org.mozilla.universalchardet.prober.HebrewProber
+org.mozilla.universalchardet.prober.Latin1Prober
+org.mozilla.universalchardet.prober.MBCSGroupProber
+org.mozilla.universalchardet.prober.SBCSGroupProber
+org.mozilla.universalchardet.prober.SJISProber
+org.mozilla.universalchardet.prober.SingleByteCharsetProber
+org.mozilla.universalchardet.prober.UTF8Prober
+org.mozilla.universalchardet.prober.contextanalysis.EUCJPContextAnalysis
+org.mozilla.universalchardet.prober.contextanalysis.JapaneseContextAnalysis
+org.mozilla.universalchardet.prober.contextanalysis.JapaneseContextAnalysis$Order
+org.mozilla.universalchardet.prober.contextanalysis.SJISContextAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.Big5DistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.CharDistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.EUCJPDistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.EUCKRDistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.EUCTWDistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.GB2312DistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.JISDistributionAnalysis
+org.mozilla.universalchardet.prober.distributionanalysis.SJISDistributionAnalysis
+org.mozilla.universalchardet.prober.sequence.BulgarianModel
+org.mozilla.universalchardet.prober.sequence.CyrillicModel
+org.mozilla.universalchardet.prober.sequence.GreekModel
+org.mozilla.universalchardet.prober.sequence.HebrewModel
+org.mozilla.universalchardet.prober.sequence.Ibm855Model
+org.mozilla.universalchardet.prober.sequence.Ibm866Model
+org.mozilla.universalchardet.prober.sequence.Koi8rModel
+org.mozilla.universalchardet.prober.sequence.Latin5BulgarianModel
+org.mozilla.universalchardet.prober.sequence.Latin5Model
+org.mozilla.universalchardet.prober.sequence.Latin7Model
+org.mozilla.universalchardet.prober.sequence.MacCyrillicModel
+org.mozilla.universalchardet.prober.sequence.SequenceModel
+org.mozilla.universalchardet.prober.sequence.Win1251BulgarianModel
+org.mozilla.universalchardet.prober.sequence.Win1251Model
+org.mozilla.universalchardet.prober.sequence.Win1253Model
+org.mozilla.universalchardet.prober.statemachine.Big5SMModel
+org.mozilla.universalchardet.prober.statemachine.CodingStateMachine
+org.mozilla.universalchardet.prober.statemachine.EUCJPSMModel
+org.mozilla.universalchardet.prober.statemachine.EUCKRSMModel
+org.mozilla.universalchardet.prober.statemachine.EUCTWSMModel
+org.mozilla.universalchardet.prober.statemachine.GB18030SMModel
+org.mozilla.universalchardet.prober.statemachine.HZSMModel
+org.mozilla.universalchardet.prober.statemachine.ISO2022CNSMModel
+org.mozilla.universalchardet.prober.statemachine.ISO2022JPSMModel
+org.mozilla.universalchardet.prober.statemachine.ISO2022KRSMModel
+org.mozilla.universalchardet.prober.statemachine.PkgInt
+org.mozilla.universalchardet.prober.statemachine.SJISSMModel
+org.mozilla.universalchardet.prober.statemachine.SMModel
+org.mozilla.universalchardet.prober.statemachine.UCS2BESMModel
+org.mozilla.universalchardet.prober.statemachine.UTF8SMModel

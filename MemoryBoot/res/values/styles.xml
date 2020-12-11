@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<style name="ActionBarCountText" parent="ActionBarText">
+		<item name="android:textSize">@dimen/actbar_count_text_size</item>
+	</style>
+	
+	<style name="BootActiveLabelText" parent="DefaultLabel">
+		<item name="android:textColor">@color/royal_blue</item>
+	</style>
+			
+	<style name="BootRecordTitle" parent="DefaultLabel">
+		<item name="android:gravity">center</item>
+		<item name="android:textStyle">italic|bold</item>
+	</style>
+
+	<style name="BootRecordText" parent="DefaultLabel">
+	    <item name="android:singleLine">true</item>
+		<item name="android:gravity">right|center_vertical</item>
+		<item name="android:textStyle">italic|bold</item>
+	</style>
+	
+	<style name="BootRecordDeltaText" parent="DefaultLabel">
+	    <item name="android:singleLine">true</item>
+		<item name="android:gravity">right|center_vertical</item>
+	</style>
+					
+	<style name="ScreenOnInfoText" parent="DefaultListItemText">
+	    <item name="android:textColor">@color/royal_blue</item>
+	    <item name="android:singleLine">true</item>
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+					
+</resources>

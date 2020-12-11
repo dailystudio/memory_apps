@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">记忆碎片</string>
+    
+	<string name="permlab_read_memory_database">读取数据库</string>
+	<string name="permdesc_read_memory_database">允许应用程序读取“记忆碎片”数据库中的数据</string>
+	<string name="permlab_write_memory_database">修改数据库</string>
+	<string name="permdesc_write_memory_database">允许应用程序修改“记忆碎片”数据库中的数据</string>
+	<string name="permlab_update_memory_achievements_and_leaderboards">解锁成就</string>
+	<string name="permdesc_update_memory_achievements_and_leaderboards">允许应用程序解锁“记忆碎片”中的成就</string>
+	<string name="permlab_request_memory_service">请求服务</string>
+	<string name="permdesc_request_memory_service">允许应用程序请求“记忆碎片”中的内部服务</string>
+	<string name="permlab_query_memory_piece">查询碎片</string>
+	<string name="permdesc_query_memory_piece">允许应用程序查询“记忆碎片”中的碎片数量和简报</string>
+	<string name="permlab_read_memory_person_feature">读取个人属性</string>
+	<string name="permdesc_read_memory_person_feature">允许应用程序读取“记忆碎片”中的个人属性</string>
+	<string name="permlab_write_memory_person_feature">修改个人属性</string>
+	<string name="permdesc_write_memory_person_feature">允许应用程序修改“记忆碎片”中的个人属性</string>
+			
+	<string name="activity_activity_list">记忆活动列表</string>
+	<string name="activity_statistics">记忆统计</string>
+	<string name="activity_about">关于</string>
+	<string name="activity_privacy_policy">隐私原则</string>
+	<string name="activity_memory_shortcut_category">记忆分类快捷方式</string>			
+	<string name="activity_life_activities">生活习惯</string>			
+	
+	<string name="plugin_label_lifestyle">生活习惯插件</string>			
+	<string name="task_label_getup_and_sleep_check">检查作息时间</string>			
+	<string name="task_label_update_myself_cards">更新自己的卡片</string>			
+							
+	<string name="label_activity_category">记忆分类</string>
+	<string name="label_loc_name">您在：</string>
+		
+	<string name="menu_search">搜索记忆</string>	
+	<string name="menu_statistics">统计</string>	
+	<string name="menu_about">关于</string>	
+	<string name="menu_privacy_policy">隐私原则</string>	
+			
+	<string name="stats_lifetime">记忆持续了</string>	
+	<string name="stats_pieces">碎片的数量</string>	
+	
+	<string name="ask_question_welcome">欢迎使用记忆碎片 ^0^</string>			
+	
+	<string name="memory_search_hint">时间，文字，或者 @关键字</string>			
+	<string name="memory_search_suggest_selection"> word MATCH ? </string>			
+	<string name="memory_search_category_all">全部分类</string>		
+	<string name="prompt_search">在插件中搜索结果……</string>			
+	<string name="prompt_search_detail">读取数据:[ %1$s ]</string>			
+			
+	<string name="promote_app_ask_templ">试试我们的新应用“%s”？</string>			
+	
+	<string name="promote_app_name_boot">设备启动</string>			
+	<string name="promote_app_name_mood">心情曲线</string>			
+	<string name="promote_app_name_application">应用程序</string>			
+	<string name="promote_app_name_network">网络管理</string>			
+	<string name="promote_app_name_where">你在哪里</string>	
+			
+    <string name="gms_signing_in">正在登入您的Google+账号</string>
+    <string name="gms_signing_out">正在登出</string>
+    <string name="gms_sign_in_prompt">登入您的Google账号以便分享您的成就和积分</string>
+    <string name="gms_sign_out">登出</string>
+    <string name="gms_signed_in">您已经成功登入您的Google账号。</string>
+    <string name="gms_err_achievements_not_available">@string/gms_sign_out</string>
+    <string name="gms_err_leaderboards_not_available">@string/gms_sign_out</string>
+    <string name="gms_achievements">个人成就</string>
+	<string name="gms_leaderboards">积分排行</string>	        										
+	        										
+	<string name="slider_life_time_day">第%d天</string>	   
+	<string name="slider_card_list">记忆卡片</string>	        										
+		     										
+	<string name="dashboard_quote">人生格言</string>	        										
+	<string name="quote_loading">努力加载中……</string>	        										
+	       										
+	<string name="life_activity_getup">起床</string>	        										
+	<string name="life_activity_working">上班</string>	        										
+	<string name="life_activity_lunch">午饭</string>	        										
+	<string name="life_activity_sleep">睡觉</string>	        										
+	       										
+	<string name="key_note_start_of_day">新的一天开始了。</string>	
+	<string name="key_note_end_of_day">平平淡淡的一天╮(╯▽╰)╭</string>
+		
+	<string name="default_card_content">卡片制作中，稍等……</string>	
+	<string name="default_card_title">不好意思！</string>	
+													
+</resources>

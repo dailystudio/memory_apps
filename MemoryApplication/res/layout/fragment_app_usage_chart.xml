@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    <FrameLayout
+		android:id="@+id/chartStub"
+	    android:background="@color/white"
+		android:layoutAnimation="@anim/char_layout_anim"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="@dimen/app_usage_chart_height"/>
+
+    <LinearLayout
+        android:id="@+id/extra_views"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	    
+	    <TextView 
+	    	android:id="@+id/app_usage_label_day_use_freq"
+	    	style="@style/AppUsageInfoLabel"
+	    	android:text="@string/app_usage_label_day_use_freq"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/app_usage_day_use_freq"
+	    	style="@style/AppUsageInfoText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/app_usage_label_day_use_avg"
+	    	style="@style/AppUsageInfoLabel"
+	    	android:text="@string/app_usage_label_day_use_avg"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	    	android:id="@+id/app_usage_day_use_avg"
+	    	style="@style/AppUsageInfoText"
+	    	android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+</LinearLayout> 

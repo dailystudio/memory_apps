@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<fragment 
+	    android:name="com.dailystudio.memory.application.fragment.AndroidApplicationListFragment"
+        android:id="@+id/apps_list_fragment"
+ 		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+			
+	<com.dailystudio.memory.application.ui.AppInfoWindow 
+        android:id="@+id/app_info_window"
+        android:layout_centerVertical="true"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+	<com.dailystudio.memory.application.ui.AppsFilterWindow 
+        android:id="@+id/apps_filter_window"
+        android:layout_centerVertical="true"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+	<com.dailystudio.memory.application.ui.AppsSortWindow 
+        android:id="@+id/apps_sort_window"
+        android:layout_centerVertical="true"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+			
+</RelativeLayout>

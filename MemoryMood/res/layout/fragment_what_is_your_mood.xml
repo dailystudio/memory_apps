@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_view_root"
+	android:clipToPadding="false"
+	android:paddingLeft="@dimen/default_content_hpadding"
+	android:paddingRight="@dimen/default_content_hpadding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+    <GridView
+        android:id="@android:id/list"
+        style="@style/DefaultGridView"
+        android:numColumns="3"
+        android:horizontalSpacing="@dimen/moods_grid_hspacing"
+        android:verticalSpacing="@dimen/moods_grid_vspacing"
+        android:layout_centerInParent="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+    
+</RelativeLayout>

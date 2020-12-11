@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns:android="http://schemas.android.com/apk/res/android"
+	label="@string/plugin_label_mood"
+	icon="@drawable/ic_mood"
+	showcase="mood_showcase.html"
+	privacy="@xml/mood_privacy_policy"
+	searchableAuthority="com.dailystudio.memory.mood.searchable">
+    	
+	<task name=".AskMoodTask"
+		label="@string/task_label_ask_mood"
+    	executePeroidMillis="3600000"/>/>
+
+	<task name=".MoodWidgetDataUpdateCheckerTask"
+		label="@string/task_label_aw_data_update_checker"
+    	executePeroidMillis="3600000"/>/>
+    
+</plugin>    	

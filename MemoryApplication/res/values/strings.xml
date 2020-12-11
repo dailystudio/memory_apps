@@ -1,0 +1,123 @@
+<resources>
+    
+    <string name="app_name">Memory Application</string>
+    
+ 	<string name="plugin_label_app">Application(s)</string>
+	
+	<string name="category_app_label">Application</string>
+	<string name="task_label_activity_usage">Activity Usage Task</string>
+	<string name="task_label_app_inst_history_check">AppInst History Check Task</string>
+	<string name="task_label_useless_apps_check">Useless Apps Check Task</string>
+	<string name="task_label_favorite_apps_check">Favorite Apps Check Task</string>
+	
+	<string name="activity_apps_list">Application List</string>
+	<string name="activity_act_usage_list">Activity Usage</string>
+	<string name="activity_app_usage_list">Application Usage</string>
+	<string name="activity_appinst_history">Installation History</string>
+	<string name="activity_useless_app">Useless Applications</string>
+	<string name="activity_daily_app_usage_list">Daily Usage</string>
+	<string name="activity_weekly_app_usage_list">Weekly Usage</string>
+	<string name="activity_monthly_app_usage_list">Monthly Usage</string>
+	<string name="activity_app_usage_info">Usages details</string>
+    <string name="activity_weekdays_list">Weekdays</string>
+    <string name="activity_weeks_list">Weeks</string>
+    <string name="activity_months_list">Months</string>
+    <string name="activity_favorite_apps">Top Favorites</string>
+    <string name="activity_favorite_apps_pager">Favorite Applications</string>
+    								
+	<string name="menu_filter_apps">Filter Apps</string>
+	<string name="menu_sort_apps">Sort Apps</string>
+	<string name="menu_manage_apps">Manage</string>
+	<string name="menu_list_apps">List Apps</string>
+	<string name="menu_filter_sys_apps">Non-sys Apps</string>
+	<string name="menu_filter_non_apps">All Apps</string>
+	<string name="menu_usage_history">Usage History</string>
+	<string name="menu_list_weekdays">Weekdays</string>
+	<string name="menu_list_weeks">Weeks</string>
+	<string name="menu_list_months">Months</string>
+										
+	<string name="alert_dialog_uninst_app_title">Uninstall</string>
+	<string name="alert_dialog_uninst_system_app_message_templ">&lt;font color=\"#30B3E4\">&lt;b>%s&lt;/b>&lt;/font> is a &lt;font color=\"#C00000\">&lt;b>System application&lt;/b>&lt;/font>. Could not be uninstalled.</string>
+	
+	<string name="flag_debuggable">Debuggable</string>
+	<string name="flag_sd">Install on SD Card</string>
+	<string name="flag_sys">System Applications</string>
+	<string name="flag_persist">Persistent</string>
+	<string name="flag_user">User Applications</string>
+	<string name="flag_text_debuggable">Debug</string>
+	<string name="flag_text_sd">On SD Card</string>
+	<string name="flag_text_sys">System</string>
+	<string name="flag_text_persist">Persistent</string>
+	<string name="flag_text_user">User</string>
+	
+	<string name="app_filter_window_title">Filter Apps</string>
+	
+	<string name="app_info_window_title">Application</string>
+	<string name="app_info_label_package">Package</string>
+	<string name="app_info_label_version">Current version</string>
+	<string name="app_info_label_last_update">Last update on</string>
+	<string name="app_info_label_first_install">Fisrt install on</string>
+	<string name="app_info_label_path">Apk file path</string>
+			
+	<string name="app_sort_window_title">Sort Apps</string>
+	<string name="app_sort_type_name">Sort by name</string>
+	<string name="app_sort_type_install_time">Sort by install time</string>
+	<string name="app_sort_type_update_time">Sort by update time</string>
+	
+	<string name="app_usage_info_window_title">Application Usage</string>
+	<string name="app_usage_label_day_use_freq">Use frequence</string>
+	<string name="app_usage_label_day_use_avg">Use time per day</string>
+	<plurals name="app_usage_day_use_freq_templ">
+        <item quantity="one">Everyday used once</item>
+        <item quantity="other">Every %d days used once</item>
+	</plurals>
+						
+	<string name="useless_app_info_label_recent_used">Recent used on</string>
+	<string name="useless_app_info_label_recent_updated">Recent updated on</string>
+	<string name="useless_app_info_never_used">Never used</string>
+	<string name="useless_app_info_never_updated">Never updated</string>
+	<plurals name="useless_app_info_recent_val_day_templ">
+        <item quantity="one">About %d day before</item>
+        <item quantity="other">About %d days before</item>
+	</plurals>
+	<plurals name="useless_app_info_recent_val_month_templ">
+        <item quantity="one">About %d month before</item>
+        <item quantity="other">About %d months before</item>
+	</plurals>
+			
+	<string name="app_usage_label_week_templ">Week %d</string>			
+	<string name="app_usage_label_app_usage_history">Usages history</string>			
+	<string name="app_usage_load_prompt">Loading data for usages statistics &#8230;</string>			
+					
+	<string name="series_title_usage_duration">Usage duration</string>	
+	
+	<string name="search_usage_duration_min_templ">%1$d min. in [%2$s]</string>	
+	<string name="search_usage_duration_hour_templ">%1$d hour in [%2$s]</string>	
+	
+	<string name="no_favorite_apps">No favorite applications.\nTry me later~</string>	
+	<string name="favorite_apps_week_user">Recent Week, User Apps</string>	
+	<string name="favorite_apps_week_all">Recent Week, All Apps</string>	
+	<string name="favorite_apps_month_user">Recent Month, User Apps</string>	
+	<string name="favorite_apps_month_all">Recent Month, All Apps</string>	
+	<string name="disp_label_favorite_apps_week">Top Week Apps</string>	
+	<string name="disp_label_favorite_apps_month">Top Month Apps</string>	
+	<string name="favorite_class_week">Recent week</string>	
+	<string name="favorite_class_month">Recent month</string>	
+	<string name="favorite_class_day_0_8">Before daybreak</string>	
+	<string name="favorite_class_day_9_12">Morning</string>	
+	<string name="favorite_class_day_13_18">Afternoon</string>	
+	<string name="favorite_class_day_19_23">Evening</string>	
+								
+	<string name="widget_favorite_apps">Favorite Apps</string>	
+	<string name="widget_hourly_favorite_apps">Hourly Favorite Apps</string>	
+	
+	<string name="key_note_app_inst_brief">&lt;keynote_main>%1$s&lt;/keynote_main> is %2$s.</string>	
+	<string name="key_note_apps_inst_brief">Including &lt;keynote_main>%1$s&lt;/keynote_main>, &lt;keynote_sub>%2$d&lt;/keynote_sub> apps are changed.</string>	
+	<string name="key_note_apps_usage_brief">Addicted to &lt;keynote_main>%1$s&lt;/keynote_main> more than half a hour.</string>	
+	
+	<string name="app_inst_action_install">installed</string>	
+	<string name="app_inst_action_update">updated</string>	
+	<string name="app_inst_action_remove">removed</string>	
+			
+																			
+</resources>

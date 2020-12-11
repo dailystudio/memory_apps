@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/weather_panel_background"
+    android:paddingLeft="@dimen/weather_panel_hpadding"
+    android:paddingRight="@dimen/weather_panel_hpadding"
+    android:paddingTop="@dimen/weather_panel_vpadding"
+    android:paddingBottom="@dimen/weather_panel_vpadding"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout 
+        android:id="@+id/weather_info"
+        android:visibility="gone"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent">
+	    
+	    <ImageView 
+	        android:id="@+id/weather_icon"
+	        android:scaleType="centerInside"
+	        android:contentDescription="@string/default_iv_description"
+	 		android:layout_width="@dimen/weather_icon_size"
+			android:layout_height="fill_parent"/>
+	    
+		<TextView
+	        android:id="@+id/weather_current_temp"
+	        style="@style/WeatherPriText"
+	        android:layout_toRightOf="@id/weather_icon"
+	 		android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	    
+		<TextView
+	        android:id="@+id/weather_description"
+	        style="@style/WeatherSecText"
+	        android:layout_below="@id/weather_current_temp"
+	        android:layout_toRightOf="@id/weather_icon"
+	 		android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+		
+		<TextView
+	        android:id="@+id/weather_temperature"
+	        android:visibility="gone"
+	        style="@style/WeatherSecText"
+	        android:layout_below="@id/weather_current_temp"
+	        android:layout_toRightOf="@id/weather_icon"
+	 		android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	    
+	</RelativeLayout>
+			
+	<TextView
+        android:id="@+id/weather_loading"
+        style="@style/WeatherLoadingText"
+        android:text="@string/loading_weather"
+ 		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+    
+</RelativeLayout>

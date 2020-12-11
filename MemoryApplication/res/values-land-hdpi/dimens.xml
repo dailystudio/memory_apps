@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<dimen name="app_usage_list_handle_bottom_offset">0dp</dimen>
+	
+    <dimen name="app_widget_favorite_app_left_offset">18dp</dimen>
+    <dimen name="app_widget_favorite_app_width">100dp</dimen>
+    <dimen name="app_widget_favorite_app_height">65dp</dimen>
+    <dimen name="app_widget_favorite_app_gap_width">22dp</dimen>
+    <dimen name="app_widget_favorite_app_gap_height">0dp</dimen>
+														
+</resources>

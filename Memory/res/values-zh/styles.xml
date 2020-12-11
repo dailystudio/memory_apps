@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="QuoteLoading" parent="QuoteContent">
+	    <item name="android:gravity">center</item>
+		<item name="android:textStyle">italic</item>
+	</style>
+			
+</resources>

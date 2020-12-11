@@ -1,0 +1,367 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dailystudio.memory.where"
+    android:versionCode="13071220"
+    android:versionName="1.0.1.13071220" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+	
+	<permission
+	        android:name="com.dailystudio.memory.where.permission.MAPS_RECEIVE"
+	        android:protectionLevel="signature"/>
+	
+	<uses-permission android:name="com.dailystudio.memory.where.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="memory.permission.READ_MEMORY_DATABASE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="memory.permission.WRITE_MEMORY_PERSON_FEATURE" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+
+	<uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+	
+	<application
+        android:name=".MemoryWhereApplication"
+        android:icon="@drawable/ic_where"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+		
+        <uses-library android:name="com.google.android.maps"/>
+        
+	    <meta-data android:name="com.google.android.gms.version"
+	           android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".WhereCoreAppCheckActivity"
+            android:icon="@drawable/ic_where"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+ 		
+ 		</activity>
+ 		
+        <activity
+            android:name=".activity.GeoPointMapActivity"
+            android:icon="@drawable/ic_where"
+            android:label="@string/activity_geo_point_map"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.DefaultActivity.Light">
+		
+ 		</activity>
+		
+        <activity
+            android:name=".activity.HotspotMapActivity"
+            android:icon="@drawable/ic_where"
+            android:launchMode="singleTask"
+            android:label="@string/activity_hotspot_map"
+            android:theme="@style/Theme.DefaultActivity.Light">
+		
+ 		</activity>
+		
+        <activity
+            android:name=".activity.IdentifiedHotspotMapActivity"
+            android:icon="@drawable/ic_where"
+            android:label="@string/activity_idspot_map"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity
+            android:name=".activity.IdspotDayStatChartActivity"
+            android:icon="@drawable/ic_idspot_stat_day"
+            android:label="@string/activity_idspot_day_stat"
+            android:theme="@style/Theme.DefaultActivity.Light">
+		
+ 		</activity>
+        
+        <activity
+            android:name=".activity.IdspotWeekStatChartActivity"
+            android:icon="@drawable/ic_idspot_stat_week"
+            android:label="@string/activity_idspot_week_stat"
+            android:theme="@style/Theme.DefaultActivity.Light">
+		
+ 		</activity>
+        
+        <activity
+            android:name="com.dailystudio.memory.where.activity.WeeksListActivity"
+            android:icon="@drawable/ic_calendar_week"
+            android:label="@string/activity_weeks_list"
+            android:theme="@style/Theme.DefaultActivity.Light"/>
+        
+        <activity
+            android:name=".activity.LocationListActivity"
+            android:icon="@drawable/ic_where"
+            android:label="@string/activity_location_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!-- 	
+            <intent-filter>
+				<action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			    <data android:mimeType="vnd.android.cursor.item/location" />
+			</intent-filter>
+ ,           
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_where" />
+ -->		
+  		</activity>
+        
+        <activity
+            android:name=".activity.HotspotListActivity"
+            android:icon="@drawable/ic_loc_list"
+            android:label="@string/activity_hotspot_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+			<intent-filter>
+				<action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			    <data android:mimeType="vnd.android.cursor.item/location" />
+			</intent-filter>
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_where" />
+ 		
+ 		</activity>
+ 		
+        <activity
+            android:name=".activity.CurrentIdspotListActivity"
+            android:icon="@drawable/ic_idspot_list"
+            android:label="@string/activity_idspot_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+			<intent-filter>
+				<action android:name="memory.intent.ACTION_MAINPAGE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+                android:name="memory.activity.meta"
+                android:resource="@xml/activity_category_where" />
+        
+        </activity>
+        
+        <activity
+            android:name=".activity.IdentifiedHotspotListActivity"
+            android:icon="@drawable/ic_idspot_list"
+            android:label="@string/activity_idspot_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+			
+<!--          
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/location" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+                android:name="memory.activity.meta"
+                android:resource="@xml/activity_category_where" />
+ -->           
+        </activity>
+        
+        <activity
+            android:name=".activity.IdspotHistoryListActivity"
+            android:icon="@drawable/ic_idspot_history"
+            android:label="@string/activity_idspot_history_list"
+            android:theme="@style/Theme.DefaultActivity.Light">
+<!--             
+            <intent-filter>
+                <action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+                android:name="memory.activity.meta"
+                android:resource="@xml/activity_category_where" />
+ -->        
+        </activity>
+        
+        <activity
+            android:name=".activity.DistanceCalculatorActivity"
+            android:icon="@drawable/ic_distance_cal"
+            android:label="@string/activity_distance_calculator"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_where" />
+ 		
+ 		</activity>
+ 		
+		<activity
+            android:name=".activity.NowWherePlusActivity"
+            android:icon="@drawable/ic_now_where"
+            android:label="@string/activity_now_where"
+            android:theme="@style/Theme.DefaultActivity.Light">
+            
+  			<intent-filter>
+				<action android:name="memory.intent.ACTION_MAINPAGE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		    
+            <intent-filter>
+				<action android:name="android.intent.action.DAILY_LIFE_MAIN" />
+                <category android:name="android.intent.category.DAILY_LIFE" />
+            </intent-filter>
+            
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+ 		
+            <meta-data 
+				android:name="memory.activity.meta"
+				android:resource="@xml/activity_category_where" />
+ 
+		</activity>
+        		
+		<receiver
+            android:icon="@drawable/ic_where"
+			android:name=".PluginWhere"
+			android:enabled="true">
+
+            <intent-filter>
+                <action android:name="dailylife.intent.ACTION_REGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_UNREGISTER_PLUGIN" />
+                <action android:name="dailylife.intent.ACTION_CREATE_TASK" />
+                <action android:name="dailylife.intent.ACTION_DESTROY_TASK" />
+                <action android:name="dailylife.intent.ACTION_EXECUTE_TASK" />
+                <category android:name="dailylife.intent.category.MAIN" />
+            </intent-filter>
+
+			<meta-data 
+				android:name="memory.plugin.meta"
+				android:resource="@xml/plugin_where" />
+            
+		</receiver>
+		
+        <provider
+            android:name=".WhereCardsFileAccessContentProvider"
+            android:authorities="com.dailystudio.memory.where.cards"/> 
+
+			
+		<provider
+            android:name=".MemoryWhereDatabaseConnectivityProvider"
+            android:authorities="com.dailystudio.memory.where"
+            android:writePermission="memory.permission.WRITE_MEMORY_DATABASE"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+		
+   		<provider
+            android:name=".MemoryWhereSearchableContentProvider"
+            android:authorities="com.dailystudio.memory.where.searchable"
+            android:readPermission="memory.permission.READ_MEMORY_DATABASE" />
+        		
+		
+        <provider
+            android:name=".WhereShowcaseFileAccessContentProvider"
+            android:authorities="com.dailystudio.memory.where.showcase.files"/> 
+            
+		<receiver
+            android:icon="@drawable/ic_where"
+			android:name="com.dailystudio.memory.where.MemoryWherePieceQueryReceiver"
+			android:permission="memory.permission.QUERY_MEMORY_PIECE"
+			android:enabled="true">
+			
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+            
+		</receiver>
+		
+		<service 
+		    android:name="com.dailystudio.memory.where.MemoryWherePieceQueryService" 
+		    android:permission="memory.permission.REQUEST_MEMORY_SERVICE">
+        
+		    <intent-filter>
+                <action android:name="memory.intent.ACTION_QUERY_MEMORY_PIECE" />
+                <category android:name="dailylife.intent.category.DEFAULT" />
+            </intent-filter>
+
+		</service>
+		    
+        
+		<receiver
+            android:icon="@drawable/ic_where"
+			android:name=".WhereShowcaseCommandReceiver"
+			android:enabled="true">
+
+            <intent-filter>
+                <action android:name="memory.intent.ACTION_PREPARE_SHOWCASE" />
+                <action android:name="memory.intent.ACTION_DESTORY_SHOWCASE" />
+                <category android:name="dailylife.intent.category.MAIN" />
+            </intent-filter>
+            
+		</receiver>
+        		
+		<service
+            android:name=".WhereTasksKeepAliveSerive"
+            android:authorities="com.dailystudio.memory.mood" />
+        
+		<meta-data
+    		android:name="com.google.android.maps.v2.API_KEY"
+    		android:value="${google_map_key}"/>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="${baidu_map_key}"/>
+
+        <service android:name="com.dg.libs.rest.services.HTTPRequestExecutorService" />
+
+        <!-- Baidu Api -->
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote" />
+
+	</application>
+
+</manifest>

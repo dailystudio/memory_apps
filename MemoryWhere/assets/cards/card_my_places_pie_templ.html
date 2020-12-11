@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+
+        <title>@element/pie_chart_title</title>
+
+		<style type="text/css">
+		html, body {
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+			
+		
+			-webkit-transform: translate3d(0, 0, 0);
+		}
+		
+		.card {
+    		position: absolute;
+    		width: 100%;
+    		height: 100%;
+		}
+		
+		#pie-chart img {
+			float: left;
+			z-index: 1;
+			width: 124px;
+			height: 124px;
+			/*background: pink;*/
+		}
+		
+		.circle {
+			float: left;
+			position: absolute;
+			z-index: 3;
+			left: 34px;
+			top: 34px;
+			width: 56px;
+			height: 56px;
+			border-radius: 28px;
+			background: #fff;
+		}
+		
+		#chart-legend {
+			margin:auto auto;
+			display: table;
+
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			
+			list-style-type: square;
+		}
+		
+		.chart-legend-1 {
+			padding: 50px 15px 15px;
+		}
+		
+		.chart-legend-2 {
+			padding: 40px 15px 15px;
+		}
+		
+		.chart-legend-3 {
+			padding: 30px 15px 15px;
+		}
+		
+		</style>
+	</head>
+	
+	<body>
+		<div class="card" onclick="onCardClick()">
+			<div class="my-places-chart" id="pie-chart">
+			<img src='data:image/png;base64, @element/element_chart_bitmap'>	
+			<div class="circle">
+			</div>
+			<ul class="my-places-legend chart-legend-@element/pie_chart_legend_counts" 
+				id="chart-legend">
+				@element/pie_chart_legend
+			</ul>
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+		function onCardClick() {
+			var intent = {
+				"comp" : "com.dailystudio.memory.where/.activity.CurrentIdspotListActivity",
+			};
+			
+			console.log("intent: {" + JSON.stringify(intent) + "}");
+			
+			jsintent.launchActivity(JSON.stringify(intent));
+		}
+	</script>
+	
+</html>

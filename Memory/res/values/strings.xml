@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memory</string>
+    
+    <string name="verCode">13061521</string>
+    <string name="verName">1.0.7 build 13061521</string>
+
+    <string name="sign">Memory</string>
+	<string name="slogan">Remember everything in your life.</string>
+	<string name="studio_name">2010-2015 Daily Studio</string>
+	
+	<string name="permlab_read_memory_database">read database</string>
+	<string name="permdesc_read_memory_database">Allows an application to read the database of Memory</string>
+	<string name="permlab_write_memory_database">write database</string>
+	<string name="permdesc_write_memory_database">Allows an application to write the database of Memory</string>
+	<string name="permlab_update_memory_achievements_and_leaderboards">Update memory achievements and leaderboards</string>
+	<string name="permdesc_update_memory_achievements_and_leaderboards">Allows an application to update memory achievements and leaderboards of Memory</string>
+	<string name="permlab_request_memory_service">request service</string>
+	<string name="permdesc_request_memory_service">Allows an application to request internal service of Memory</string>
+	<string name="permlab_query_memory_piece">query piece</string>
+	<string name="permdesc_query_memory_piece">Allows an application to query piece count or digest of Memory</string>
+	<string name="permlab_read_memory_person_feature">read person feature</string>
+	<string name="permdesc_read_memory_person_feature">Allows an application to read Person\'s feature of Memory</string>
+	<string name="permlab_write_memory_person_feature">write person feature</string>
+	<string name="permdesc_write_memory_person_feature">Allows an application to write Person\'s feature of Memory</string>
+									
+	<string name="activity_activity_list">Memory Activity List</string>
+	<string name="activity_statistics">Memory Statistics</string>
+	<string name="activity_about">About</string>
+	<string name="activity_privacy_policy">Privacy Policy</string>
+	<string name="activity_memory_search">Search your memory</string>			
+	<string name="activity_memory_shortcut_category">Memory Category Shortcut</string>			
+	<string name="activity_showcase">Memory Showcases</string>			
+	<string name="activity_life_activities">Life Activities</string>			
+	
+	<string name="plugin_label_lifestyle">Plugin of Lifestyle</string>			
+	<string name="task_label_getup_and_sleep_check">Check Get-up and Sleep time task</string>			
+	<string name="task_label_update_myself_cards">Update Myself card</string>			
+									
+	<string name="label_activity_category">Category</string>
+	<string name="label_loc_name">Now at:</string>
+		
+	<string name="menu_search">Search</string>	
+	<string name="menu_statistics">Statistics</string>	
+	<string name="menu_about">About</string>	
+	<string name="menu_privacy_policy">Privacy</string>	
+				
+	<string name="stats_lifetime">Your memory within</string>	
+	<string name="stats_pieces">Your memory pieces</string>	
+	
+	<string name="notification_content">@string/slogan</string>	
+			
+	<string name="ask_question_welcome">Welcom to Memory ^0^</string>			
+	
+	<string name="memory_search_hint">time, text, or @keywords</string>			
+	<string name="memory_search_suggest_selection"> word MATCH ? </string>			
+	<string name="memory_search_category_all">All categories</string>			
+	<string name="prompt_search">Searching data in plugins&#8230;</string>			
+	<string name="prompt_search_detail">Results from: [%1$s]</string>			
+			
+	<string name="promote_app_ask_templ">Try our new app \"%s\"</string>			
+	
+	<string name="promote_app_name_boot">Memory Boot</string>			
+	<string name="promote_app_name_mood">Memory Mood</string>			
+	<string name="promote_app_name_application">Memory Application</string>			
+	<string name="promote_app_name_network">Memory Network</string>			
+	<string name="promote_app_name_where">Memory Where</string>	
+			
+    <string name="gms_signing_in">Signing in with your Google+ accout</string>
+    <string name="gms_signing_out">Signing out</string>
+    <string name="gms_sign_in_prompt">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="gms_sign_out">Sign out</string>
+    <string name="gms_signed_in">You are signed in with Google.</string>
+    <string name="gms_err_achievements_not_available">Sign out</string>
+    <string name="gms_err_leaderboards_not_available">Sign out</string>
+    <string name="gms_achievements">Achievements</string>
+	<string name="gms_leaderboards">Leaderboards</string>	
+	        										
+	<string name="slider_life_time_day">Day %d</string>	        										
+	<string name="slider_card_list">Memory cards</string>	        										
+	
+	<string name="dashboard_quote">Quote of Life</string>	        										
+	<string name="quote_loading">Hard work loading &#8230;</string>	 
+	       										
+	<string name="life_activity_getup">Getup</string>	        										
+	<string name="life_activity_working">Working</string>	        										
+	<string name="life_activity_lunch">Lunch</string>	        										
+	<string name="life_activity_sleep">Sleep</string>	 
+	       										
+	<string name="key_note_start_of_day">New day is beginning.</string>
+	<string name="key_note_end_of_day">Nothing happened today.</string>
+			
+	<string name="default_card_content">Card will be available soon.</string>	
+	<string name="default_card_title">Oops!</string>	
+																			
+</resources>

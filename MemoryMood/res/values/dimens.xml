@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+	<dimen name="mood_icon_width">90dp</dimen>
+	<dimen name="mood_icon_height">75dp</dimen>
+	<dimen name="mood_lvl_width">45dp</dimen>
+	<dimen name="mood_lvl_height">45dp</dimen>
+	<dimen name="mood_lvl_marginTop">3dp</dimen>
+	<dimen name="mood_lvl_marginRight">3dp</dimen>
+		
+	<dimen name="moods_grid_hspacing">0dp</dimen>
+	<dimen name="moods_grid_vspacing">0dp</dimen>
+			
+	<dimen name="mood_level_text_size">20dp</dimen>
+
+	<dimen name="mood_chart_margin_top">40dp</dimen>
+
+	<dimen name="weekday_item_height">60dp</dimen>
+	
+    <dimen name="widget_mood_day_chart_min_width">180dp</dimen>
+    <dimen name="widget_mood_day_chart_min_height">110dp</dimen>
+    <dimen name="widget_mchart_buttons_padding">5dp</dimen>
+    <dimen name="widget_mchart_padding">4dp</dimen>
+    <dimen name="widget_mchart_btn_size">32dp</dimen>
+
+</resources>

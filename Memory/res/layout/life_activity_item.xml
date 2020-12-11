@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="@dimen/life_activity_item_padding"   
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+    <FrameLayout 
+		android:id="@+id/activity_thumb"
+ 		android:layout_centerVertical="true"
+    	android:layout_width="@dimen/life_activity_icon_size" 
+  		android:layout_height="@dimen/life_activity_icon_size">
+  		
+	    <ImageView 
+	    	android:id="@+id/activity_icon"
+	    	android:src="@drawable/day_life_eating"
+	    	android:scaleType="centerInside"
+	    	android:contentDescription="@string/default_iv_description"
+	    	android:layout_width="@dimen/life_activity_icon_size" 
+	  		android:layout_height="@dimen/life_activity_icon_size" />
+		
+		<TextView 
+	    	android:id="@+id/activity_title"
+	 		style="@style/LifeActivityTitleText" 
+	 		android:text="@string/app_name"
+	    	android:layout_width="match_parent" 
+	  		android:layout_height="wrap_content"/>
+		
+    </FrameLayout>
+
+    <LinearLayout 
+		android:layout_toRightOf="@id/activity_thumb"
+		android:orientation="horizontal"
+		android:layout_centerVertical="true"
+    	android:layout_width="match_parent" 
+  		android:layout_height="wrap_content">
+	
+        <TextView 
+	    	android:id="@+id/activity_start_val"
+	 		style="@style/LifeActivityTimeText"
+	 		android:background="@drawable/life_activity_start_time_bg"
+	 		android:layout_marginLeft="@dimen/life_activity_item_padding"
+	 		android:layout_marginRight="@dimen/life_activity_item_padding"
+	 		android:layout_weight="1" 
+	    	android:layout_width="0dp" 
+	  		android:layout_height="wrap_content"/>
+	
+        <TextView 
+	    	android:id="@+id/activity_end_val"
+	 		style="@style/LifeActivityTimeText"
+	 		android:background="@drawable/life_activity_end_time_bg"
+	 		android:layout_marginLeft="@dimen/life_activity_item_padding"
+	 		android:layout_marginRight="@dimen/life_activity_item_padding"
+	 		android:layout_weight="1" 
+	    	android:layout_width="0dp" 
+	  		android:layout_height="wrap_content"/>
+        	
+	</LinearLayout>
+	
+</RelativeLayout>

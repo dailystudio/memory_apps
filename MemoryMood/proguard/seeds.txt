@@ -1,0 +1,1358 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment: Fragment()
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.dailystudio.R$drawable: int icon
+com.dailystudio.R$string: int app_name
+com.dailystudio.R$string: int build_device
+com.dailystudio.R$string: int build_manufacture
+com.dailystudio.R$string: int build_platform
+com.dailystudio.app.R$drawable: int ic_launcher
+com.dailystudio.app.R$drawable: int icon
+com.dailystudio.app.R$string: int app_name
+com.dailystudio.app.R$string: int build_device
+com.dailystudio.app.R$string: int build_manufacture
+com.dailystudio.app.R$string: int build_platform
+com.dailystudio.app.dataobject.CountObject
+com.dailystudio.app.dataobject.CountObject: CountObject(android.content.Context)
+com.dailystudio.app.fragment.AbsAdapterFragment: AbsAdapterFragment()
+com.dailystudio.app.fragment.AbsArrayAdapterFragment: AbsArrayAdapterFragment()
+com.dailystudio.app.fragment.AbsCursorAdapterFragment: AbsCursorAdapterFragment()
+com.dailystudio.app.fragment.AbsLoaderFragment: AbsLoaderFragment()
+com.dailystudio.compat.CompatAsyncTask$Status: com.dailystudio.compat.CompatAsyncTask$Status[] values()
+com.dailystudio.compat.CompatAsyncTask$Status: com.dailystudio.compat.CompatAsyncTask$Status valueOf(java.lang.String)
+com.dailystudio.dataobject.DatabaseObject: DatabaseObject(android.content.Context)
+com.dailystudio.dataobject.DatabaseObject: DatabaseObject(android.content.Context,int)
+com.dailystudio.dataobject.database.DatabaseConnectivityProvider: DatabaseConnectivityProvider()
+com.dailystudio.development.Logger$LogToken: com.dailystudio.development.Logger$LogToken[] values()
+com.dailystudio.development.Logger$LogToken: com.dailystudio.development.Logger$LogToken valueOf(java.lang.String)
+com.dailystudio.memory.activity.ActionBar
+com.dailystudio.memory.activity.ActionBar: ActionBar(android.content.Context)
+com.dailystudio.memory.activity.ActionBar: ActionBar(android.content.Context,android.util.AttributeSet)
+com.dailystudio.memory.activity.ActionBar: void setTitle(java.lang.CharSequence)
+com.dailystudio.memory.activity.ActionBar: void setCustomView(int)
+com.dailystudio.memory.activity.ActionBar: void setCustomView(android.view.View)
+com.dailystudio.memory.activity.ActionBar: void setOverflowEnabled(boolean)
+com.dailystudio.memory.activity.ActionBar: void setOverflowCallbacks(com.dailystudio.memory.activity.ActionBar$ActionBarOverflowCallbacks)
+com.dailystudio.memory.activity.ActionBar: android.view.View getOverflowDropdown()
+com.dailystudio.memory.activity.ActionBar: void setProgress(int)
+com.dailystudio.memory.activity.ActionBarActivity: ActionBarActivity()
+com.dailystudio.memory.activity.ActionBarActivity: void setContentView(android.view.View)
+com.dailystudio.memory.activity.ActionBarActivityContent
+com.dailystudio.memory.activity.ActionBarActivityContent: ActionBarActivityContent(android.content.Context)
+com.dailystudio.memory.activity.ActionBarActivityContent: ActionBarActivityContent(android.content.Context,android.util.AttributeSet)
+com.dailystudio.memory.activity.MemoryCoreAppCheckActivity: MemoryCoreAppCheckActivity()
+com.dailystudio.memory.activity.MemoryPeroidBasedActivity: MemoryPeroidBasedActivity()
+com.dailystudio.memory.activity.MemoryPeroidChartActivity: MemoryPeroidChartActivity()
+com.dailystudio.memory.app.MemoryApplication: MemoryApplication()
+com.dailystudio.memory.app.MemoryPieceQueryReceiver: MemoryPieceQueryReceiver()
+com.dailystudio.memory.appwidget.MemoryAppWidgetDataService: MemoryAppWidgetDataService()
+com.dailystudio.memory.appwidget.MemoryAppWidgetProvider: MemoryAppWidgetProvider()
+com.dailystudio.memory.ask.MemoryAskHostView
+com.dailystudio.memory.ask.MemoryAskHostView: MemoryAskHostView(android.content.Context)
+com.dailystudio.memory.ask.MemoryAskHostView: MemoryAskHostView(android.content.Context,android.util.AttributeSet)
+com.dailystudio.memory.ask.MemoryAskHostView: MemoryAskHostView(android.content.Context,android.util.AttributeSet,int)
+com.dailystudio.memory.ask.MemoryQuestion
+com.dailystudio.memory.ask.MemoryQuestion: MemoryQuestion(android.content.Context)
+com.dailystudio.memory.ask.MemoryQuestion: MemoryQuestion(android.content.Context,int)
+com.dailystudio.memory.ask.MemoryQuestionFragment
+com.dailystudio.memory.ask.MemoryQuestionFragment: MemoryQuestionFragment()
+com.dailystudio.memory.core.R$drawable: int ic_launcher
+com.dailystudio.memory.core.R$drawable: int icon
+com.dailystudio.memory.core.R$string: int app_name
+com.dailystudio.memory.core.R$string: int build_device
+com.dailystudio.memory.core.R$string: int build_manufacture
+com.dailystudio.memory.core.R$string: int build_platform
+com.dailystudio.memory.core.R$style: int AppTheme
+com.dailystudio.memory.dataobject.DateGroupObject
+com.dailystudio.memory.dataobject.DateGroupObject: DateGroupObject(android.content.Context)
+com.dailystudio.memory.dataobject.MemoryObject
+com.dailystudio.memory.dataobject.MemoryObject: MemoryObject(android.content.Context)
+com.dailystudio.memory.dataobject.MemoryObject: MemoryObject(android.content.Context,int)
+com.dailystudio.memory.dataobject.MonthObject
+com.dailystudio.memory.dataobject.MonthObject: MonthObject(android.content.Context)
+com.dailystudio.memory.dataobject.WeekObject
+com.dailystudio.memory.dataobject.WeekObject: WeekObject(android.content.Context)
+com.dailystudio.memory.dataobject.WeekdayObject
+com.dailystudio.memory.dataobject.WeekdayObject: WeekdayObject(android.content.Context)
+com.dailystudio.memory.fragment.AbsDateGroupListFragment: AbsDateGroupListFragment()
+com.dailystudio.memory.fragment.AbsWeekdaysListFragment: AbsWeekdaysListFragment()
+com.dailystudio.memory.fragment.AbsWeeksListFragment: AbsWeeksListFragment()
+com.dailystudio.memory.fragment.MemoryChartFragment: MemoryChartFragment()
+com.dailystudio.memory.fragment.MemoryPeroidChartFragment: MemoryPeroidChartFragment()
+com.dailystudio.memory.fragment.MemoryPeroidCursorListFragment: MemoryPeroidCursorListFragment()
+com.dailystudio.memory.fragment.MemoryPeroidObjectsListFragment: MemoryPeroidObjectsListFragment()
+com.dailystudio.memory.game.EncryptedMemoryObject
+com.dailystudio.memory.game.EncryptedMemoryObject: EncryptedMemoryObject(android.content.Context)
+com.dailystudio.memory.game.UncommittedAchievement
+com.dailystudio.memory.game.UncommittedAchievement: UncommittedAchievement(android.content.Context)
+com.dailystudio.memory.game.UncommittedAchievement$AchievementType: com.dailystudio.memory.game.UncommittedAchievement$AchievementType[] values()
+com.dailystudio.memory.game.UncommittedAchievement$AchievementType: com.dailystudio.memory.game.UncommittedAchievement$AchievementType valueOf(java.lang.String)
+com.dailystudio.memory.game.UncommittedLeaderboardScore
+com.dailystudio.memory.game.UncommittedLeaderboardScore: UncommittedLeaderboardScore(android.content.Context)
+com.dailystudio.memory.menu.ActionBarOverflowMenuView
+com.dailystudio.memory.menu.ActionBarOverflowMenuView: ActionBarOverflowMenuView(android.content.Context)
+com.dailystudio.memory.menu.ActionBarOverflowMenuView: ActionBarOverflowMenuView(android.content.Context,android.util.AttributeSet)
+com.dailystudio.memory.menu.ActionBarOverflowMenuView: void setActionBarOverflowMenuItemCallbacks(com.dailystudio.memory.menu.ActionBarOverflowMenuView$ActionBarOverflowMenuItemCallbacks)
+com.dailystudio.memory.mood.AskMoodTask
+com.dailystudio.memory.mood.AskMoodTask: AskMoodTask(android.content.Context)
+com.dailystudio.memory.mood.MemoryMood
+com.dailystudio.memory.mood.MemoryMood: MemoryMood(android.content.Context)
+com.dailystudio.memory.mood.MemoryMoodApplication
+com.dailystudio.memory.mood.MemoryMoodApplication: MemoryMoodApplication()
+com.dailystudio.memory.mood.MemoryMoodDatabaseConnectivityProvider
+com.dailystudio.memory.mood.MemoryMoodDatabaseConnectivityProvider: MemoryMoodDatabaseConnectivityProvider()
+com.dailystudio.memory.mood.MemoryMoodHourAverage
+com.dailystudio.memory.mood.MemoryMoodHourAverage: MemoryMoodHourAverage(android.content.Context)
+com.dailystudio.memory.mood.MemoryMoodPieceQueryReceiver
+com.dailystudio.memory.mood.MemoryMoodPieceQueryReceiver: MemoryMoodPieceQueryReceiver()
+com.dailystudio.memory.mood.MemoryMoodWeekdayAverage
+com.dailystudio.memory.mood.MemoryMoodWeekdayAverage: MemoryMoodWeekdayAverage(android.content.Context)
+com.dailystudio.memory.mood.MoodCoreAppCheckActivity
+com.dailystudio.memory.mood.MoodCoreAppCheckActivity: MoodCoreAppCheckActivity()
+com.dailystudio.memory.mood.MoodSearchableContentProvider
+com.dailystudio.memory.mood.MoodSearchableContentProvider: MoodSearchableContentProvider()
+com.dailystudio.memory.mood.MoodTasksKeepAliveSerive
+com.dailystudio.memory.mood.MoodTasksKeepAliveSerive: MoodTasksKeepAliveSerive()
+com.dailystudio.memory.mood.MoodWidgetDataUpdateCheckerTask
+com.dailystudio.memory.mood.MoodWidgetDataUpdateCheckerTask: MoodWidgetDataUpdateCheckerTask(android.content.Context)
+com.dailystudio.memory.mood.PluginMood
+com.dailystudio.memory.mood.PluginMood: PluginMood()
+com.dailystudio.memory.mood.R$anim: int actbar_overflow_dropdown_in
+com.dailystudio.memory.mood.R$anim: int actbar_overflow_dropdown_out
+com.dailystudio.memory.mood.R$anim: int actbar_overflow_popup_overlay_in
+com.dailystudio.memory.mood.R$anim: int actbar_overflow_popup_overlay_out
+com.dailystudio.memory.mood.R$anim: int actbar_prompt_in_bottom
+com.dailystudio.memory.mood.R$anim: int actbar_prompt_out_bottom
+com.dailystudio.memory.mood.R$anim: int ask_board_in
+com.dailystudio.memory.mood.R$anim: int ask_board_out
+com.dailystudio.memory.mood.R$anim: int char_layout_anim
+com.dailystudio.memory.mood.R$anim: int chart_in
+com.dailystudio.memory.mood.R$anim: int circle_item_in
+com.dailystudio.memory.mood.R$anim: int circle_layout_anim
+com.dailystudio.memory.mood.R$anim: int expand_list_item_in
+com.dailystudio.memory.mood.R$anim: int expand_list_item_layout_anim
+com.dailystudio.memory.mood.R$anim: int fade_in
+com.dailystudio.memory.mood.R$anim: int fade_out
+com.dailystudio.memory.mood.R$anim: int grid_item_in
+com.dailystudio.memory.mood.R$anim: int grid_layout_anim
+com.dailystudio.memory.mood.R$anim: int grow_fade_in
+com.dailystudio.memory.mood.R$anim: int grow_fade_in_center
+com.dailystudio.memory.mood.R$anim: int grow_fade_in_from_bottom
+com.dailystudio.memory.mood.R$anim: int list_item_in
+com.dailystudio.memory.mood.R$anim: int list_layout_anim
+com.dailystudio.memory.mood.R$anim: int mood_lvl_display
+com.dailystudio.memory.mood.R$anim: int mood_lvl_hide
+com.dailystudio.memory.mood.R$anim: int notify_view_in
+com.dailystudio.memory.mood.R$anim: int notify_view_out
+com.dailystudio.memory.mood.R$anim: int paper_clip_in
+com.dailystudio.memory.mood.R$anim: int paper_clip_out
+com.dailystudio.memory.mood.R$anim: int shrink_fade_out
+com.dailystudio.memory.mood.R$anim: int shrink_fade_out_center
+com.dailystudio.memory.mood.R$anim: int shrink_fade_out_from_bottom
+com.dailystudio.memory.mood.R$anim: int slide_fade_in_bottom
+com.dailystudio.memory.mood.R$anim: int slide_fade_in_left
+com.dailystudio.memory.mood.R$anim: int slide_fade_in_right
+com.dailystudio.memory.mood.R$anim: int slide_fade_in_top
+com.dailystudio.memory.mood.R$anim: int slide_fade_out_bottom
+com.dailystudio.memory.mood.R$anim: int slide_fade_out_left
+com.dailystudio.memory.mood.R$anim: int slide_fade_out_right
+com.dailystudio.memory.mood.R$anim: int slide_fade_out_top
+com.dailystudio.memory.mood.R$attr: int allowSingleTap
+com.dailystudio.memory.mood.R$attr: int animateOnClick
+com.dailystudio.memory.mood.R$attr: int bottomOffset
+com.dailystudio.memory.mood.R$attr: int content
+com.dailystudio.memory.mood.R$attr: int count
+com.dailystudio.memory.mood.R$attr: int handle
+com.dailystudio.memory.mood.R$attr: int minDigits
+com.dailystudio.memory.mood.R$attr: int orientation
+com.dailystudio.memory.mood.R$attr: int textColor
+com.dailystudio.memory.mood.R$attr: int textSize
+com.dailystudio.memory.mood.R$attr: int textStyle
+com.dailystudio.memory.mood.R$attr: int topOffset
+com.dailystudio.memory.mood.R$color: int action_bar_bg_color
+com.dailystudio.memory.mood.R$color: int action_bar_popup_content_overlay
+com.dailystudio.memory.mood.R$color: int action_bar_text_color
+com.dailystudio.memory.mood.R$color: int action_bar_text_disable_color
+com.dailystudio.memory.mood.R$color: int android_blue
+com.dailystudio.memory.mood.R$color: int android_blue_light
+com.dailystudio.memory.mood.R$color: int black
+com.dailystudio.memory.mood.R$color: int blue
+com.dailystudio.memory.mood.R$color: int chart_transparent
+com.dailystudio.memory.mood.R$color: int core_app_check_step_text_color
+com.dailystudio.memory.mood.R$color: int dark_red
+com.dailystudio.memory.mood.R$color: int default_button_text_color
+com.dailystudio.memory.mood.R$color: int fadeText
+com.dailystudio.memory.mood.R$color: int gold_yellow
+com.dailystudio.memory.mood.R$color: int gray
+com.dailystudio.memory.mood.R$color: int green
+com.dailystudio.memory.mood.R$color: int light_black
+com.dailystudio.memory.mood.R$color: int light_gray
+com.dailystudio.memory.mood.R$color: int light_white
+com.dailystudio.memory.mood.R$color: int orange
+com.dailystudio.memory.mood.R$color: int red
+com.dailystudio.memory.mood.R$color: int royal_blue
+com.dailystudio.memory.mood.R$color: int see_green
+com.dailystudio.memory.mood.R$color: int tomato_red
+com.dailystudio.memory.mood.R$color: int translucent_background
+com.dailystudio.memory.mood.R$color: int transparent
+com.dailystudio.memory.mood.R$color: int transparent_background
+com.dailystudio.memory.mood.R$color: int white
+com.dailystudio.memory.mood.R$dimen: int actbar_custom_view_right_padding
+com.dailystudio.memory.mood.R$dimen: int actbar_overflow_menu_icon_height
+com.dailystudio.memory.mood.R$dimen: int actbar_overflow_menu_icon_width
+com.dailystudio.memory.mood.R$dimen: int actbar_overflow_menu_item_padding
+com.dailystudio.memory.mood.R$dimen: int actbar_overflow_menu_max_width
+com.dailystudio.memory.mood.R$dimen: int actbar_overflow_menu_text_size
+com.dailystudio.memory.mood.R$dimen: int action_bar_height
+com.dailystudio.memory.mood.R$dimen: int action_bar_padding
+com.dailystudio.memory.mood.R$dimen: int action_bar_right_padding
+com.dailystudio.memory.mood.R$dimen: int action_bar_text_size
+com.dailystudio.memory.mood.R$dimen: int alert_dialog_custom_view_padding_bottom
+com.dailystudio.memory.mood.R$dimen: int alert_dialog_custom_view_padding_left
+com.dailystudio.memory.mood.R$dimen: int alert_dialog_custom_view_padding_right
+com.dailystudio.memory.mood.R$dimen: int alert_dialog_custom_view_padding_top
+com.dailystudio.memory.mood.R$dimen: int app_widget_btn_padding
+com.dailystudio.memory.mood.R$dimen: int app_widget_chart_margin_bottom
+com.dailystudio.memory.mood.R$dimen: int app_widget_chart_margin_left
+com.dailystudio.memory.mood.R$dimen: int app_widget_chart_margin_right
+com.dailystudio.memory.mood.R$dimen: int app_widget_chart_margin_top
+com.dailystudio.memory.mood.R$dimen: int app_widget_frame_padding
+com.dailystudio.memory.mood.R$dimen: int app_widget_grid_height
+com.dailystudio.memory.mood.R$dimen: int app_widget_grid_width
+com.dailystudio.memory.mood.R$dimen: int app_widget_label_font_size
+com.dailystudio.memory.mood.R$dimen: int app_widget_label_padding
+com.dailystudio.memory.mood.R$dimen: int app_widget_margin
+com.dailystudio.memory.mood.R$dimen: int app_widget_title_padding
+com.dailystudio.memory.mood.R$dimen: int ask_question_answers_padding
+com.dailystudio.memory.mood.R$dimen: int ask_question_content_padding
+com.dailystudio.memory.mood.R$dimen: int bfw_hpadding
+com.dailystudio.memory.mood.R$dimen: int bfw_min_content_height
+com.dailystudio.memory.mood.R$dimen: int bfw_title_height
+com.dailystudio.memory.mood.R$dimen: int bfw_title_hpadding
+com.dailystudio.memory.mood.R$dimen: int close_button_size
+com.dailystudio.memory.mood.R$dimen: int core_app_check_badge_margin
+com.dailystudio.memory.mood.R$dimen: int core_app_check_padding
+com.dailystudio.memory.mood.R$dimen: int daygroup_item_height
+com.dailystudio.memory.mood.R$dimen: int default_ask_board_width
+com.dailystudio.memory.mood.R$dimen: int default_button_padding
+com.dailystudio.memory.mood.R$dimen: int default_chart_axis_title_size
+com.dailystudio.memory.mood.R$dimen: int default_chart_label_size
+com.dailystudio.memory.mood.R$dimen: int default_chart_legend_height
+com.dailystudio.memory.mood.R$dimen: int default_chart_legend_size
+com.dailystudio.memory.mood.R$dimen: int default_chart_margin_bottom
+com.dailystudio.memory.mood.R$dimen: int default_chart_margin_left
+com.dailystudio.memory.mood.R$dimen: int default_chart_margin_right
+com.dailystudio.memory.mood.R$dimen: int default_chart_margin_top
+com.dailystudio.memory.mood.R$dimen: int default_chart_title_size
+com.dailystudio.memory.mood.R$dimen: int default_check_padding
+com.dailystudio.memory.mood.R$dimen: int default_content_hpadding
+com.dailystudio.memory.mood.R$dimen: int default_content_vpadding
+com.dailystudio.memory.mood.R$dimen: int default_empty_text_font_size
+com.dailystudio.memory.mood.R$dimen: int default_font_size
+com.dailystudio.memory.mood.R$dimen: int default_label_padding
+com.dailystudio.memory.mood.R$dimen: int default_notify_height
+com.dailystudio.memory.mood.R$dimen: int lv_index_font_size
+com.dailystudio.memory.mood.R$dimen: int lv_index_padding
+com.dailystudio.memory.mood.R$dimen: int lv_index_width
+com.dailystudio.memory.mood.R$dimen: int lv_item_font_size
+com.dailystudio.memory.mood.R$dimen: int lv_item_padding
+com.dailystudio.memory.mood.R$dimen: int memory_ic_height
+com.dailystudio.memory.mood.R$dimen: int memory_ic_witdh
+com.dailystudio.memory.mood.R$dimen: int memory_index_font_size
+com.dailystudio.memory.mood.R$dimen: int memory_index_padding
+com.dailystudio.memory.mood.R$dimen: int memory_index_width
+com.dailystudio.memory.mood.R$dimen: int mood_chart_margin_top
+com.dailystudio.memory.mood.R$dimen: int mood_icon_height
+com.dailystudio.memory.mood.R$dimen: int mood_icon_width
+com.dailystudio.memory.mood.R$dimen: int mood_level_text_size
+com.dailystudio.memory.mood.R$dimen: int mood_lvl_height
+com.dailystudio.memory.mood.R$dimen: int mood_lvl_marginRight
+com.dailystudio.memory.mood.R$dimen: int mood_lvl_marginTop
+com.dailystudio.memory.mood.R$dimen: int mood_lvl_width
+com.dailystudio.memory.mood.R$dimen: int moods_grid_hspacing
+com.dailystudio.memory.mood.R$dimen: int moods_grid_vspacing
+com.dailystudio.memory.mood.R$dimen: int notification_content_padding
+com.dailystudio.memory.mood.R$dimen: int notification_dialog_height
+com.dailystudio.memory.mood.R$dimen: int paper_clip_content_hpadding
+com.dailystudio.memory.mood.R$dimen: int paper_clip_content_vpadding
+com.dailystudio.memory.mood.R$dimen: int paper_clip_frame_padding
+com.dailystudio.memory.mood.R$dimen: int paper_clip_title_font_size
+com.dailystudio.memory.mood.R$dimen: int paper_clip_title_height
+com.dailystudio.memory.mood.R$dimen: int paper_clip_title_hmargin
+com.dailystudio.memory.mood.R$dimen: int paper_clip_title_vmargin
+com.dailystudio.memory.mood.R$dimen: int weekday_item_height
+com.dailystudio.memory.mood.R$dimen: int widget_mchart_btn_size
+com.dailystudio.memory.mood.R$dimen: int widget_mchart_buttons_padding
+com.dailystudio.memory.mood.R$dimen: int widget_mchart_padding
+com.dailystudio.memory.mood.R$dimen: int widget_mood_day_chart_min_height
+com.dailystudio.memory.mood.R$dimen: int widget_mood_day_chart_min_width
+com.dailystudio.memory.mood.R$drawable: int actbar_button
+com.dailystudio.memory.mood.R$drawable: int actbar_button_pressed_light
+com.dailystudio.memory.mood.R$drawable: int actbar_dropdown_background
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_01
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_02
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_03
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_04
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_05
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_06
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_07
+com.dailystudio.memory.mood.R$drawable: int actbar_prg_08
+com.dailystudio.memory.mood.R$drawable: int actbar_vert_separator
+com.dailystudio.memory.mood.R$drawable: int app_widget_background
+com.dailystudio.memory.mood.R$drawable: int app_widget_btn
+com.dailystudio.memory.mood.R$drawable: int app_widget_btn_pressed
+com.dailystudio.memory.mood.R$drawable: int ask_board
+com.dailystudio.memory.mood.R$drawable: int ask_board_normal
+com.dailystudio.memory.mood.R$drawable: int ask_board_pressed
+com.dailystudio.memory.mood.R$drawable: int ask_dialog_bg
+com.dailystudio.memory.mood.R$drawable: int check_background
+com.dailystudio.memory.mood.R$drawable: int check_off_dark
+com.dailystudio.memory.mood.R$drawable: int check_off_light
+com.dailystudio.memory.mood.R$drawable: int check_on
+com.dailystudio.memory.mood.R$drawable: int content_bg_op60
+com.dailystudio.memory.mood.R$drawable: int content_bg_op80
+com.dailystudio.memory.mood.R$drawable: int content_bg_op90
+com.dailystudio.memory.mood.R$drawable: int default_button
+com.dailystudio.memory.mood.R$drawable: int default_button_disabled_focused_light
+com.dailystudio.memory.mood.R$drawable: int default_button_disabled_light
+com.dailystudio.memory.mood.R$drawable: int default_button_focused_light
+com.dailystudio.memory.mood.R$drawable: int default_button_normal_light
+com.dailystudio.memory.mood.R$drawable: int default_button_pressed_light
+com.dailystudio.memory.mood.R$drawable: int default_content_bg
+com.dailystudio.memory.mood.R$drawable: int default_content_bg_pattern
+com.dailystudio.memory.mood.R$drawable: int default_dark_check
+com.dailystudio.memory.mood.R$drawable: int default_light_check
+com.dailystudio.memory.mood.R$drawable: int edit_text_light
+com.dailystudio.memory.mood.R$drawable: int get_it_on_play_logo_large
+com.dailystudio.memory.mood.R$drawable: int get_it_on_play_logo_large_disabled
+com.dailystudio.memory.mood.R$drawable: int get_it_on_play_logo_large_normal
+com.dailystudio.memory.mood.R$drawable: int get_it_on_play_logo_large_pressed
+com.dailystudio.memory.mood.R$drawable: int guess_right
+com.dailystudio.memory.mood.R$drawable: int guess_wrong
+com.dailystudio.memory.mood.R$drawable: int ic_actbar_mood_lvl_hide
+com.dailystudio.memory.mood.R$drawable: int ic_actbar_mood_lvl_show
+com.dailystudio.memory.mood.R$drawable: int ic_action_overflow
+com.dailystudio.memory.mood.R$drawable: int ic_action_search
+com.dailystudio.memory.mood.R$drawable: int ic_calendar_day
+com.dailystudio.memory.mood.R$drawable: int ic_calendar_month
+com.dailystudio.memory.mood.R$drawable: int ic_calendar_week
+com.dailystudio.memory.mood.R$drawable: int ic_close_button
+com.dailystudio.memory.mood.R$drawable: int ic_close_button_normal
+com.dailystudio.memory.mood.R$drawable: int ic_close_button_pressed
+com.dailystudio.memory.mood.R$drawable: int ic_done
+com.dailystudio.memory.mood.R$drawable: int ic_done_highlight
+com.dailystudio.memory.mood.R$drawable: int ic_done_normal
+com.dailystudio.memory.mood.R$drawable: int ic_launcher
+com.dailystudio.memory.mood.R$drawable: int ic_memory_bar_chart
+com.dailystudio.memory.mood.R$drawable: int ic_memory_chart
+com.dailystudio.memory.mood.R$drawable: int ic_memory_list
+com.dailystudio.memory.mood.R$drawable: int ic_memory_record
+com.dailystudio.memory.mood.R$drawable: int ic_menu_add
+com.dailystudio.memory.mood.R$drawable: int ic_menu_calendar
+com.dailystudio.memory.mood.R$drawable: int ic_menu_history
+com.dailystudio.memory.mood.R$drawable: int ic_menu_list
+com.dailystudio.memory.mood.R$drawable: int ic_menu_search
+com.dailystudio.memory.mood.R$drawable: int ic_menu_share
+com.dailystudio.memory.mood.R$drawable: int ic_menu_today
+com.dailystudio.memory.mood.R$drawable: int ic_mood
+com.dailystudio.memory.mood.R$drawable: int ic_mood_01
+com.dailystudio.memory.mood.R$drawable: int ic_mood_02
+com.dailystudio.memory.mood.R$drawable: int ic_mood_03
+com.dailystudio.memory.mood.R$drawable: int ic_mood_04
+com.dailystudio.memory.mood.R$drawable: int ic_mood_05
+com.dailystudio.memory.mood.R$drawable: int ic_mood_06
+com.dailystudio.memory.mood.R$drawable: int ic_mood_07
+com.dailystudio.memory.mood.R$drawable: int ic_mood_08
+com.dailystudio.memory.mood.R$drawable: int ic_mood_09
+com.dailystudio.memory.mood.R$drawable: int ic_mood_10
+com.dailystudio.memory.mood.R$drawable: int ic_mood_11
+com.dailystudio.memory.mood.R$drawable: int ic_mood_12
+com.dailystudio.memory.mood.R$drawable: int ic_mood_ask
+com.dailystudio.memory.mood.R$drawable: int ic_mood_daily
+com.dailystudio.memory.mood.R$drawable: int ic_mood_disabled
+com.dailystudio.memory.mood.R$drawable: int ic_mood_lvl_bg
+com.dailystudio.memory.mood.R$drawable: int ic_mood_weekly
+com.dailystudio.memory.mood.R$drawable: int ic_nofity
+com.dailystudio.memory.mood.R$drawable: int icon
+com.dailystudio.memory.mood.R$drawable: int list_divider
+com.dailystudio.memory.mood.R$drawable: int list_focused
+com.dailystudio.memory.mood.R$drawable: int list_longpressed
+com.dailystudio.memory.mood.R$drawable: int list_pressed_dark
+com.dailystudio.memory.mood.R$drawable: int list_pressed_light
+com.dailystudio.memory.mood.R$drawable: int list_selector_background_transition_dark
+com.dailystudio.memory.mood.R$drawable: int list_selector_background_transition_light
+com.dailystudio.memory.mood.R$drawable: int list_selector_dark
+com.dailystudio.memory.mood.R$drawable: int list_selector_disabled_dark
+com.dailystudio.memory.mood.R$drawable: int list_selector_disabled_light
+com.dailystudio.memory.mood.R$drawable: int list_selector_light
+com.dailystudio.memory.mood.R$drawable: int menu_dropdown_panel_holo_light
+com.dailystudio.memory.mood.R$drawable: int mood_lvl_bg
+com.dailystudio.memory.mood.R$drawable: int notification_dialog_bg
+com.dailystudio.memory.mood.R$drawable: int notify_bird_left
+com.dailystudio.memory.mood.R$drawable: int notify_bird_right
+com.dailystudio.memory.mood.R$drawable: int notify_pole_and_line
+com.dailystudio.memory.mood.R$drawable: int paper_clip_close_normal
+com.dailystudio.memory.mood.R$drawable: int paper_clip_close_pressed
+com.dailystudio.memory.mood.R$drawable: int paper_clip_window
+com.dailystudio.memory.mood.R$drawable: int paper_clip_window_close
+com.dailystudio.memory.mood.R$drawable: int scrollbar_handle
+com.dailystudio.memory.mood.R$drawable: int textfield_activated_light
+com.dailystudio.memory.mood.R$drawable: int textfield_default_light
+com.dailystudio.memory.mood.R$drawable: int textfield_disabled_focused_light
+com.dailystudio.memory.mood.R$drawable: int textfield_disabled_light
+com.dailystudio.memory.mood.R$drawable: int textfield_focused_light
+com.dailystudio.memory.mood.R$drawable: int vert_divider
+com.dailystudio.memory.mood.R$id: int act_bar_mood_display_mode
+com.dailystudio.memory.mood.R$id: int actbar_activity_actionbar
+com.dailystudio.memory.mood.R$id: int actbar_activity_content
+com.dailystudio.memory.mood.R$id: int actbar_activity_overflow_menu
+com.dailystudio.memory.mood.R$id: int actbar_custome_view
+com.dailystudio.memory.mood.R$id: int actbar_overflow
+com.dailystudio.memory.mood.R$id: int actbar_overflow_menu_item
+com.dailystudio.memory.mood.R$id: int actbar_overflow_menu_list
+com.dailystudio.memory.mood.R$id: int actbar_overflow_menu_root
+com.dailystudio.memory.mood.R$id: int actbar_overflow_popup_overlay
+com.dailystudio.memory.mood.R$id: int actbar_progress
+com.dailystudio.memory.mood.R$id: int actbar_prompt
+com.dailystudio.memory.mood.R$id: int actbar_root
+com.dailystudio.memory.mood.R$id: int actbar_title
+com.dailystudio.memory.mood.R$id: int alert_anm_commnets
+com.dailystudio.memory.mood.R$id: int ask_board
+com.dailystudio.memory.mood.R$id: int ask_view
+com.dailystudio.memory.mood.R$id: int bold
+com.dailystudio.memory.mood.R$id: int boot_list_fragment
+com.dailystudio.memory.mood.R$id: int chartStub
+com.dailystudio.memory.mood.R$id: int core_app_check_explain
+com.dailystudio.memory.mood.R$id: int core_app_check_google_play_badge
+com.dailystudio.memory.mood.R$id: int core_app_check_know_button
+com.dailystudio.memory.mood.R$id: int core_app_check_memory_installed
+com.dailystudio.memory.mood.R$id: int core_app_check_not_show_again_check
+com.dailystudio.memory.mood.R$id: int core_app_check_plugin
+com.dailystudio.memory.mood.R$id: int core_app_check_plugin_icon
+com.dailystudio.memory.mood.R$id: int core_app_check_plugin_name
+com.dailystudio.memory.mood.R$id: int core_app_check_step_one
+com.dailystudio.memory.mood.R$id: int core_app_check_step_two
+com.dailystudio.memory.mood.R$id: int core_app_check_steps
+com.dailystudio.memory.mood.R$id: int fragment_notification
+com.dailystudio.memory.mood.R$id: int fragment_question
+com.dailystudio.memory.mood.R$id: int fragment_view_root
+com.dailystudio.memory.mood.R$id: int fragment_wiym
+com.dailystudio.memory.mood.R$id: int horizontal
+com.dailystudio.memory.mood.R$id: int italic
+com.dailystudio.memory.mood.R$id: int memory_icon
+com.dailystudio.memory.mood.R$id: int memory_index
+com.dailystudio.memory.mood.R$id: int menu_add_mood
+com.dailystudio.memory.mood.R$id: int menu_item_icon
+com.dailystudio.memory.mood.R$id: int menu_item_text
+com.dailystudio.memory.mood.R$id: int menu_list_mood
+com.dailystudio.memory.mood.R$id: int menu_list_weekdays
+com.dailystudio.memory.mood.R$id: int menu_list_weeks
+com.dailystudio.memory.mood.R$id: int menu_mood_by_week
+com.dailystudio.memory.mood.R$id: int menu_share
+com.dailystudio.memory.mood.R$id: int month_name
+com.dailystudio.memory.mood.R$id: int mood_actbar_custom_view
+com.dailystudio.memory.mood.R$id: int mood_by_day_fragment
+com.dailystudio.memory.mood.R$id: int mood_by_week_fragment
+com.dailystudio.memory.mood.R$id: int mood_comments
+com.dailystudio.memory.mood.R$id: int mood_icon
+com.dailystudio.memory.mood.R$id: int mood_info
+com.dailystudio.memory.mood.R$id: int mood_label
+com.dailystudio.memory.mood.R$id: int mood_level
+com.dailystudio.memory.mood.R$id: int mood_time
+com.dailystudio.memory.mood.R$id: int normal
+com.dailystudio.memory.mood.R$id: int notification_close
+com.dailystudio.memory.mood.R$id: int notification_content
+com.dailystudio.memory.mood.R$id: int notification_title
+com.dailystudio.memory.mood.R$id: int notification_title_separator
+com.dailystudio.memory.mood.R$id: int notify_slot_1
+com.dailystudio.memory.mood.R$id: int notify_slot_2
+com.dailystudio.memory.mood.R$id: int notify_slot_3
+com.dailystudio.memory.mood.R$id: int notify_slot_4
+com.dailystudio.memory.mood.R$id: int notify_slots_root
+com.dailystudio.memory.mood.R$id: int notify_view
+com.dailystudio.memory.mood.R$id: int paper_clip_close_button
+com.dailystudio.memory.mood.R$id: int paper_clip_content
+com.dailystudio.memory.mood.R$id: int paper_clip_icon
+com.dailystudio.memory.mood.R$id: int paper_clip_title
+com.dailystudio.memory.mood.R$id: int paper_clip_title_separator
+com.dailystudio.memory.mood.R$id: int question_answer_right
+com.dailystudio.memory.mood.R$id: int question_answer_wrong
+com.dailystudio.memory.mood.R$id: int question_answers
+com.dailystudio.memory.mood.R$id: int question_content
+com.dailystudio.memory.mood.R$id: int question_title
+com.dailystudio.memory.mood.R$id: int question_title_separator
+com.dailystudio.memory.mood.R$id: int stats_lifetime_day
+com.dailystudio.memory.mood.R$id: int stats_lifetime_day_label
+com.dailystudio.memory.mood.R$id: int stats_lifetime_hour
+com.dailystudio.memory.mood.R$id: int stats_lifetime_hour_label
+com.dailystudio.memory.mood.R$id: int stats_lifetime_min
+com.dailystudio.memory.mood.R$id: int stats_lifetime_min_label
+com.dailystudio.memory.mood.R$id: int stats_lifetime_sec
+com.dailystudio.memory.mood.R$id: int stats_lifetime_sec_label
+com.dailystudio.memory.mood.R$id: int vertical
+com.dailystudio.memory.mood.R$id: int week_num
+com.dailystudio.memory.mood.R$id: int week_range
+com.dailystudio.memory.mood.R$id: int weekay_time
+com.dailystudio.memory.mood.R$id: int weekday_dayname
+com.dailystudio.memory.mood.R$id: int weekdays_fragment
+com.dailystudio.memory.mood.R$id: int weeks_fragment
+com.dailystudio.memory.mood.R$id: int widget_mchart_btn_add
+com.dailystudio.memory.mood.R$id: int widget_mchart_btn_list
+com.dailystudio.memory.mood.R$id: int widget_mchart_btn_week
+com.dailystudio.memory.mood.R$id: int widget_mchart_buttons
+com.dailystudio.memory.mood.R$id: int widget_mchart_divider
+com.dailystudio.memory.mood.R$id: int widget_mchart_img
+com.dailystudio.memory.mood.R$id: int widget_mchart_title
+com.dailystudio.memory.mood.R$id: int widget_mchart_vdivider
+com.dailystudio.memory.mood.R$integer: int aw_mood_day_chart_span_x
+com.dailystudio.memory.mood.R$integer: int aw_mood_day_chart_span_y
+com.dailystudio.memory.mood.R$integer: int config_chartAnimTime
+com.dailystudio.memory.mood.R$integer: int config_defaultAnimTime
+com.dailystudio.memory.mood.R$integer: int config_notifyAnimTime
+com.dailystudio.memory.mood.R$integer: int config_overflowAnimTime
+com.dailystudio.memory.mood.R$integer: int config_overflowOverlayAnimTime
+com.dailystudio.memory.mood.R$integer: int config_slowAnimTime
+com.dailystudio.memory.mood.R$layout: int actbar_activity
+com.dailystudio.memory.mood.R$layout: int actbar_base
+com.dailystudio.memory.mood.R$layout: int actbar_overflow_menu
+com.dailystudio.memory.mood.R$layout: int actbar_overflow_menu_item
+com.dailystudio.memory.mood.R$layout: int activity_core_app_check
+com.dailystudio.memory.mood.R$layout: int activity_mood_by_day_chart
+com.dailystudio.memory.mood.R$layout: int activity_mood_by_day_list
+com.dailystudio.memory.mood.R$layout: int activity_mood_by_week_chart
+com.dailystudio.memory.mood.R$layout: int activity_notification
+com.dailystudio.memory.mood.R$layout: int activity_question
+com.dailystudio.memory.mood.R$layout: int activity_weekdays_list
+com.dailystudio.memory.mood.R$layout: int activity_weeks_list
+com.dailystudio.memory.mood.R$layout: int activity_what_is_your_mood
+com.dailystudio.memory.mood.R$layout: int alert_dialog_add_new_mood
+com.dailystudio.memory.mood.R$layout: int ask_host_view
+com.dailystudio.memory.mood.R$layout: int fragment_chart
+com.dailystudio.memory.mood.R$layout: int fragment_list
+com.dailystudio.memory.mood.R$layout: int fragment_memory_ask
+com.dailystudio.memory.mood.R$layout: int fragment_memory_notification
+com.dailystudio.memory.mood.R$layout: int fragment_memory_notify
+com.dailystudio.memory.mood.R$layout: int fragment_memory_question
+com.dailystudio.memory.mood.R$layout: int fragment_what_is_your_mood
+com.dailystudio.memory.mood.R$layout: int layout_duration_count_view
+com.dailystudio.memory.mood.R$layout: int layout_mood
+com.dailystudio.memory.mood.R$layout: int memory_mood
+com.dailystudio.memory.mood.R$layout: int month_item
+com.dailystudio.memory.mood.R$layout: int notify_host_view
+com.dailystudio.memory.mood.R$layout: int paper_clip_window
+com.dailystudio.memory.mood.R$layout: int week_item
+com.dailystudio.memory.mood.R$layout: int weekday_item
+com.dailystudio.memory.mood.R$layout: int what_is_your_mood_actbar
+com.dailystudio.memory.mood.R$layout: int widget_mood_day_chart
+com.dailystudio.memory.mood.R$menu: int menu_overflow_mood_by_day_chart
+com.dailystudio.memory.mood.R$menu: int menu_overflow_mood_by_week_chart
+com.dailystudio.memory.mood.R$raw: int default_showcase_404_page
+com.dailystudio.memory.mood.R$raw: int default_showcase_404_page_style
+com.dailystudio.memory.mood.R$string: int achievement_poor_guy
+com.dailystudio.memory.mood.R$string: int achievement_shinny_day
+com.dailystudio.memory.mood.R$string: int activity_ask_question
+com.dailystudio.memory.mood.R$string: int activity_mood_by_day_chart
+com.dailystudio.memory.mood.R$string: int activity_mood_by_day_list
+com.dailystudio.memory.mood.R$string: int activity_mood_by_week_chart
+com.dailystudio.memory.mood.R$string: int activity_notification
+com.dailystudio.memory.mood.R$string: int activity_weekdays_list
+com.dailystudio.memory.mood.R$string: int activity_weeks_list
+com.dailystudio.memory.mood.R$string: int activity_wiym
+com.dailystudio.memory.mood.R$string: int alert_dialog_add_mood_title
+com.dailystudio.memory.mood.R$string: int alert_dialog_button_cancel
+com.dailystudio.memory.mood.R$string: int alert_dialog_button_confirm
+com.dailystudio.memory.mood.R$string: int app_name
+com.dailystudio.memory.mood.R$string: int app_widget_mood_chart
+com.dailystudio.memory.mood.R$string: int ask_mood_hint_01
+com.dailystudio.memory.mood.R$string: int ask_mood_hint_02
+com.dailystudio.memory.mood.R$string: int ask_mood_hint_03
+com.dailystudio.memory.mood.R$string: int ask_mood_hint_04
+com.dailystudio.memory.mood.R$string: int ask_mood_hint_05
+com.dailystudio.memory.mood.R$string: int ask_mood_hint_06
+com.dailystudio.memory.mood.R$string: int build_device
+com.dailystudio.memory.mood.R$string: int build_manufacture
+com.dailystudio.memory.mood.R$string: int build_platform
+com.dailystudio.memory.mood.R$string: int category_mood_label
+com.dailystudio.memory.mood.R$string: int chart_label_hours
+com.dailystudio.memory.mood.R$string: int chart_label_levels
+com.dailystudio.memory.mood.R$string: int chart_label_weekdays
+com.dailystudio.memory.mood.R$string: int chart_lable_date
+com.dailystudio.memory.mood.R$string: int core_app_check_button_know
+com.dailystudio.memory.mood.R$string: int core_app_check_confirm_dialog_message
+com.dailystudio.memory.mood.R$string: int core_app_check_confirm_dialog_title
+com.dailystudio.memory.mood.R$string: int core_app_check_explaination
+com.dailystudio.memory.mood.R$string: int core_app_check_installed
+com.dailystudio.memory.mood.R$string: int core_app_check_not_installed
+com.dailystudio.memory.mood.R$string: int core_app_check_not_show_again
+com.dailystudio.memory.mood.R$string: int core_app_check_step_one
+com.dailystudio.memory.mood.R$string: int core_app_check_step_two
+com.dailystudio.memory.mood.R$string: int default_ask_board_text
+com.dailystudio.memory.mood.R$string: int default_ask_question_title
+com.dailystudio.memory.mood.R$string: int default_bfw_title
+com.dailystudio.memory.mood.R$string: int default_category_label
+com.dailystudio.memory.mood.R$string: int default_iv_description
+com.dailystudio.memory.mood.R$string: int default_nodata_prompt
+com.dailystudio.memory.mood.R$string: int default_notification_title
+com.dailystudio.memory.mood.R$string: int default_paper_clip_window_title
+com.dailystudio.memory.mood.R$string: int default_searchable_matches_templ
+com.dailystudio.memory.mood.R$string: int error_unknow
+com.dailystudio.memory.mood.R$string: int menu_add_mood
+com.dailystudio.memory.mood.R$string: int menu_list_mood
+com.dailystudio.memory.mood.R$string: int menu_list_weekdays
+com.dailystudio.memory.mood.R$string: int menu_list_weeks
+com.dailystudio.memory.mood.R$string: int menu_mood_by_week
+com.dailystudio.memory.mood.R$string: int menu_share
+com.dailystudio.memory.mood.R$string: int month_pattern
+com.dailystudio.memory.mood.R$string: int mood_01_label
+com.dailystudio.memory.mood.R$string: int mood_02_label
+com.dailystudio.memory.mood.R$string: int mood_03_label
+com.dailystudio.memory.mood.R$string: int mood_04_label
+com.dailystudio.memory.mood.R$string: int mood_05_label
+com.dailystudio.memory.mood.R$string: int mood_06_label
+com.dailystudio.memory.mood.R$string: int mood_07_label
+com.dailystudio.memory.mood.R$string: int mood_08_label
+com.dailystudio.memory.mood.R$string: int mood_09_label
+com.dailystudio.memory.mood.R$string: int mood_10_label
+com.dailystudio.memory.mood.R$string: int mood_11_label
+com.dailystudio.memory.mood.R$string: int mood_12_label
+com.dailystudio.memory.mood.R$string: int plugin_label_mood
+com.dailystudio.memory.mood.R$string: int series_title_avg_mood
+com.dailystudio.memory.mood.R$string: int series_title_mood
+com.dailystudio.memory.mood.R$string: int share_content_name
+com.dailystudio.memory.mood.R$string: int share_moods_title
+com.dailystudio.memory.mood.R$string: int share_subject_day_moods
+com.dailystudio.memory.mood.R$string: int share_subject_week_moods
+com.dailystudio.memory.mood.R$string: int task_label_ask_mood
+com.dailystudio.memory.mood.R$string: int task_label_aw_data_update_checker
+com.dailystudio.memory.mood.R$string: int time_print_date_format
+com.dailystudio.memory.mood.R$string: int time_print_label_day
+com.dailystudio.memory.mood.R$string: int time_print_label_days
+com.dailystudio.memory.mood.R$string: int time_print_label_hour
+com.dailystudio.memory.mood.R$string: int time_print_label_min
+com.dailystudio.memory.mood.R$string: int time_print_label_sec
+com.dailystudio.memory.mood.R$string: int time_print_time_format
+com.dailystudio.memory.mood.R$string: int widget_mood_chart
+com.dailystudio.memory.mood.R$style: int ActionBarOverflowMenuItemText
+com.dailystudio.memory.mood.R$style: int ActionBarPromptText
+com.dailystudio.memory.mood.R$style: int ActionBarText
+com.dailystudio.memory.mood.R$style: int ActionBarTitleText
+com.dailystudio.memory.mood.R$style: int ActiveLabel
+com.dailystudio.memory.mood.R$style: int Animation
+com.dailystudio.memory.mood.R$style: int Animation_DropDownCenter
+com.dailystudio.memory.mood.R$style: int Animation_DropDownDown
+com.dailystudio.memory.mood.R$style: int Animation_DropDownUp
+com.dailystudio.memory.mood.R$style: int AppTheme
+com.dailystudio.memory.mood.R$style: int AskBoardText
+com.dailystudio.memory.mood.R$style: int AskQuestionContent
+com.dailystudio.memory.mood.R$style: int BottomFloatingWindowButton
+com.dailystudio.memory.mood.R$style: int BottomFloatingWindowTitle
+com.dailystudio.memory.mood.R$style: int CoreAppCheckExplainText
+com.dailystudio.memory.mood.R$style: int CoreAppCheckResultText
+com.dailystudio.memory.mood.R$style: int CoreAppCheckStepListText
+com.dailystudio.memory.mood.R$style: int CoreAppCheckStepText
+com.dailystudio.memory.mood.R$style: int DefaultAdapterView
+com.dailystudio.memory.mood.R$style: int DefaultAppWidgetButton
+com.dailystudio.memory.mood.R$style: int DefaultAppWidgetLabel
+com.dailystudio.memory.mood.R$style: int DefaultAppWidgetTitle
+com.dailystudio.memory.mood.R$style: int DefaultButton
+com.dailystudio.memory.mood.R$style: int DefaultCheck
+com.dailystudio.memory.mood.R$style: int DefaultCheck_Dark
+com.dailystudio.memory.mood.R$style: int DefaultCheck_Light
+com.dailystudio.memory.mood.R$style: int DefaultEditText
+com.dailystudio.memory.mood.R$style: int DefaultEmptyText
+com.dailystudio.memory.mood.R$style: int DefaultGridItemText
+com.dailystudio.memory.mood.R$style: int DefaultGridView
+com.dailystudio.memory.mood.R$style: int DefaultLabel
+com.dailystudio.memory.mood.R$style: int DefaultListItemText
+com.dailystudio.memory.mood.R$style: int DefaultListView
+com.dailystudio.memory.mood.R$style: int DefaultPagerTitleStrip
+com.dailystudio.memory.mood.R$style: int DefaultText
+com.dailystudio.memory.mood.R$style: int DurationCountViewText
+com.dailystudio.memory.mood.R$style: int MemoryIndexText
+com.dailystudio.memory.mood.R$style: int MoodLevelText
+com.dailystudio.memory.mood.R$style: int NotifyContent
+com.dailystudio.memory.mood.R$style: int NotifyText
+com.dailystudio.memory.mood.R$style: int PaperClipTitle
+com.dailystudio.memory.mood.R$style: int Theme
+com.dailystudio.memory.mood.R$style: int Theme_DefaultActivity
+com.dailystudio.memory.mood.R$style: int Theme_DefaultActivity_Light
+com.dailystudio.memory.mood.R$style: int Theme_Translucent
+com.dailystudio.memory.mood.R$style: int Theme_Transparent
+com.dailystudio.memory.mood.R$styleable: int[] CountView
+com.dailystudio.memory.mood.R$styleable: int CountView_count
+com.dailystudio.memory.mood.R$styleable: int CountView_minDigits
+com.dailystudio.memory.mood.R$styleable: int[] DurationCountView
+com.dailystudio.memory.mood.R$styleable: int DurationCountView_textColor
+com.dailystudio.memory.mood.R$styleable: int DurationCountView_textSize
+com.dailystudio.memory.mood.R$styleable: int DurationCountView_textStyle
+com.dailystudio.memory.mood.R$styleable: int[] SlidingDrawer
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_allowSingleTap
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_animateOnClick
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_bottomOffset
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_content
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_handle
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_orientation
+com.dailystudio.memory.mood.R$styleable: int SlidingDrawer_topOffset
+com.dailystudio.memory.mood.R$xml: int activity_category_mood
+com.dailystudio.memory.mood.R$xml: int aw_info_mood_day_chart
+com.dailystudio.memory.mood.R$xml: int mood_privacy_policy
+com.dailystudio.memory.mood.R$xml: int plugin_mood
+com.dailystudio.memory.mood.activity.MoodByDayChartActivity
+com.dailystudio.memory.mood.activity.MoodByDayChartActivity: MoodByDayChartActivity()
+com.dailystudio.memory.mood.activity.MoodByDayListActivity
+com.dailystudio.memory.mood.activity.MoodByDayListActivity: MoodByDayListActivity()
+com.dailystudio.memory.mood.activity.MoodByWeekChartActivity
+com.dailystudio.memory.mood.activity.MoodByWeekChartActivity: MoodByWeekChartActivity()
+com.dailystudio.memory.mood.activity.WeekdaysListActivity
+com.dailystudio.memory.mood.activity.WeekdaysListActivity: WeekdaysListActivity()
+com.dailystudio.memory.mood.activity.WeeksListActivity
+com.dailystudio.memory.mood.activity.WeeksListActivity: WeeksListActivity()
+com.dailystudio.memory.mood.activity.WhatIsYourMoodActivity
+com.dailystudio.memory.mood.activity.WhatIsYourMoodActivity: WhatIsYourMoodActivity()
+com.dailystudio.memory.mood.appwidget.MoodAppWidgetDataService
+com.dailystudio.memory.mood.appwidget.MoodAppWidgetDataService: MoodAppWidgetDataService()
+com.dailystudio.memory.mood.appwidget.MoodDayChartWidgetProvider
+com.dailystudio.memory.mood.appwidget.MoodDayChartWidgetProvider: MoodDayChartWidgetProvider()
+com.dailystudio.memory.mood.fragment.MoodByDayChartFragment
+com.dailystudio.memory.mood.fragment.MoodByDayChartFragment: MoodByDayChartFragment()
+com.dailystudio.memory.mood.fragment.MoodByDayListFragment
+com.dailystudio.memory.mood.fragment.MoodByDayListFragment: MoodByDayListFragment()
+com.dailystudio.memory.mood.fragment.MoodByWeekChartFragment
+com.dailystudio.memory.mood.fragment.MoodByWeekChartFragment: MoodByWeekChartFragment()
+com.dailystudio.memory.mood.fragment.MoodChartFragment: MoodChartFragment()
+com.dailystudio.memory.mood.fragment.WeekdaysListFragment
+com.dailystudio.memory.mood.fragment.WeekdaysListFragment: WeekdaysListFragment()
+com.dailystudio.memory.mood.fragment.WeeksListFragment
+com.dailystudio.memory.mood.fragment.WeeksListFragment: WeeksListFragment()
+com.dailystudio.memory.mood.fragment.WhatIsYourMoodFragment
+com.dailystudio.memory.mood.fragment.WhatIsYourMoodFragment: WhatIsYourMoodFragment()
+com.dailystudio.memory.notify.MemoryNotification
+com.dailystudio.memory.notify.MemoryNotification: MemoryNotification(android.content.Context)
+com.dailystudio.memory.notify.MemoryNotification: MemoryNotification(android.content.Context,int)
+com.dailystudio.memory.notify.MemoryNotificationFragment
+com.dailystudio.memory.notify.MemoryNotificationFragment: MemoryNotificationFragment()
+com.dailystudio.memory.notify.MemoryNotifyHostView
+com.dailystudio.memory.notify.MemoryNotifyHostView: MemoryNotifyHostView(android.content.Context)
+com.dailystudio.memory.notify.MemoryNotifyHostView: MemoryNotifyHostView(android.content.Context,android.util.AttributeSet)
+com.dailystudio.memory.notify.MemoryNotifyHostView: MemoryNotifyHostView(android.content.Context,android.util.AttributeSet,int)
+com.dailystudio.memory.notify.MemoryNotifyHostView: void setAdapter(android.widget.Adapter)
+com.dailystudio.memory.plugin.MemoryPlugin: MemoryPlugin()
+com.dailystudio.memory.plugin.PluginObserverable
+com.dailystudio.memory.plugin.PluginObserverable: PluginObserverable(android.content.Context)
+com.dailystudio.memory.record.MemoryRecord
+com.dailystudio.memory.record.MemoryRecord: MemoryRecord(android.content.Context)
+com.dailystudio.memory.searchable.MemorySearchableContentProvider: MemorySearchableContentProvider()
+com.dailystudio.memory.searchable.MemorySearchableQuery
+com.dailystudio.memory.searchable.MemorySearchableQuery: com.dailystudio.memory.searchable.queryparams.QueryParamterAnanlyzer[] sAnalyzers
+com.dailystudio.memory.searchable.MemorySearchableQuery: java.lang.String queryInputs
+com.dailystudio.memory.searchable.MemorySearchableQuery: java.util.List keywordQueryParams
+com.dailystudio.memory.searchable.MemorySearchableQuery: java.util.List timeQueryParams
+com.dailystudio.memory.searchable.MemorySearchableQuery: java.util.List textQueryParams
+com.dailystudio.memory.searchable.MemorySearchableQuery: void <clinit>()
+com.dailystudio.memory.searchable.MemorySearchableQuery: MemorySearchableQuery()
+com.dailystudio.memory.searchable.MemorySearchableQuery: void buildFromInputs(java.lang.String)
+com.dailystudio.memory.searchable.MemorySearchableQuery: void dispatchAndAddQueryParameters(com.dailystudio.memory.searchable.queryparams.QueryParameter)
+com.dailystudio.memory.searchable.MemorySearchableQuery: java.lang.String toString()
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: java.util.Map sTranlators
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: java.lang.String keyword
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: void <clinit>()
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: KeywordQueryParameter()
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: boolean isValid()
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: java.lang.String toString()
+com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter: com.dailystudio.memory.searchable.queryparams.QueryParameter checkOrTranlateBuildinKeyword(com.dailystudio.memory.searchable.queryparams.KeywordQueryParameter)
+com.dailystudio.memory.searchable.queryparams.QueryParameter: java.lang.String QUERY_TYPE_DATE
+com.dailystudio.memory.searchable.queryparams.QueryParameter: java.lang.String QUERY_TYPE_TEXT
+com.dailystudio.memory.searchable.queryparams.QueryParameter: java.lang.String QUERY_TYPE_KEYWORD
+com.dailystudio.memory.searchable.queryparams.QueryParameter: java.lang.String queryType
+com.dailystudio.memory.searchable.queryparams.QueryParameter: QueryParameter()
+com.dailystudio.memory.searchable.queryparams.QueryParameter: boolean isValid()
+com.dailystudio.memory.searchable.queryparams.QueryParameter: java.lang.String toString()
+com.dailystudio.memory.searchable.queryparams.TextQueryParameter
+com.dailystudio.memory.searchable.queryparams.TextQueryParameter: java.lang.String text
+com.dailystudio.memory.searchable.queryparams.TextQueryParameter: TextQueryParameter()
+com.dailystudio.memory.searchable.queryparams.TextQueryParameter: boolean isValid()
+com.dailystudio.memory.searchable.queryparams.TextQueryParameter: java.lang.String toString()
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameter
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameter: long timeBegin
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameter: long timeEnd
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameter: TimeQueryParameter()
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameter: boolean isValid()
+com.dailystudio.memory.searchable.queryparams.TimeQueryParameter: java.lang.String toString()
+com.dailystudio.memory.task.ConditionalTaskHost
+com.dailystudio.memory.task.ConditionalTaskHost: ConditionalTaskHost(android.content.Context)
+com.dailystudio.memory.task.PeriodicalTaskHost
+com.dailystudio.memory.task.PeriodicalTaskHost: PeriodicalTaskHost(android.content.Context)
+com.dailystudio.memory.task.Task: Task(android.content.Context)
+com.dailystudio.memory.task.TaskHost: TaskHost(android.content.Context)
+com.dailystudio.memory.task.TaskHostAction
+com.dailystudio.memory.task.TaskHostAction: TaskHostAction(android.content.Context)
+com.dailystudio.memory.task.TaskHostAction: TaskHostAction(android.content.Context,int)
+com.dailystudio.memory.task.TaskStatus: com.dailystudio.memory.task.TaskStatus[] values()
+com.dailystudio.memory.task.TaskStatus: com.dailystudio.memory.task.TaskStatus valueOf(java.lang.String)
+com.dailystudio.memory.task.TasksKeepAliveService: TasksKeepAliveService()
+com.dailystudio.memory.ui.AbstractWindow: android.view.animation.Animation getWindowOpenAnimation()
+com.dailystudio.memory.ui.AbstractWindow: android.view.animation.Animation getWindowCloseAnimation()
+com.dailystudio.memory.ui.AbstractWindow: void setTitle(int)
+com.dailystudio.memory.ui.AbstractWindow: void setTitle(java.lang.CharSequence)
+com.dailystudio.memory.ui.AbstractWindow: void setTitleColor(int)
+com.dailystudio.memory.ui.AbstractWindow: void setTitleColorResource(int)
+com.dailystudio.memory.ui.AbstractWindow: void setIcon(int)
+com.dailystudio.memory.ui.AbstractWindow: void setIcon(android.graphics.drawable.Drawable)
+com.dailystudio.memory.ui.AbstractWindow: void setContentView(int)
+com.dailystudio.memory.ui.AbstractWindow: void setContentView(android.view.View)
+com.dailystudio.memory.ui.CountView
+com.dailystudio.memory.ui.CountView: CountView(android.content.Context)
+com.dailystudio.memory.ui.CountView: CountView(android.content.Context,android.util.AttributeSet)
+com.dailystudio.memory.ui.CountView: CountView(android.content.Context,android.util.AttributeSet,int)
+com.dailystudio.memory.ui.CountView: void setMinimumDigits(int)
+com.dailystudio.memory.ui.CountView: int getMinimumDigits()
+com.dailystudio.memory.ui.CountView: void setOnCountListener(com.dailystudio.memory.ui.CountView$OnCountListener)
+com.dailystudio.memory.ui.DurationCountView: void setTextStyle(int)
+com.dailystudio.memory.ui.DurationCountView: void setTextColor(int)
+com.dailystudio.memory.ui.DurationCountView: void setTextSize(float)
+com.dailystudio.memory.ui.DurationCountView: void setDuration(long)
+com.dailystudio.memory.ui.DurationCountView: void setOnCountDurationListener(com.dailystudio.memory.ui.DurationCountView$OnCountDurationListener)
+com.dailystudio.memory.ui.FloatingChildLayout: android.view.View getChild()
+com.dailystudio.memory.ui.FloatingChildLayout: void setChildTargetScreen(android.graphics.Rect)
+com.dailystudio.memory.ui.FloatingChildLayout: android.graphics.Rect getTargetInWindow()
+com.dailystudio.memory.ui.FloatingChildLayout: void setOnOutsideTouchListener(android.view.View$OnTouchListener)
+com.dailystudio.memory.ui.FloatingWindow: android.view.animation.Animation getWindowOpenAnimation()
+com.dailystudio.memory.ui.FloatingWindow: android.view.animation.Animation getWindowCloseAnimation()
+com.dailystudio.memory.ui.PaperClipLayout: android.view.animation.Animation getWindowOpenAnimation()
+com.dailystudio.memory.ui.PaperClipLayout: android.view.animation.Animation getWindowCloseAnimation()
+com.dailystudio.memory.ui.PaperClipWindow: android.view.animation.Animation getWindowOpenAnimation()
+com.dailystudio.memory.ui.PaperClipWindow: android.view.animation.Animation getWindowCloseAnimation()
+com.dailystudio.memory.ui.R$anim: int actbar_overflow_dropdown_in
+com.dailystudio.memory.ui.R$anim: int actbar_overflow_dropdown_out
+com.dailystudio.memory.ui.R$anim: int actbar_overflow_popup_overlay_in
+com.dailystudio.memory.ui.R$anim: int actbar_overflow_popup_overlay_out
+com.dailystudio.memory.ui.R$anim: int actbar_prompt_in_bottom
+com.dailystudio.memory.ui.R$anim: int actbar_prompt_out_bottom
+com.dailystudio.memory.ui.R$anim: int ask_board_in
+com.dailystudio.memory.ui.R$anim: int ask_board_out
+com.dailystudio.memory.ui.R$anim: int char_layout_anim
+com.dailystudio.memory.ui.R$anim: int chart_in
+com.dailystudio.memory.ui.R$anim: int circle_item_in
+com.dailystudio.memory.ui.R$anim: int circle_layout_anim
+com.dailystudio.memory.ui.R$anim: int expand_list_item_in
+com.dailystudio.memory.ui.R$anim: int expand_list_item_layout_anim
+com.dailystudio.memory.ui.R$anim: int fade_in
+com.dailystudio.memory.ui.R$anim: int fade_out
+com.dailystudio.memory.ui.R$anim: int grid_item_in
+com.dailystudio.memory.ui.R$anim: int grid_layout_anim
+com.dailystudio.memory.ui.R$anim: int grow_fade_in
+com.dailystudio.memory.ui.R$anim: int grow_fade_in_center
+com.dailystudio.memory.ui.R$anim: int grow_fade_in_from_bottom
+com.dailystudio.memory.ui.R$anim: int list_item_in
+com.dailystudio.memory.ui.R$anim: int list_layout_anim
+com.dailystudio.memory.ui.R$anim: int notify_view_in
+com.dailystudio.memory.ui.R$anim: int notify_view_out
+com.dailystudio.memory.ui.R$anim: int paper_clip_in
+com.dailystudio.memory.ui.R$anim: int paper_clip_out
+com.dailystudio.memory.ui.R$anim: int shrink_fade_out
+com.dailystudio.memory.ui.R$anim: int shrink_fade_out_center
+com.dailystudio.memory.ui.R$anim: int shrink_fade_out_from_bottom
+com.dailystudio.memory.ui.R$anim: int slide_fade_in_bottom
+com.dailystudio.memory.ui.R$anim: int slide_fade_in_left
+com.dailystudio.memory.ui.R$anim: int slide_fade_in_right
+com.dailystudio.memory.ui.R$anim: int slide_fade_in_top
+com.dailystudio.memory.ui.R$anim: int slide_fade_out_bottom
+com.dailystudio.memory.ui.R$anim: int slide_fade_out_left
+com.dailystudio.memory.ui.R$anim: int slide_fade_out_right
+com.dailystudio.memory.ui.R$anim: int slide_fade_out_top
+com.dailystudio.memory.ui.R$attr: int allowSingleTap
+com.dailystudio.memory.ui.R$attr: int animateOnClick
+com.dailystudio.memory.ui.R$attr: int bottomOffset
+com.dailystudio.memory.ui.R$attr: int content
+com.dailystudio.memory.ui.R$attr: int count
+com.dailystudio.memory.ui.R$attr: int handle
+com.dailystudio.memory.ui.R$attr: int minDigits
+com.dailystudio.memory.ui.R$attr: int orientation
+com.dailystudio.memory.ui.R$attr: int textColor
+com.dailystudio.memory.ui.R$attr: int textSize
+com.dailystudio.memory.ui.R$attr: int textStyle
+com.dailystudio.memory.ui.R$attr: int topOffset
+com.dailystudio.memory.ui.R$color: int action_bar_bg_color
+com.dailystudio.memory.ui.R$color: int action_bar_popup_content_overlay
+com.dailystudio.memory.ui.R$color: int action_bar_text_color
+com.dailystudio.memory.ui.R$color: int action_bar_text_disable_color
+com.dailystudio.memory.ui.R$color: int android_blue
+com.dailystudio.memory.ui.R$color: int android_blue_light
+com.dailystudio.memory.ui.R$color: int black
+com.dailystudio.memory.ui.R$color: int blue
+com.dailystudio.memory.ui.R$color: int chart_transparent
+com.dailystudio.memory.ui.R$color: int core_app_check_step_text_color
+com.dailystudio.memory.ui.R$color: int dark_red
+com.dailystudio.memory.ui.R$color: int default_button_text_color
+com.dailystudio.memory.ui.R$color: int fadeText
+com.dailystudio.memory.ui.R$color: int gold_yellow
+com.dailystudio.memory.ui.R$color: int gray
+com.dailystudio.memory.ui.R$color: int green
+com.dailystudio.memory.ui.R$color: int light_black
+com.dailystudio.memory.ui.R$color: int light_gray
+com.dailystudio.memory.ui.R$color: int light_white
+com.dailystudio.memory.ui.R$color: int orange
+com.dailystudio.memory.ui.R$color: int red
+com.dailystudio.memory.ui.R$color: int royal_blue
+com.dailystudio.memory.ui.R$color: int see_green
+com.dailystudio.memory.ui.R$color: int tomato_red
+com.dailystudio.memory.ui.R$color: int translucent_background
+com.dailystudio.memory.ui.R$color: int transparent
+com.dailystudio.memory.ui.R$color: int transparent_background
+com.dailystudio.memory.ui.R$color: int white
+com.dailystudio.memory.ui.R$dimen: int actbar_custom_view_right_padding
+com.dailystudio.memory.ui.R$dimen: int actbar_overflow_menu_icon_height
+com.dailystudio.memory.ui.R$dimen: int actbar_overflow_menu_icon_width
+com.dailystudio.memory.ui.R$dimen: int actbar_overflow_menu_item_padding
+com.dailystudio.memory.ui.R$dimen: int actbar_overflow_menu_max_width
+com.dailystudio.memory.ui.R$dimen: int actbar_overflow_menu_text_size
+com.dailystudio.memory.ui.R$dimen: int action_bar_height
+com.dailystudio.memory.ui.R$dimen: int action_bar_padding
+com.dailystudio.memory.ui.R$dimen: int action_bar_right_padding
+com.dailystudio.memory.ui.R$dimen: int action_bar_text_size
+com.dailystudio.memory.ui.R$dimen: int alert_dialog_custom_view_padding_bottom
+com.dailystudio.memory.ui.R$dimen: int alert_dialog_custom_view_padding_left
+com.dailystudio.memory.ui.R$dimen: int alert_dialog_custom_view_padding_right
+com.dailystudio.memory.ui.R$dimen: int alert_dialog_custom_view_padding_top
+com.dailystudio.memory.ui.R$dimen: int app_widget_btn_padding
+com.dailystudio.memory.ui.R$dimen: int app_widget_chart_margin_bottom
+com.dailystudio.memory.ui.R$dimen: int app_widget_chart_margin_left
+com.dailystudio.memory.ui.R$dimen: int app_widget_chart_margin_right
+com.dailystudio.memory.ui.R$dimen: int app_widget_chart_margin_top
+com.dailystudio.memory.ui.R$dimen: int app_widget_frame_padding
+com.dailystudio.memory.ui.R$dimen: int app_widget_grid_height
+com.dailystudio.memory.ui.R$dimen: int app_widget_grid_width
+com.dailystudio.memory.ui.R$dimen: int app_widget_label_font_size
+com.dailystudio.memory.ui.R$dimen: int app_widget_label_padding
+com.dailystudio.memory.ui.R$dimen: int app_widget_margin
+com.dailystudio.memory.ui.R$dimen: int app_widget_title_padding
+com.dailystudio.memory.ui.R$dimen: int ask_question_answers_padding
+com.dailystudio.memory.ui.R$dimen: int ask_question_content_padding
+com.dailystudio.memory.ui.R$dimen: int bfw_hpadding
+com.dailystudio.memory.ui.R$dimen: int bfw_min_content_height
+com.dailystudio.memory.ui.R$dimen: int bfw_title_height
+com.dailystudio.memory.ui.R$dimen: int bfw_title_hpadding
+com.dailystudio.memory.ui.R$dimen: int close_button_size
+com.dailystudio.memory.ui.R$dimen: int core_app_check_badge_margin
+com.dailystudio.memory.ui.R$dimen: int core_app_check_padding
+com.dailystudio.memory.ui.R$dimen: int daygroup_item_height
+com.dailystudio.memory.ui.R$dimen: int default_ask_board_width
+com.dailystudio.memory.ui.R$dimen: int default_button_padding
+com.dailystudio.memory.ui.R$dimen: int default_chart_axis_title_size
+com.dailystudio.memory.ui.R$dimen: int default_chart_label_size
+com.dailystudio.memory.ui.R$dimen: int default_chart_legend_height
+com.dailystudio.memory.ui.R$dimen: int default_chart_legend_size
+com.dailystudio.memory.ui.R$dimen: int default_chart_margin_bottom
+com.dailystudio.memory.ui.R$dimen: int default_chart_margin_left
+com.dailystudio.memory.ui.R$dimen: int default_chart_margin_right
+com.dailystudio.memory.ui.R$dimen: int default_chart_margin_top
+com.dailystudio.memory.ui.R$dimen: int default_chart_title_size
+com.dailystudio.memory.ui.R$dimen: int default_check_padding
+com.dailystudio.memory.ui.R$dimen: int default_content_hpadding
+com.dailystudio.memory.ui.R$dimen: int default_content_vpadding
+com.dailystudio.memory.ui.R$dimen: int default_empty_text_font_size
+com.dailystudio.memory.ui.R$dimen: int default_font_size
+com.dailystudio.memory.ui.R$dimen: int default_label_padding
+com.dailystudio.memory.ui.R$dimen: int default_notify_height
+com.dailystudio.memory.ui.R$dimen: int lv_index_font_size
+com.dailystudio.memory.ui.R$dimen: int lv_index_padding
+com.dailystudio.memory.ui.R$dimen: int lv_index_width
+com.dailystudio.memory.ui.R$dimen: int lv_item_font_size
+com.dailystudio.memory.ui.R$dimen: int lv_item_padding
+com.dailystudio.memory.ui.R$dimen: int memory_ic_height
+com.dailystudio.memory.ui.R$dimen: int memory_ic_witdh
+com.dailystudio.memory.ui.R$dimen: int memory_index_font_size
+com.dailystudio.memory.ui.R$dimen: int memory_index_padding
+com.dailystudio.memory.ui.R$dimen: int memory_index_width
+com.dailystudio.memory.ui.R$dimen: int notification_content_padding
+com.dailystudio.memory.ui.R$dimen: int notification_dialog_height
+com.dailystudio.memory.ui.R$dimen: int paper_clip_content_hpadding
+com.dailystudio.memory.ui.R$dimen: int paper_clip_content_vpadding
+com.dailystudio.memory.ui.R$dimen: int paper_clip_frame_padding
+com.dailystudio.memory.ui.R$dimen: int paper_clip_title_font_size
+com.dailystudio.memory.ui.R$dimen: int paper_clip_title_height
+com.dailystudio.memory.ui.R$dimen: int paper_clip_title_hmargin
+com.dailystudio.memory.ui.R$dimen: int paper_clip_title_vmargin
+com.dailystudio.memory.ui.R$drawable: int actbar_button
+com.dailystudio.memory.ui.R$drawable: int actbar_button_pressed_light
+com.dailystudio.memory.ui.R$drawable: int actbar_dropdown_background
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_01
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_02
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_03
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_04
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_05
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_06
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_07
+com.dailystudio.memory.ui.R$drawable: int actbar_prg_08
+com.dailystudio.memory.ui.R$drawable: int actbar_vert_separator
+com.dailystudio.memory.ui.R$drawable: int app_widget_background
+com.dailystudio.memory.ui.R$drawable: int app_widget_btn
+com.dailystudio.memory.ui.R$drawable: int app_widget_btn_pressed
+com.dailystudio.memory.ui.R$drawable: int ask_board
+com.dailystudio.memory.ui.R$drawable: int ask_board_normal
+com.dailystudio.memory.ui.R$drawable: int ask_board_pressed
+com.dailystudio.memory.ui.R$drawable: int ask_dialog_bg
+com.dailystudio.memory.ui.R$drawable: int check_background
+com.dailystudio.memory.ui.R$drawable: int check_off_dark
+com.dailystudio.memory.ui.R$drawable: int check_off_light
+com.dailystudio.memory.ui.R$drawable: int check_on
+com.dailystudio.memory.ui.R$drawable: int content_bg_op60
+com.dailystudio.memory.ui.R$drawable: int content_bg_op80
+com.dailystudio.memory.ui.R$drawable: int content_bg_op90
+com.dailystudio.memory.ui.R$drawable: int default_button
+com.dailystudio.memory.ui.R$drawable: int default_button_disabled_focused_light
+com.dailystudio.memory.ui.R$drawable: int default_button_disabled_light
+com.dailystudio.memory.ui.R$drawable: int default_button_focused_light
+com.dailystudio.memory.ui.R$drawable: int default_button_normal_light
+com.dailystudio.memory.ui.R$drawable: int default_button_pressed_light
+com.dailystudio.memory.ui.R$drawable: int default_content_bg
+com.dailystudio.memory.ui.R$drawable: int default_content_bg_pattern
+com.dailystudio.memory.ui.R$drawable: int default_dark_check
+com.dailystudio.memory.ui.R$drawable: int default_light_check
+com.dailystudio.memory.ui.R$drawable: int edit_text_light
+com.dailystudio.memory.ui.R$drawable: int get_it_on_play_logo_large
+com.dailystudio.memory.ui.R$drawable: int get_it_on_play_logo_large_disabled
+com.dailystudio.memory.ui.R$drawable: int get_it_on_play_logo_large_normal
+com.dailystudio.memory.ui.R$drawable: int get_it_on_play_logo_large_pressed
+com.dailystudio.memory.ui.R$drawable: int guess_right
+com.dailystudio.memory.ui.R$drawable: int guess_wrong
+com.dailystudio.memory.ui.R$drawable: int ic_action_overflow
+com.dailystudio.memory.ui.R$drawable: int ic_action_search
+com.dailystudio.memory.ui.R$drawable: int ic_calendar_day
+com.dailystudio.memory.ui.R$drawable: int ic_calendar_month
+com.dailystudio.memory.ui.R$drawable: int ic_calendar_week
+com.dailystudio.memory.ui.R$drawable: int ic_close_button
+com.dailystudio.memory.ui.R$drawable: int ic_close_button_normal
+com.dailystudio.memory.ui.R$drawable: int ic_close_button_pressed
+com.dailystudio.memory.ui.R$drawable: int ic_done
+com.dailystudio.memory.ui.R$drawable: int ic_done_highlight
+com.dailystudio.memory.ui.R$drawable: int ic_done_normal
+com.dailystudio.memory.ui.R$drawable: int ic_launcher
+com.dailystudio.memory.ui.R$drawable: int ic_memory_bar_chart
+com.dailystudio.memory.ui.R$drawable: int ic_memory_chart
+com.dailystudio.memory.ui.R$drawable: int ic_memory_list
+com.dailystudio.memory.ui.R$drawable: int ic_memory_record
+com.dailystudio.memory.ui.R$drawable: int ic_menu_add
+com.dailystudio.memory.ui.R$drawable: int ic_menu_calendar
+com.dailystudio.memory.ui.R$drawable: int ic_menu_history
+com.dailystudio.memory.ui.R$drawable: int ic_menu_list
+com.dailystudio.memory.ui.R$drawable: int ic_menu_search
+com.dailystudio.memory.ui.R$drawable: int ic_menu_share
+com.dailystudio.memory.ui.R$drawable: int ic_menu_today
+com.dailystudio.memory.ui.R$drawable: int ic_nofity
+com.dailystudio.memory.ui.R$drawable: int icon
+com.dailystudio.memory.ui.R$drawable: int list_divider
+com.dailystudio.memory.ui.R$drawable: int list_focused
+com.dailystudio.memory.ui.R$drawable: int list_longpressed
+com.dailystudio.memory.ui.R$drawable: int list_pressed_dark
+com.dailystudio.memory.ui.R$drawable: int list_pressed_light
+com.dailystudio.memory.ui.R$drawable: int list_selector_background_transition_dark
+com.dailystudio.memory.ui.R$drawable: int list_selector_background_transition_light
+com.dailystudio.memory.ui.R$drawable: int list_selector_dark
+com.dailystudio.memory.ui.R$drawable: int list_selector_disabled_dark
+com.dailystudio.memory.ui.R$drawable: int list_selector_disabled_light
+com.dailystudio.memory.ui.R$drawable: int list_selector_light
+com.dailystudio.memory.ui.R$drawable: int menu_dropdown_panel_holo_light
+com.dailystudio.memory.ui.R$drawable: int notification_dialog_bg
+com.dailystudio.memory.ui.R$drawable: int notify_bird_left
+com.dailystudio.memory.ui.R$drawable: int notify_bird_right
+com.dailystudio.memory.ui.R$drawable: int notify_pole_and_line
+com.dailystudio.memory.ui.R$drawable: int paper_clip_close_normal
+com.dailystudio.memory.ui.R$drawable: int paper_clip_close_pressed
+com.dailystudio.memory.ui.R$drawable: int paper_clip_window
+com.dailystudio.memory.ui.R$drawable: int paper_clip_window_close
+com.dailystudio.memory.ui.R$drawable: int scrollbar_handle
+com.dailystudio.memory.ui.R$drawable: int textfield_activated_light
+com.dailystudio.memory.ui.R$drawable: int textfield_default_light
+com.dailystudio.memory.ui.R$drawable: int textfield_disabled_focused_light
+com.dailystudio.memory.ui.R$drawable: int textfield_disabled_light
+com.dailystudio.memory.ui.R$drawable: int textfield_focused_light
+com.dailystudio.memory.ui.R$drawable: int vert_divider
+com.dailystudio.memory.ui.R$id: int actbar_activity_actionbar
+com.dailystudio.memory.ui.R$id: int actbar_activity_content
+com.dailystudio.memory.ui.R$id: int actbar_activity_overflow_menu
+com.dailystudio.memory.ui.R$id: int actbar_custome_view
+com.dailystudio.memory.ui.R$id: int actbar_overflow
+com.dailystudio.memory.ui.R$id: int actbar_overflow_menu_item
+com.dailystudio.memory.ui.R$id: int actbar_overflow_menu_list
+com.dailystudio.memory.ui.R$id: int actbar_overflow_menu_root
+com.dailystudio.memory.ui.R$id: int actbar_overflow_popup_overlay
+com.dailystudio.memory.ui.R$id: int actbar_progress
+com.dailystudio.memory.ui.R$id: int actbar_prompt
+com.dailystudio.memory.ui.R$id: int actbar_root
+com.dailystudio.memory.ui.R$id: int actbar_title
+com.dailystudio.memory.ui.R$id: int ask_board
+com.dailystudio.memory.ui.R$id: int ask_view
+com.dailystudio.memory.ui.R$id: int bold
+com.dailystudio.memory.ui.R$id: int chartStub
+com.dailystudio.memory.ui.R$id: int core_app_check_explain
+com.dailystudio.memory.ui.R$id: int core_app_check_google_play_badge
+com.dailystudio.memory.ui.R$id: int core_app_check_know_button
+com.dailystudio.memory.ui.R$id: int core_app_check_memory_installed
+com.dailystudio.memory.ui.R$id: int core_app_check_not_show_again_check
+com.dailystudio.memory.ui.R$id: int core_app_check_plugin
+com.dailystudio.memory.ui.R$id: int core_app_check_plugin_icon
+com.dailystudio.memory.ui.R$id: int core_app_check_plugin_name
+com.dailystudio.memory.ui.R$id: int core_app_check_step_one
+com.dailystudio.memory.ui.R$id: int core_app_check_step_two
+com.dailystudio.memory.ui.R$id: int core_app_check_steps
+com.dailystudio.memory.ui.R$id: int fragment_notification
+com.dailystudio.memory.ui.R$id: int fragment_question
+com.dailystudio.memory.ui.R$id: int fragment_view_root
+com.dailystudio.memory.ui.R$id: int horizontal
+com.dailystudio.memory.ui.R$id: int italic
+com.dailystudio.memory.ui.R$id: int menu_item_icon
+com.dailystudio.memory.ui.R$id: int menu_item_text
+com.dailystudio.memory.ui.R$id: int month_name
+com.dailystudio.memory.ui.R$id: int normal
+com.dailystudio.memory.ui.R$id: int notification_close
+com.dailystudio.memory.ui.R$id: int notification_content
+com.dailystudio.memory.ui.R$id: int notification_title
+com.dailystudio.memory.ui.R$id: int notification_title_separator
+com.dailystudio.memory.ui.R$id: int notify_slot_1
+com.dailystudio.memory.ui.R$id: int notify_slot_2
+com.dailystudio.memory.ui.R$id: int notify_slot_3
+com.dailystudio.memory.ui.R$id: int notify_slot_4
+com.dailystudio.memory.ui.R$id: int notify_slots_root
+com.dailystudio.memory.ui.R$id: int notify_view
+com.dailystudio.memory.ui.R$id: int paper_clip_close_button
+com.dailystudio.memory.ui.R$id: int paper_clip_content
+com.dailystudio.memory.ui.R$id: int paper_clip_icon
+com.dailystudio.memory.ui.R$id: int paper_clip_title
+com.dailystudio.memory.ui.R$id: int paper_clip_title_separator
+com.dailystudio.memory.ui.R$id: int question_answer_right
+com.dailystudio.memory.ui.R$id: int question_answer_wrong
+com.dailystudio.memory.ui.R$id: int question_answers
+com.dailystudio.memory.ui.R$id: int question_content
+com.dailystudio.memory.ui.R$id: int question_title
+com.dailystudio.memory.ui.R$id: int question_title_separator
+com.dailystudio.memory.ui.R$id: int stats_lifetime_day
+com.dailystudio.memory.ui.R$id: int stats_lifetime_day_label
+com.dailystudio.memory.ui.R$id: int stats_lifetime_hour
+com.dailystudio.memory.ui.R$id: int stats_lifetime_hour_label
+com.dailystudio.memory.ui.R$id: int stats_lifetime_min
+com.dailystudio.memory.ui.R$id: int stats_lifetime_min_label
+com.dailystudio.memory.ui.R$id: int stats_lifetime_sec
+com.dailystudio.memory.ui.R$id: int stats_lifetime_sec_label
+com.dailystudio.memory.ui.R$id: int vertical
+com.dailystudio.memory.ui.R$id: int week_num
+com.dailystudio.memory.ui.R$id: int week_range
+com.dailystudio.memory.ui.R$id: int weekay_time
+com.dailystudio.memory.ui.R$id: int weekday_dayname
+com.dailystudio.memory.ui.R$integer: int config_chartAnimTime
+com.dailystudio.memory.ui.R$integer: int config_defaultAnimTime
+com.dailystudio.memory.ui.R$integer: int config_notifyAnimTime
+com.dailystudio.memory.ui.R$integer: int config_overflowAnimTime
+com.dailystudio.memory.ui.R$integer: int config_overflowOverlayAnimTime
+com.dailystudio.memory.ui.R$integer: int config_slowAnimTime
+com.dailystudio.memory.ui.R$layout: int actbar_activity
+com.dailystudio.memory.ui.R$layout: int actbar_base
+com.dailystudio.memory.ui.R$layout: int actbar_overflow_menu
+com.dailystudio.memory.ui.R$layout: int actbar_overflow_menu_item
+com.dailystudio.memory.ui.R$layout: int activity_core_app_check
+com.dailystudio.memory.ui.R$layout: int activity_notification
+com.dailystudio.memory.ui.R$layout: int activity_question
+com.dailystudio.memory.ui.R$layout: int ask_host_view
+com.dailystudio.memory.ui.R$layout: int fragment_chart
+com.dailystudio.memory.ui.R$layout: int fragment_list
+com.dailystudio.memory.ui.R$layout: int fragment_memory_ask
+com.dailystudio.memory.ui.R$layout: int fragment_memory_notification
+com.dailystudio.memory.ui.R$layout: int fragment_memory_notify
+com.dailystudio.memory.ui.R$layout: int fragment_memory_question
+com.dailystudio.memory.ui.R$layout: int layout_duration_count_view
+com.dailystudio.memory.ui.R$layout: int month_item
+com.dailystudio.memory.ui.R$layout: int notify_host_view
+com.dailystudio.memory.ui.R$layout: int paper_clip_window
+com.dailystudio.memory.ui.R$layout: int week_item
+com.dailystudio.memory.ui.R$layout: int weekday_item
+com.dailystudio.memory.ui.R$raw: int default_showcase_404_page
+com.dailystudio.memory.ui.R$raw: int default_showcase_404_page_style
+com.dailystudio.memory.ui.R$string: int activity_ask_question
+com.dailystudio.memory.ui.R$string: int activity_notification
+com.dailystudio.memory.ui.R$string: int alert_dialog_button_cancel
+com.dailystudio.memory.ui.R$string: int alert_dialog_button_confirm
+com.dailystudio.memory.ui.R$string: int app_name
+com.dailystudio.memory.ui.R$string: int build_device
+com.dailystudio.memory.ui.R$string: int build_manufacture
+com.dailystudio.memory.ui.R$string: int build_platform
+com.dailystudio.memory.ui.R$string: int chart_lable_date
+com.dailystudio.memory.ui.R$string: int core_app_check_button_know
+com.dailystudio.memory.ui.R$string: int core_app_check_confirm_dialog_message
+com.dailystudio.memory.ui.R$string: int core_app_check_confirm_dialog_title
+com.dailystudio.memory.ui.R$string: int core_app_check_explaination
+com.dailystudio.memory.ui.R$string: int core_app_check_installed
+com.dailystudio.memory.ui.R$string: int core_app_check_not_installed
+com.dailystudio.memory.ui.R$string: int core_app_check_not_show_again
+com.dailystudio.memory.ui.R$string: int core_app_check_step_one
+com.dailystudio.memory.ui.R$string: int core_app_check_step_two
+com.dailystudio.memory.ui.R$string: int default_ask_board_text
+com.dailystudio.memory.ui.R$string: int default_ask_question_title
+com.dailystudio.memory.ui.R$string: int default_bfw_title
+com.dailystudio.memory.ui.R$string: int default_category_label
+com.dailystudio.memory.ui.R$string: int default_iv_description
+com.dailystudio.memory.ui.R$string: int default_nodata_prompt
+com.dailystudio.memory.ui.R$string: int default_notification_title
+com.dailystudio.memory.ui.R$string: int default_paper_clip_window_title
+com.dailystudio.memory.ui.R$string: int default_searchable_matches_templ
+com.dailystudio.memory.ui.R$string: int error_unknow
+com.dailystudio.memory.ui.R$string: int month_pattern
+com.dailystudio.memory.ui.R$string: int time_print_date_format
+com.dailystudio.memory.ui.R$string: int time_print_label_day
+com.dailystudio.memory.ui.R$string: int time_print_label_days
+com.dailystudio.memory.ui.R$string: int time_print_label_hour
+com.dailystudio.memory.ui.R$string: int time_print_label_min
+com.dailystudio.memory.ui.R$string: int time_print_label_sec
+com.dailystudio.memory.ui.R$string: int time_print_time_format
+com.dailystudio.memory.ui.R$style: int ActionBarOverflowMenuItemText
+com.dailystudio.memory.ui.R$style: int ActionBarPromptText
+com.dailystudio.memory.ui.R$style: int ActionBarText
+com.dailystudio.memory.ui.R$style: int ActionBarTitleText
+com.dailystudio.memory.ui.R$style: int ActiveLabel
+com.dailystudio.memory.ui.R$style: int Animation
+com.dailystudio.memory.ui.R$style: int Animation_DropDownCenter
+com.dailystudio.memory.ui.R$style: int Animation_DropDownDown
+com.dailystudio.memory.ui.R$style: int Animation_DropDownUp
+com.dailystudio.memory.ui.R$style: int AppTheme
+com.dailystudio.memory.ui.R$style: int AskBoardText
+com.dailystudio.memory.ui.R$style: int AskQuestionContent
+com.dailystudio.memory.ui.R$style: int BottomFloatingWindowButton
+com.dailystudio.memory.ui.R$style: int BottomFloatingWindowTitle
+com.dailystudio.memory.ui.R$style: int CoreAppCheckExplainText
+com.dailystudio.memory.ui.R$style: int CoreAppCheckResultText
+com.dailystudio.memory.ui.R$style: int CoreAppCheckStepListText
+com.dailystudio.memory.ui.R$style: int CoreAppCheckStepText
+com.dailystudio.memory.ui.R$style: int DefaultAdapterView
+com.dailystudio.memory.ui.R$style: int DefaultAppWidgetButton
+com.dailystudio.memory.ui.R$style: int DefaultAppWidgetLabel
+com.dailystudio.memory.ui.R$style: int DefaultAppWidgetTitle
+com.dailystudio.memory.ui.R$style: int DefaultButton
+com.dailystudio.memory.ui.R$style: int DefaultCheck
+com.dailystudio.memory.ui.R$style: int DefaultCheck_Dark
+com.dailystudio.memory.ui.R$style: int DefaultCheck_Light
+com.dailystudio.memory.ui.R$style: int DefaultEditText
+com.dailystudio.memory.ui.R$style: int DefaultEmptyText
+com.dailystudio.memory.ui.R$style: int DefaultGridItemText
+com.dailystudio.memory.ui.R$style: int DefaultGridView
+com.dailystudio.memory.ui.R$style: int DefaultLabel
+com.dailystudio.memory.ui.R$style: int DefaultListItemText
+com.dailystudio.memory.ui.R$style: int DefaultListView
+com.dailystudio.memory.ui.R$style: int DefaultPagerTitleStrip
+com.dailystudio.memory.ui.R$style: int DefaultText
+com.dailystudio.memory.ui.R$style: int DurationCountViewText
+com.dailystudio.memory.ui.R$style: int MemoryIndexText
+com.dailystudio.memory.ui.R$style: int NotifyContent
+com.dailystudio.memory.ui.R$style: int NotifyText
+com.dailystudio.memory.ui.R$style: int PaperClipTitle
+com.dailystudio.memory.ui.R$style: int Theme
+com.dailystudio.memory.ui.R$style: int Theme_DefaultActivity
+com.dailystudio.memory.ui.R$style: int Theme_DefaultActivity_Light
+com.dailystudio.memory.ui.R$style: int Theme_Translucent
+com.dailystudio.memory.ui.R$style: int Theme_Transparent
+com.dailystudio.memory.ui.R$styleable: int[] CountView
+com.dailystudio.memory.ui.R$styleable: int CountView_count
+com.dailystudio.memory.ui.R$styleable: int CountView_minDigits
+com.dailystudio.memory.ui.R$styleable: int[] DurationCountView
+com.dailystudio.memory.ui.R$styleable: int DurationCountView_textColor
+com.dailystudio.memory.ui.R$styleable: int DurationCountView_textSize
+com.dailystudio.memory.ui.R$styleable: int DurationCountView_textStyle
+com.dailystudio.memory.ui.R$styleable: int[] SlidingDrawer
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_allowSingleTap
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_animateOnClick
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_bottomOffset
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_content
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_handle
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_orientation
+com.dailystudio.memory.ui.R$styleable: int SlidingDrawer_topOffset
+com.dailystudio.memory.ui.SlidingDrawer: void setOnDrawerOpenListener(com.dailystudio.memory.ui.SlidingDrawer$OnDrawerOpenListener)
+com.dailystudio.memory.ui.SlidingDrawer: void setOnDrawerCloseListener(com.dailystudio.memory.ui.SlidingDrawer$OnDrawerCloseListener)
+com.dailystudio.memory.ui.SlidingDrawer: void setOnDrawerScrollListener(com.dailystudio.memory.ui.SlidingDrawer$OnDrawerScrollListener)
+com.dailystudio.memory.ui.SlidingDrawer: android.view.View getHandle()
+com.dailystudio.memory.ui.SlidingDrawer: android.view.View getContent()
+com.dailystudio.nativeapplib.R$drawable: int ic_launcher
+com.dailystudio.nativeapplib.R$drawable: int icon
+com.dailystudio.nativeapplib.R$string: int app_name
+com.dailystudio.nativeapplib.R$string: int build_device
+com.dailystudio.nativeapplib.R$string: int build_manufacture
+com.dailystudio.nativeapplib.R$string: int build_platform
+com.dailystudio.nativeapplib.R$style: int AppTheme
+com.dailystudio.nativelib.application.AppObservable
+com.dailystudio.nativelib.application.AppObservable: AppObservable(android.content.Context)
+com.dailystudio.nativelib.observable.ConnectivityObservable
+com.dailystudio.nativelib.observable.ConnectivityObservable: ConnectivityObservable(android.content.Context)
+com.dailystudio.nativelib.observable.NativeObservable: NativeObservable(android.content.Context)
+com.dailystudio.nativelib.observable.ScreenOnOffObservable
+com.dailystudio.nativelib.observable.ScreenOnOffObservable: ScreenOnOffObservable(android.content.Context)
+com.dailystudio.nativelib.observable.TimeTickObservable
+com.dailystudio.nativelib.observable.TimeTickObservable: TimeTickObservable(android.content.Context)
+com.dailystudio.nativelib.observable.WifiObservable
+com.dailystudio.nativelib.observable.WifiObservable: WifiObservable(android.content.Context)
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope[] values()
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope valueOf(java.lang.String)
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] values()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken valueOf(java.lang.String)
+org.achartengine.GraphicalView: org.achartengine.model.SeriesSelection getCurrentSeriesAndPoint()
+org.achartengine.GraphicalView: void setZoomRate(float)
+org.achartengine.GraphicalView: android.graphics.RectF getZoomRectangle()
+org.achartengine.chart.BarChart$Type: org.achartengine.chart.BarChart$Type[] values()
+org.achartengine.chart.BarChart$Type: org.achartengine.chart.BarChart$Type valueOf(java.lang.String)
+org.achartengine.chart.PointStyle: org.achartengine.chart.PointStyle[] values()
+org.achartengine.chart.PointStyle: org.achartengine.chart.PointStyle valueOf(java.lang.String)
+org.achartengine.renderer.DialRenderer$Type: org.achartengine.renderer.DialRenderer$Type[] values()
+org.achartengine.renderer.DialRenderer$Type: org.achartengine.renderer.DialRenderer$Type valueOf(java.lang.String)
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation: org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation[] values()
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation: org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation valueOf(java.lang.String)
+org.mozilla.universalchardet.UniversalDetector$InputState: org.mozilla.universalchardet.UniversalDetector$InputState[] values()
+org.mozilla.universalchardet.UniversalDetector$InputState: org.mozilla.universalchardet.UniversalDetector$InputState valueOf(java.lang.String)
+org.mozilla.universalchardet.prober.CharsetProber$ProbingState: org.mozilla.universalchardet.prober.CharsetProber$ProbingState[] values()
+org.mozilla.universalchardet.prober.CharsetProber$ProbingState: org.mozilla.universalchardet.prober.CharsetProber$ProbingState valueOf(java.lang.String)
