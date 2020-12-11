@@ -1,4 +1,6 @@
-# Memory Applications
+# Memory Apps
+
+![](.github/memory.png)
 
 Memory is an application that helps you to remember everything in your daily life, such as device boot, mood, application usages, network status, favorites locations. It uses these collected memory pieces to analyze and give you more and more advice to improve your life.
 
@@ -9,4 +11,5 @@ Currently, there are four plugins for Memory:
 - **Application** helps you to manage your applications on the devices efficiently.
 - **Where** helps syou to identify your daily hotspots and record the time you spend on them each day.
 
-![](.github/memory.png)
+![](.github/ss_memory.png)
+
